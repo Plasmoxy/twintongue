@@ -13,6 +13,11 @@ const pallete: string[] = [
     '#7dbcf0'
 ];
 
+// Black magic straight from Voldemort used
+// to trick google translate translation model to translate words separately
+const SEGMENT = (word: string, idx: number) => `[W${idx}@@ ${word} @@W${idx}]`;
+const DESEGMENT_RE = /(\[W\s?\d+\s?@\s?@\s*|\s*@\s?@\s?W\s?\d+\s?\])/g;
+
 interface Entry {
     idx: number;
     timestamp: string;
@@ -47,10 +52,7 @@ function toSrt(entries: Entry[]): string {
 (async () => {
     if (!cmd || !file) {
         console.log(`Usage: node hue.js <command> <file>`);
-        console.log(`Commands:`);
-        console.log(`  segment          segment with @@ separator`);
-        console.log(`  restore          restore from segment`);
-        console.log(`  colorize (hue)   hue colorize`);
+        console.log(`Commands: segment, desegment, colorize, merge`);
         return;
     }
 
@@ -92,16 +94,20 @@ function toSrt(entries: Entry[]): string {
     console.log(`Loaded ${file}`);
 
     if (cmd === 'segment') {
-        console.log(`Segmenting with @@`);
+        console.log(`Segmenting ...`);
         for (const entry of entries) {
-            entry.lines = entry.lines.map((line) => line.replace(/ /g, '@@'));
+            entry.lines = entry.lines.map((line) =>
+                line.split(/ /g).map(SEGMENT).join(' ')
+            );
         }
     }
 
     if (cmd === 'desegment') {
-        console.log(`Restoring from @@`);
+        console.log(`Desegmenting ...`);
         for (const entry of entries) {
-            entry.lines = entry.lines.map((line) => line.replace(/@@/g, ' '));
+            entry.lines = entry.lines.map((line) =>
+                line.replace(DESEGMENT_RE, '')
+            );
         }
     }
 
@@ -120,17 +126,24 @@ function toSrt(entries: Entry[]): string {
         }
     }
 
-    // Colorize by segment
-    if (cmd === 'colorize-segment') {
+    // Colorize by inter segment space
+    if (cmd === 'colorize-segmented') {
         for (const entry of entries) {
             entry.lines = entry.lines.map((line, lineIdx) => {
-                return line
-                    .split(/@@/g)
-                    .map((word, wordIdx) => {
-                        const hue = wordIdx % pallete.length;
-                        return `<span style="color: ${pallete[hue]}">${word}</span>`;
-                    })
-                    .join(' ');
+                return (
+                    line
+                        // split by segment borders
+                        .split(/\]\s*\[/g)
+                        .map((word, wordIdx) => {
+                            const hue = wordIdx % pallete.length;
+                            // inject segment borders back
+                            return `<span style="color: ${pallete[hue]}">[${word}]</span>`;
+                        })
+                        .join(' ')
+                        // remove double segment borders
+                        .replace(/\]\]/g, ']')
+                        .replace(/\[\[/g, '[')
+                );
             });
         }
     }

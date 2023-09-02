@@ -1,0 +1,1911 @@
+1
+00:00:06,779 --> 00:00:11,400
+<span style="color: #10ebb0">[W0@@ Now @@W0]</span> <span style="color: #1eabe3">[W1@@ This time @@W1]</span> <span style="color: #8e54eb">[W2@@ Welcome to the game @@W2]</span> <span style="color: #54eba2">[W3@@ Two @@W3]</span> <span style="color: #54e3eb">[W4@@ Korun @@W4]</span> <span style="color: #7dbcf0">[W5@ @Kowloon @@W5]</span> <span style="color: #10ebb0">[W6@@ Welcome to @@W6]</span> <span style="color: #1eabe3">[W7@@ that @@W7]</span>
+
+2
+00:00:11,400 --> 00:00:14,820
+<span style="color: #10ebb0">[W0@@ Welcome @@W0]</span> <span style="color: #1eabe3">[W1@@ Steam @@W1]</span> <span style="color: #8e54eb">[W2@@ New @@W2]</span> <span style="color: #54eba2">[W3@@ Horror game @@W3]</span> <span style="color: #54e3eb">[W4@@ Game @@W4]</span> <span style="color: #7dbcf0">[ W5@@ price is @@W5]</span>
+
+3
+00:00:14,820 --> 00:00:18,440
+<span style="color: #10ebb0">[W0@@ 7,800 won. Bunny's @@W0]</span> <span style="color: #1eabe3">[W1@@ Korean patch @@W1]</span> <span style="color: #8e54eb">[W2@@ receive @@W2]</span> <span style="color: #54eba2">[W3@@ proceed @@W3]</span>
+
+4
+00:00:18,440 --> 00:00:22,859
+<span style="color: #10ebb0">[W0@@ @@W0]</span> <span style="color: #1eabe3">[W1@@ Game @@W1]</span> <span style="color: #8e54eb">[W2@@ Story @@W2]</span> <span style="color: #54eba2">[W3@@ You're cheap @@W3]</span> <span style="color: #54e3eb">[W4@@ Housing @@W4]</span> <span style="color: #7dbcf0">[W5@@ Find @@W5]</span> <span style="color: #10ebb0">[W6@@ @@W6]</span> <span style="color: #1eabe3">[W7@@ Kowloon @@W7]</span>
+
+5
+00:00:22,859 --> 00:00:26,699
+<span style="color: #10ebb0">[W0@@ @@W0 in the area]</span> <span style="color: #1eabe3">[W1@@ come @@W1]</span> <span style="color: #8e54eb">[W2@@ done @@W2]</span> <span style="color: #54eba2">[W3@@ here @@W3]</span> <span style="color: #54e3eb">[W4@@ residents at first glance @@W4]</span> <span style="color: #7dbcf0">[ W5@@ looks like @@W5]</span> <span style="color: #10ebb0">[W6@@ plain @@W6]</span> <span style="color: #1eabe3">[W7@@ like people @@W7]</span>
+
+6
+00:00:26,699 --> 00:00:30,960
+<span style="color: #10ebb0">[W0@@ looks like @@W0]</span> <span style="color: #1eabe3">[W1@@ more @@W1]</span> <span style="color: #8e54eb">[W2@@ depth @@W2]</span> <span style="color: #54eba2">[W3@@ digging into @@W3]</span> <span style="color: #54e3eb">[W4@@ their real @@W4]</span> <span style="color: #7dbcf0">[W5@ @ look @@W5]</span> <span style="color: #10ebb0">[W6@@ look @@W6]</span> <span style="color: #1eabe3">[W7@@ would be @@W7]</span> <span style="color: #8e54eb">[W8@@ would be @@W8]</span>
+
+7
+00:00:30,960 --> 00:00:35,780
+<span style="color: #10ebb0">[W0@@ says @@W0]</span> <span style="color: #1eabe3">[W1@@ then @@W1]</span> <span style="color: #8e54eb">[W2@@ right away @@W2]</span> <span style="color: #54eba2">[W3@@ once @@W3]</span> <span style="color: #54e3eb">[W4@@ I'll try @@W4]</span>
+
+8
+00:00:37,440 --> 00:00:41,340
+<span style="color: #10ebb0">[W0@@ Kowloon @@W0]</span> <span style="color: #1eabe3">[W1@@ Walled City @@W1]</span> <span style="color: #8e54eb">[W2@@ Year 199 @@W2]</span>
+
+9
+00:00:45,000 --> 00:00:49,260
+<span style="color: #10ebb0">[W0@@ Foggy @@W0]</span> <span style="color: #1eabe3">[W1@@ Foggy @@W1]</span> <span style="color: #8e54eb">[W2@@ China @@W2]</span> <span style="color: #54eba2">[W3@@ Khan @@W3]</span> <span style="color: #54e3eb">[W4@@ Under Population @@W4]</span> <span style="color: #7dbcf0">[W5@@ most @@W5]</span> <span style="color: #10ebb0">[W6@@ many @@W6]</span> <span style="color: #1eabe3">[W7@@ city interest @@W7]</span> <span style="color: #8e54eb">[W8@@ poor and @@W8]</span>
+
+10
+00:00:49,260 --> 00:00:52,280
+<span style="color: #10ebb0">[W0@@ gang @@W0]</span> <span style="color: #1eabe3">[W1@@ violence @@W1]</span> <span style="color: #8e54eb">[W2@@ rampant @@W2]</span> <span style="color: #54eba2">[W3@@ city @@W3]</span> <span style="color: #54e3eb">[W4@@ Kowloon and @@W4]</span> <span style="color: #7dbcf0">[W5@@ is @@W5]</span>
+
+11
+00:00:52,280 --> 00:01:00,489
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+12
+00:01:05,820 --> 00:01:09,720
+<span style="color: #10ebb0">[W0@@ but @@W0]</span> <span style="color: #1eabe3">[W1@@ yet @@W1]</span> <span style="color: #8e54eb">[W2@@ young @@W2]</span> <span style="color: #54eba2">[W3@@ student @@W3]</span> <span style="color: #54e3eb">[W4@@ @@W4]</span> <span style="color: #7dbcf0">[W5@@ Cheap room @@W5]</span> <span style="color: #10ebb0">[W6@@ get @@W6]</span> <span style="color: #1eabe3">[W7@@ get @@W7]</span> <span style="color: #8e54eb">[W8@@ best @@W8]</span> <span style="color: #54eba2">[W9@@ prefer @@W9]</span>
+
+13
+00:01:09,720 --> 00:01:12,140
+<span style="color: #10ebb0">[W0@@ Urgent @@W0]</span> <span style="color: #1eabe3">[W1@@ It's a job @@W1]</span>
+
+14
+00:01:14,280 --> 00:01:18,020
+<span style="color: #10ebb0">[W0@@ but actually @@W0]</span> <span style="color: #1eabe3">[W1@@ is @@W1]</span> <span style="color: #8e54eb">[W2@@ is the place @@W2]</span> <span style="color: #54eba2">[W3@@ look at @@W3]</span>
+
+15
+00:01:22,259 --> 00:01:24,680
+<span style="color: #10ebb0">[W0@@ atmosphere @@W0]</span> <span style="color: #1eabe3">[W1@@ good @@W1]</span>
+
+16
+00:01:27,720 --> 00:01:32,000
+<span style="color: #10ebb0">[W0@@ city @@W0]</span> <span style="color: #1eabe3">[W1@@ wall @@W1]</span> <span style="color: #8e54eb">[W2@@ inside @@W2]</span> <span style="color: #54eba2">[W3@@ what @@W3]</span> <span style="color: #54e3eb">[W4@@ waiting for him @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Could it be @@W5]</span>
+
+17
+00:01:32,340 --> 00:01:39,299
+<span style="color: #10ebb0">[W0@@ Now @@W0]</span> <span style="color: #1eabe3">[W1@@ Now @@W1]</span> <span style="color: #8e54eb">[W2@@ Building @@W2]</span> <span style="color: #54eba2">[W3@@ Came in @@W3]</span> <span style="color: #54e3eb">[W4@@ Quite @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Quality @@W5]</span> <span style="color: #10ebb0">[W6@@ I like it @@W6]</span>
+
+18
+00:01:39,299 --> 00:01:42,020
+<span style="color: #10ebb0">[W0@@ very @@W0]</span> <span style="color: #1eabe3">[W1@@ well @@W1]</span> <span style="color: #8e54eb">[I made W2@@ @@W2]</span>
+
+19
+00:01:42,259 --> 00:01:45,560
+<span style="color: #10ebb0">[W0@@ Once @@W0]</span> <span style="color: #1eabe3">[W1@@ Let's go @@W1]</span>
+
+20
+00:01:45,900 --> 00:01:49,040
+<span style="color: #10ebb0">[W0@@ my @@W0]</span> <span style="color: #1eabe3">[W1@@ home is @@W1]</span> <span style="color: #8e54eb">[W2@@ where is @@W2]</span> <span style="color: #54eba2">[W3@@ but @@W3]</span>
+
+21
+00:01:50,100 --> 00:01:52,939
+<span style="color: #10ebb0">[W0@@ something @@W0]</span> <span style="color: #1eabe3">[W1@@ people @@W1]</span> <span style="color: #8e54eb">[W2@@ sound @@W2]</span> <span style="color: #54eba2">[W3@@ hear @@W3]</span>
+
+22
+00:01:53,220 --> 00:01:56,000
+<span style="color: #10ebb0">[W0@@ what @@W0]</span> <span style="color: #1eabe3">[W1@@ party @@W1]</span> <span style="color: #8e54eb">[W2@@ are you doing @@W2]</span>
+
+23
+00:01:58,259 --> 00:02:00,860
+<span style="color: #10ebb0">[W0@@ Quality @@W0]</span> <span style="color: #1eabe3">[W1@@ Really @@W1]</span> <span style="color: #8e54eb">[W2@@ Nice @@W2]</span>
+
+24
+00:02:01,470 --> 00:02:06,659
+<span style="color: #10ebb0">[W0@@ [Music] This is @@W0]</span> <span style="color: #1eabe3">[W1@@ My @@W1]</span> <span style="color: #8e54eb">[W2@@ Is this my house @@W2]</span>
+
+25
+00:02:06,659 --> 00:02:09,560
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span> <span style="color: #8e54eb">[W2@@ that's @@W2]</span> <span style="color: #54eba2">[W3@@ looks like @@W3]</span>
+
+26
+00:02:11,340 --> 00:02:14,060
+<span style="color: #10ebb0">[W0@@ Nothing @@W0]</span> <span style="color: #1eabe3">[W1@@ Anything @@W1]</span>
+
+27
+00:02:16,560 --> 00:02:21,680
+<span style="color: #10ebb0">[W0@@ Yeah @@W0]</span> <span style="color: #1eabe3">[W1@@ Somehow @@W1]</span> <span style="color: #8e54eb">[W2@@ Here @@W2]</span> <span style="color: #54eba2">[W3@@ looks like @@W3]</span> <span style="color: #54e3eb">[W4@@ and here @@W4]</span> <span style="color: #7dbcf0">[W5@@ Isn't that @@W5]</span> <span style="color: #10ebb0">[W6@@ I see @@W6]</span>
+
+28
+00:02:21,720 --> 00:02:25,040
+<span style="color: #10ebb0">[W0@@ where @@W0]</span> <span style="color: #1eabe3">[W1@@ song @@W1]</span> <span style="color: #8e54eb">[W2@@ sound @@W2]</span> <span style="color: #54eba2">[W3@@ flows @@W3]</span>
+
+29
+00:02:29,220 --> 00:02:34,220
+<span style="color: #10ebb0">[W0@@ It's locked, but the key is @@W0]</span> <span style="color: #1eabe3">[Something like W1@@ @@W1]</span> <span style="color: #8e54eb">[W2@@ is needed @@W2]</span>
+
+30
+00:02:36,000 --> 00:02:39,739
+<span style="color: #10ebb0">[W0@@ Is this place @@W0]</span> <span style="color: #1eabe3">[W1@@ uh @@W1]</span> <span style="color: #8e54eb">[W2@@ open @@W2]</span>
+
+31
+00:02:42,840 --> 00:02:45,800
+<span style="color: #10ebb0">[W0@@ just @@W0]</span> <span style="color: #1eabe3">[W1@@ ghost @@W1]</span> <span style="color: #8e54eb">[W2@@ come out @@W2]</span> <span style="color: #54eba2">[W3@@ thing @@W3]</span> <span style="color: #54e3eb">[W4@@ like @@W4]</span>
+
+32
+00:02:46,860 --> 00:02:51,019
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span> <span style="color: #1eabe3">[W1@@ is @@W1]</span> <span style="color: #8e54eb">[W2@@ House price @@W2]</span> <span style="color: #54eba2">[W3@@ How much is @@W3]</span>
+
+33
+00:02:52,800 --> 00:02:58,099
+<span style="color: #10ebb0">[W0@@ I am @@W0]</span> <span style="color: #1eabe3">[W1@@ How many @@W1]</span> <span style="color: #8e54eb">[W2@@ 10,000 won @@W2]</span> <span style="color: #54eba2">[W3@@ One 4th floor @@W3]</span> <span style="color: #54e3eb">[W4@@ I must say @@W4]</span> <span style="color: #7dbcf0">[W5@ @ 4th floor @@W5]</span>
+
+34
+00:03:00,720 --> 00:03:03,379
+<span style="color: #10ebb0">[W0@@ Something @@W0]</span> <span style="color: #1eabe3">[W1@@ It's ominous @@W1]</span>
+
+35
+00:03:03,599 --> 00:03:07,940
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ floor @@W1]</span> <span style="color: #8e54eb">[W2@@ what @@W2]</span> <span style="color: #54eba2">[W3@@ guide @@W3]</span> <span style="color: #54e3eb">[W4@@ not @@W4]</span> <span style="color: #7dbcf0">[W5@@ Can @@W5]</span> <span style="color: #10ebb0">[W6@@ in @@W6]</span>
+
+36
+00:03:08,580 --> 00:03:13,620
+<span style="color: #10ebb0">[W0@@ Something @@W0]</span> <span style="color: #1eabe3">[W1@@ But @@W1]</span> <span style="color: #8e54eb">[W2@@ Wait a minute @@W2]</span> <span style="color: #54eba2">[W3@@ It's like this @@W3]</span> <span style="color: #54e3eb">[W4@@ Just @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Even if you go in @@W5]</span> <span style="color: #10ebb0">[W6@@ will be @@W6]</span> <span style="color: #1eabe3">[W7@@ will be @@W7]</span>
+
+37
+00:03:13,620 --> 00:03:16,640
+<span style="color: #10ebb0">[W0@@ small @@W0]</span> <span style="color: #1eabe3">[W1@@ pelvis @@W1]</span> <span style="color: #8e54eb">[W2@@ looks like @@W2]</span> <span style="color: #54eba2">[W3@@ looks like @@W3]</span>
+
+38
+00:03:20,220 --> 00:03:23,000
+<span style="color: #10ebb0">[W0@@ The atmosphere is @@W0]</span> <span style="color: #1eabe3">[W1@@ It's creepy @@W1]</span>
+
+39
+00:03:24,480 --> 00:03:27,260
+<span style="color: #10ebb0">[W0@@ Next time @@W0]</span> <span style="color: #1eabe3">[W1@@ I need to look around @@W1]</span>
+
+40
+00:03:27,360 --> 00:03:30,800
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ Wounded @@W1]</span> <span style="color: #8e54eb">[W2@@ blocked @@W2]</span> <span style="color: #54eba2">[W3@@ is there @@W3]</span>
+
+41
+00:03:34,500 --> 00:03:37,340
+<span style="color: #10ebb0">[W0@@ where @@W0]</span> <span style="color: #1eabe3">[W1@@ dog @@W1]</span> <span style="color: #8e54eb">[W2@@ grow @@W2]</span> <span style="color: #54eba2">[W3@@ look @@W3]</span>
+
+42
+00:03:39,540 --> 00:03:44,900
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span> <span style="color: #1eabe3">[W1@@ somehow @@W1]</span> <span style="color: #8e54eb">[W2@@ ghost @@W2]</span> <span style="color: #54eba2">[W3@@ come out @@W3]</span> <span style="color: #54e3eb">[W4@@ would be @@W4]</span> <span style="color: #7dbcf0">[W5@@ looks like What @@W5]</span> <span style="color: #10ebb0">[W6@@ sounds like @@W6]</span>
+
+43
+00:03:45,540 --> 00:03:48,200
+<span style="color: #10ebb0">[W0@@ doorbell @@W0]</span> <span style="color: #1eabe3">[W1@@ sound @@W1]</span> <span style="color: #8e54eb">[W2@@ what @@W2]</span>
+
+44
+00:03:52,019 --> 00:03:56,099
+<span style="color: #10ebb0">[W0@@ The dog is here @@W0]</span> <span style="color: #1eabe3">[W1@@ What @@W1]</span> <span style="color: #8e54eb">[W2@@ Hani @@W2]</span>
+
+45
+00:03:56,099 --> 00:04:00,299
+<span style="color: #10ebb0">[W0@@ That's @@W0]</span> <span style="color: #1eabe3">[W1@@ I feel sorry for you @@W1]</span> <span style="color: #8e54eb">[W2@@ I'm hungry @@W2]</span> <span style="color: #54eba2">[W3@@ shows @@W3]</span>
+
+46
+00:04:00,299 --> 00:04:03,200
+<span style="color: #10ebb0">[W0@@ I'll eat @@W0]</span> <span style="color: #1eabe3">[W1@@ I don't have one @@W1]</span>
+
+47
+00:04:05,220 --> 00:04:10,159
+<span style="color: #10ebb0">[W0@@ It's dark, it's locked @@W0]</span>
+
+48
+00:04:10,860 --> 00:04:13,099
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span> <span style="color: #1eabe3">[W1@@ What is @@W1]</span>
+
+49
+00:04:16,139 --> 00:04:20,760
+<span style="color: #10ebb0">[W0@@ Like this @@W0]</span> <span style="color: #1eabe3">[W1@@ What's the smell @@W1]</span> <span style="color: #8e54eb">[W2@@ It's so bad @@W2]</span>
+
+50
+00:04:20,760 --> 00:04:24,139
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ Garbage @@W1]</span> <span style="color: #8e54eb">[W2@@ Throw away @@W2]</span> <span style="color: #54eba2">[W3@@ This is where @@W3]</span>
+
+51
+00:04:25,139 --> 00:04:28,520
+<span style="color: #10ebb0">[W0@@ is @@W0]</span> <span style="color: #1eabe3">[W1@@ is @@W1]</span> <span style="color: #8e54eb">[W2@@ is like this @@W2]</span> <span style="color: #54eba2">[W3@@ crap is @@W3]</span>
+
+52
+00:04:29,220 --> 00:04:33,250
+<span style="color: #10ebb0">[W0@@ do well @@W0]</span> <span style="color: #1eabe3">[W1@@ do @@W1]</span> <span style="color: #8e54eb">[W2@@ ya hyung @@W2]</span> <span style="color: #54eba2">[W3@@ eat @@W3]</span> <span style="color: #54e3eb">[W4@@ go @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Buy @@W5]</span> <span style="color: #10ebb0">[W6@@ I'll give you @@W6]</span>
+
+53
+00:04:33,250 --> 00:04:36,379
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+54
+00:04:40,259 --> 00:04:43,340
+<span style="color: #10ebb0">[W0@@ why @@W0]</span> <span style="color: #1eabe3">[W1@@ like this @@W1]</span> <span style="color: #8e54eb">[W2@@ dark @@W2]</span> <span style="color: #54eba2">[W3@@ that @@W3]</span>
+
+55
+00:04:45,960 --> 00:04:48,860
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ Go @@W1]</span> <span style="color: #8e54eb">[W2@@ Be @@W2]</span> <span style="color: #54eba2">[W3@@ Got @@W3]</span>
+
+56
+00:04:51,380 --> 00:04:58,280
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ power @@W1]</span> <span style="color: #8e54eb">[W2@@ like that @@W2]</span> <span style="color: #54eba2">[W3@@ than @@W3]</span> <span style="color: #54e3eb">[W4@@ like @@W4]</span>
+
+57
+00:04:59,639 --> 00:05:01,880
+<span style="color: #10ebb0">[W0@@ It's okay @@W0]</span>
+
+58
+00:05:04,740 --> 00:05:11,479
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span> <span style="color: #1eabe3">[W1@@ Why @@W1]</span> <span style="color: #8e54eb">[W2@@ like this @@W2]</span> <span style="color: #54eba2">[W3@@ couldn't block it @@W3]</span> <span style="color: #54e3eb">[W4@@ let it go in @@W4]</span>
+
+59
+00:05:12,479 --> 00:05:16,800
+<span style="color: #10ebb0">[W0@@ Up @@W0]</span> <span style="color: #1eabe3">[W1@@ Going up @@W1]</span>
+
+60
+00:05:16,800 --> 00:05:19,280
+<span style="color: #10ebb0">[W0@@ Length @@W0]</span> <span style="color: #1eabe3">[W1@@ Blocked @@W1]</span>
+
+61
+00:05:20,280 --> 00:05:22,460
+<span style="color: #10ebb0">[W0@@ bug @@W0]</span> <span style="color: #1eabe3">[W1@@ sound @@W1]</span>
+
+62
+00:05:24,479 --> 00:05:27,139
+<span style="color: #10ebb0">[W0@@ how @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span>
+
+63
+00:05:27,900 --> 00:05:32,419
+<span style="color: #10ebb0">[W0@@ Is this place here @@W0]</span>
+
+64
+00:05:34,259 --> 00:05:38,220
+<span style="color: #10ebb0">[W0@@ this @@W0]</span> <span style="color: #1eabe3">[W1@@ open @@W1]</span> <span style="color: #8e54eb">[W2@@ immediately @@W2]</span> <span style="color: #54eba2">[W3@@ again @@W3]</span> <span style="color: #54e3eb">[W4@@ home @@W4]</span> <span style="color: #7dbcf0">[W5@@ Not @@W5]</span> <span style="color: #10ebb0">[W6@@ Tobogdo @@W6]</span> <span style="color: #1eabe3">[W7@@ format @@W7]</span>
+
+65
+00:05:38,220 --> 00:05:40,340
+<span style="color: #10ebb0">[W0@@ right @@W0]</span>
+
+66
+00:05:42,720 --> 00:05:44,960
+<span style="color: #10ebb0">[W0@@ What @@W0]</span> <span style="color: #1eabe3">[W1@@ That's what @@W1]</span>
+
+67
+00:05:47,220 --> 00:05:50,000
+<span style="color: #10ebb0">[W0@@ Wrong @@W0]</span> <span style="color: #1eabe3">[W1@@ Did you hear @@W1]</span>
+
+68
+00:05:53,460 --> 00:05:56,300
+<span style="color: #10ebb0">[W0@@ Who @@W0]</span> <span style="color: #1eabe3">[W1@@ Crying @@W1]</span>
+
+69
+00:05:57,960 --> 00:06:00,440
+<span style="color: #10ebb0">[W0@@ Who are you @@W0]</span>
+
+70
+00:06:01,380 --> 00:06:04,160
+<span style="color: #10ebb0">[W0@@ cries @@W0]</span> <span style="color: #1eabe3">[W1@@ disappeared @@W1]</span>
+
+71
+00:06:05,820 --> 00:06:12,080
+<span style="color: #10ebb0">[W0@@ Is this place @@W0]</span> <span style="color: #1eabe3">[W1@@ went out @@W1]</span> <span style="color: #8e54eb">[W2@@ Ohma @@W2]</span> <span style="color: #54eba2">[W3@@ The key is @@W3]</span> <span style="color: #54e3eb">[W4@@ I left it at the store @@W4]</span> <span style="color: #7dbcf0">[ W5@@ entrance @@W5]</span> <span style="color: #10ebb0">[W6@@ outside @@W6]</span> <span style="color: #1eabe3">[W7@@ be @@W7]</span> <span style="color: #8e54eb">[W8@@ be @@W8]</span>
+
+72
+00:06:13,919 --> 00:06:18,900
+<span style="color: #10ebb0">[W0@@ What @@W0]</span> <span style="color: #1eabe3">[W1@@ It's hard to hear @@W1]</span> <span style="color: #8e54eb">[W2@@ came up @@W2]</span> <span style="color: #54eba2">[W3@@ uh @@W3]</span>
+
+73
+00:06:20,100 --> 00:06:24,600
+<span style="color: #10ebb0">[W0@@ wearing @@W0]</span> <span style="color: #1eabe3">[W1@@ outside @@W1]</span> <span style="color: #8e54eb">[W2@@ entrance @@W2]</span> <span style="color: #54eba2">[W3@@ talking @@W3]</span> <span style="color: #54e3eb">[W4@@ going @@W4]</span> <span style="color: #7dbcf0">[W5@@ Probably not @@W5]</span> <span style="color: #10ebb0">[W6@@ No way @@W6]</span>
+
+74
+00:06:24,600 --> 00:06:30,139
+<span style="color: #10ebb0">[W0@@ Building @@W0]</span> <span style="color: #1eabe3">[W1@@ Wearing @@W1]</span> <span style="color: #8e54eb">[W2@@ Talking @@W2]</span> <span style="color: #54eba2">[W3@@ Is it @@W3]</span> <span style="color: #54e3eb">[W4@@ Leave it to the store @@W4]</span> <span style="color: #7dbcf0">[W5 @@ I put @@W5]</span> <span style="color: #10ebb0">[W6@@ outside @@W6]</span> <span style="color: #1eabe3">[W7@@ there @@W7]</span> <span style="color: #8e54eb">[W8@@ there @@W8]</span>
+
+75
+00:06:32,280 --> 00:06:36,139
+<span style="color: #10ebb0">[W0@@ Somehow @@W0]</span> <span style="color: #1eabe3">[W1@@ while running @@W1]</span>
+
+76
+00:06:37,620 --> 00:06:42,319
+<span style="color: #10ebb0">[W0@@ again @@W0]</span> <span style="color: #1eabe3">[W1@@ sound @@W1]</span> <span style="color: #8e54eb">[W2@@ heard @@W2]</span> <span style="color: #54eba2">[W3@@ coming @@W3]</span> <span style="color: #54e3eb">[W4@@ sound @@W4]</span>
+
+77
+00:06:50,039 --> 00:06:53,419
+<span style="color: #10ebb0">[W0@@ For now @@W0]</span> <span style="color: #1eabe3">[W1@@ Let's go down @@W1]</span>
+
+78
+00:06:53,699 --> 00:07:00,120
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ why @@W1]</span> <span style="color: #8e54eb">[W2@@ energy @@W2]</span> <span style="color: #54eba2">[W3@@ got it @@W3]</span> <span style="color: #54e3eb">[W4@@ suddenly @@W4]</span> <span style="color: #7dbcf0">[W5@@ honor @@W5]</span> <span style="color: #10ebb0">[W6@@ I'm hungry @@W6]</span> <span style="color: #1eabe3">[W7@@ again @@W7]</span>
+
+79
+00:07:00,120 --> 00:07:03,300
+<span style="color: #10ebb0">[W0@@ I am @@W0]</span> <span style="color: #1eabe3">[W1@@ no @@W1]</span> <span style="color: #8e54eb">[W2@@ uh @@W2]</span>
+
+80
+00:07:03,780 --> 00:07:05,840
+<span style="color: #10ebb0">[W0@@ right @@W0]</span>
+
+81
+00:07:06,240 --> 00:07:09,319
+<span style="color: #10ebb0">[W0@@ like that @@W0]</span> <span style="color: #1eabe3">[W1@@ think @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span> <span style="color: #54eba2">[W3@@ can @@W3]</span>
+
+82
+00:07:14,520 --> 00:07:18,560
+<span style="color: #10ebb0">[W0@@ What just @@W0]</span> <span style="color: #1eabe3">[I saw W1@@ @@W1]</span>
+
+83
+00:07:18,900 --> 00:07:21,680
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ earlier @@W1]</span>
+
+84
+00:07:22,380 --> 00:07:24,740
+<span style="color: #10ebb0">[W0@@ something @@W0]</span> <span style="color: #1eabe3">[W1@@ was there @@W1]</span>
+
+85
+00:07:25,320 --> 00:07:28,430
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+86
+00:07:29,160 --> 00:07:36,599
+<span style="color: #10ebb0">[W0@@ no @@W0]</span> <span style="color: #1eabe3">[W1@@ earlier @@W1]</span> <span style="color: #8e54eb">[W2@@ here @@W2]</span> <span style="color: #54eba2">[W3@@ like this @@W3]</span> <span style="color: #54e3eb">[W4@@ person @@W4]</span> <span style="color: #7dbcf0">[W5@@ Arm like this @@W5]</span> <span style="color: #10ebb0">[W6@@ out @@W6]</span> <span style="color: #1eabe3">[W7@@ then @@W7]</span> <span style="color: #8e54eb">[W8@@ like this @@W8]</span> <span style="color: #54eba2">[W9@@ sprout @@W9]</span> <span style="color: #54e3eb">[W10@@ disappeared @@ W10]</span>
+
+87
+00:07:44,160 --> 00:07:47,060
+<span style="color: #10ebb0">[W0@@ is this @@W0]</span> <span style="color: #1eabe3">[W1@@ what is it @@W1]</span>
+
+88
+00:07:50,340 --> 00:07:53,060
+<span style="color: #10ebb0">[W0@@ You @@W0]</span> <span style="color: #1eabe3">[W1@@ Let's go @@W1]</span>
+
+89
+00:07:56,340 --> 00:07:59,180
+<span style="color: #10ebb0">[W0@@ is out @@W0]</span>
+
+90
+00:08:00,240 --> 00:08:05,180
+<span style="color: #10ebb0">[W0@@ @@W0 more than before]</span> <span style="color: #1eabe3">[W1@@ a bit @@W1]</span> <span style="color: #8e54eb">[W2@@ louder @@W2]</span> <span style="color: #54eba2">[W3@@ more like @@W3]</span> <span style="color: #54e3eb">[W4@@ looks like @@W4]</span> <span style="color: #7dbcf0">[W5@ @ and @@W5]</span>
+
+91
+00:08:07,259 --> 00:08:09,780
+<span style="color: #10ebb0">[W0@@ Stay [Music] @@W0]</span>
+
+92
+00:08:09,780 --> 00:08:13,819
+<span style="color: #10ebb0">[W0@@ landlord @@W0]</span> <span style="color: #1eabe3">[W1@@ wrote @@W1]</span> <span style="color: #8e54eb">[W2@@ wrote @@W2]</span> <span style="color: #54eba2">[W3@@ wrote @@W3]</span> <span style="color: #54e3eb">[W4@@ shop owner @@W4]</span> <span style="color: #7dbcf0">[W5 @@ Looks like @@W5]</span>
+
+93
+00:08:14,180 --> 00:08:19,020
+<span style="color: #10ebb0">[W0@@ key is @@W0]</span> <span style="color: #1eabe3">[W1@@ here @@W1]</span> <span style="color: #8e54eb">[W2@@ somewhere @@W2]</span> <span style="color: #54eba2">[W3@@ should be @@W3]</span> <span style="color: #54e3eb">[W4@@ should be @@W4]</span> <span style="color: #7dbcf0">[W5@@ Uh @@W5]</span> <span style="color: #10ebb0">[W6@@ dog food @@W6]</span>
+
+94
+00:08:19,020 --> 00:08:22,560
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ feed @@W1]</span> <span style="color: #8e54eb">[W2@@ take care @@W2]</span> <span style="color: #54eba2">[W3@@ be @@W3]</span> <span style="color: #54e3eb">[W4@@ be @@W4]</span> <span style="color: #7dbcf0">[W5@@ uh @@W5]</span> <span style="color: #10ebb0">[W6@@ I @@W6]</span> <span style="color: #1eabe3">[W7@@ can give @@W7]</span> <span style="color: #8e54eb">[W8@@ @@W8]</span> <span style="color: #54eba2">[W9@@ look @@W9]</span>
+
+95
+00:08:22,560 --> 00:08:27,320
+<span style="color: #10ebb0">[W0@@ but @@W0]</span> <span style="color: #1eabe3">[W1@@ like this @@W1]</span> <span style="color: #8e54eb">[W2@@ steal @@W2]</span> <span style="color: #54eba2">[W3@@ becomes @@W3]</span> <span style="color: #54e3eb">[W4@@ get the key @@W4]</span> <span style="color: #7dbcf0">[ W5@@ Once @@W5]</span> <span style="color: #10ebb0">[Let's find W6@@ @@W6]</span>
+
+96
+00:08:27,320 --> 00:08:30,389
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+97
+00:08:30,599 --> 00:08:37,200
+<span style="color: #10ebb0">[W0@@ Ah @@W0]</span> <span style="color: #1eabe3">[W1@@ This @@W1]</span> <span style="color: #8e54eb">[W2@@ Detail @@W2]</span> <span style="color: #54eba2">[W3@@ It's okay @@W3]</span> <span style="color: #54e3eb">[W4@@ Game @@W4]</span> <span style="color: #7dbcf0">[W5@@ Hey That's @@W5]</span> <span style="color: #10ebb0">[W6@@ key @@W6]</span>
+
+98
+00:08:37,260 --> 00:08:39,500
+<span style="color: #10ebb0">[W0@@ I got it @@W0]</span>
+
+99
+00:08:40,320 --> 00:08:42,919
+<span style="color: #10ebb0">[W0@@ Let's go @@W0]</span>
+
+100
+00:08:44,520 --> 00:08:47,540
+<span style="color: #10ebb0">[W0@@ stay like this @@W0]</span> <span style="color: #1eabe3">[W1@@ go out @@W1]</span> <span style="color: #8e54eb">[W2@@ will be @@W2]</span>
+
+101
+00:08:47,940 --> 00:08:51,049
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+102
+00:08:52,320 --> 00:08:56,760
+<span style="color: #10ebb0">[W0@@ what @@W0]</span> <span style="color: #1eabe3">[W1@@ ah @@W1]</span> <span style="color: #8e54eb">[W2@@ surprised @@W2]</span> <span style="color: #54eba2">[W3@@ surprised no @@W3]</span> <span style="color: #54e3eb">[W4@@ suddenly @@W4]</span> <span style="color: #7dbcf0">[W5@@ The song is @@W5]</span>
+
+103
+00:08:56,760 --> 00:09:03,060
+<span style="color: #10ebb0">[W0@@ Cut off @@W0]</span> <span style="color: #1eabe3">[W1@@ Noise @@W1]</span> <span style="color: #8e54eb">[W2@@ Sound @@W2]</span> <span style="color: #54eba2">[W3@@ I heard it too @@W3]</span> <span style="color: #54e3eb">[W4@@ Immersed @@W4]</span> <span style="color: #7dbcf0">[ Was there W5@@ @@W5]</span> <span style="color: #10ebb0">[W6@@ uh @@W6]</span> <span style="color: #1eabe3">[W7@@ Samchi @@W7]</span> <span style="color: #8e54eb">[W8@@ was @@W8]</span>
+
+104
+00:09:03,060 --> 00:09:07,220
+<span style="color: #10ebb0">[W0@@ What did you just do @@W0]</span>
+
+105
+00:09:09,500 --> 00:09:16,140
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ again @@W1]</span> <span style="color: #8e54eb">[W2@@ came in and got the key @@W2]</span> <span style="color: #54eba2">[W3@@ got it @@W3]</span> <span style="color: #54e3eb">[W4@@ we @@W4]</span>
+
+106
+00:09:16,140 --> 00:09:23,640
+<span style="color: #10ebb0">[W0@@ Puppy @@W0]</span> <span style="color: #1eabe3">[W1@@ Give @@W1]</span> <span style="color: #8e54eb">[W2@@ Food @@W2]</span> <span style="color: #54eba2">[W3@@ I got it @@W3]</span> <span style="color: #54e3eb">[W4@@ Really @@W4]</span> <span style="color: #7dbcf0">[W5 @@ not @@W5]</span> <span style="color: #10ebb0">[W6@@ do @@W6]</span> <span style="color: #1eabe3">[W7@@ ah @@W7]</span>
+
+107
+00:09:26,459 --> 00:09:30,620
+<span style="color: #10ebb0">[W0@@ Surprise @@W0]</span> <span style="color: #1eabe3">[W1@@ I was surprised @@W1]</span> <span style="color: #8e54eb">[W2@@ What is it @@W2]</span>
+
+108
+00:09:32,640 --> 00:09:34,640
+<span style="color: #10ebb0">[W0@@ What is @@W0]</span>
+
+109
+00:09:36,959 --> 00:09:42,320
+<span style="color: #10ebb0">[W0@@ This building is @@W0]</span> <span style="color: #1eabe3">[W1@@ It's old @@W1]</span>
+
+110
+00:09:43,320 --> 00:09:47,779
+<span style="color: #10ebb0">[W0@@ Just @@W0]</span> <span style="color: #1eabe3">[W1@@ Ringtone @@W1]</span> <span style="color: #8e54eb">[W2@@ Doorbell @@W2]</span>
+
+111
+00:09:49,800 --> 00:09:52,100
+<span style="color: #10ebb0">[W0@@ waited @@W0]</span>
+
+112
+00:09:53,519 --> 00:09:55,880
+<span style="color: #10ebb0">[W0@@ now @@W0]</span>
+
+113
+00:09:57,120 --> 00:10:02,080
+<span style="color: #10ebb0">[W0@@ no @@W0]</span> <span style="color: #1eabe3">[W1@@ Eat [Music] @@W1]</span>
+
+114
+00:10:03,180 --> 00:10:07,399
+<span style="color: #10ebb0">[W0@@ maybe @@W0]</span> <span style="color: #1eabe3">[W1@@ don't know @@W1]</span> <span style="color: #8e54eb">[W2@@ one @@W2]</span> <span style="color: #54eba2">[W3@@ once @@W3]</span> <span style="color: #54e3eb">[W4@@ more @@W4]</span> <span style="color: #7dbcf0">[W5@@ look around Let's see @@W5]</span>
+
+115
+00:10:11,580 --> 00:10:14,779
+<span style="color: #10ebb0">[W0@@ Gee @@W0]</span> <span style="color: #1eabe3">[W1@@ Place @@W1]</span> <span style="color: #8e54eb">[W2@@ Original @@W2]</span>
+
+116
+00:10:15,540 --> 00:10:20,940
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ uh @@W1]</span> <span style="color: #8e54eb">[W2@@ i @@W2]</span> <span style="color: #54eba2">[W3@@ like this @@W3]</span> <span style="color: #54e3eb">[W4@@ statements @@W4]</span> <span style="color: #7dbcf0">[W5@@ Column @@W5]</span> <span style="color: #10ebb0">[was the number of W6@@ @@W6]</span>
+
+117
+00:10:20,940 --> 00:10:24,959
+<span style="color: #10ebb0">[W0@@ @@W0 earlier]</span> <span style="color: #1eabe3">[W1@@ didn't @@W1]</span> <span style="color: #8e54eb">[W2@@ did you see @@W2]</span> <span style="color: #54eba2">[W3@@ yet @@W3]</span>
+
+118
+00:10:25,860 --> 00:10:28,880
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ goes in @@W1]</span> <span style="color: #8e54eb">[W2@@ becomes @@W2]</span>
+
+119
+00:10:32,760 --> 00:10:35,720
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span> <span style="color: #1eabe3">[W1@@ go @@W1]</span> <span style="color: #8e54eb">[W2@@ or not @@W2]</span>
+
+120
+00:10:39,000 --> 00:10:42,320
+<span style="color: #10ebb0">[W0@@ something @@W0]</span> <span style="color: #1eabe3">[W1@@ close @@W1]</span> <span style="color: #8e54eb">[W2@@ go @@W2]</span> <span style="color: #54eba2">[W3@@ sound @@W3]</span> <span style="color: #54e3eb">[W4@@ well @@W4]</span> <span style="color: #7dbcf0">[W5@@ see @@W5]</span>
+
+121
+00:10:45,240 --> 00:10:49,320
+<span style="color: #10ebb0">[W0@@ something @@W0]</span> <span style="color: #1eabe3">[W1@@ first time @@W1]</span> <span style="color: #8e54eb">[W2@@ goes beyond @@W2]</span> <span style="color: #54eba2">[W3@@ something @@W3]</span> <span style="color: #54e3eb">[W4@@ but @@W4]</span>
+
+122
+00:10:49,320 --> 00:10:54,980
+<span style="color: #10ebb0">[W0@@ people @@W0]</span> <span style="color: #1eabe3">[W1@@ sounds @@W1]</span> <span style="color: #8e54eb">[W2@@ can hear it, no matter what @@W2]</span> <span style="color: #54eba2">[W3@@ wouldn't @@W3]</span>
+
+123
+00:11:01,250 --> 00:11:04,740
+<span style="color: #10ebb0">[W0@@ [Music] How @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span>
+
+124
+00:11:04,740 --> 00:11:08,120
+<span style="color: #10ebb0">[W0@@ One number curious @@W0]</span>
+
+125
+00:11:10,070 --> 00:11:19,079
+<span style="color: #10ebb0">[W0@@ [Music] No @@W0]</span> <span style="color: #1eabe3">[W1@@ No @@W1]</span> <span style="color: #8e54eb">[W2@@ No @@W2]</span> <span style="color: #54eba2">[W3@@ No @@W3]</span> <span style="color: #54e3eb">[W4@@ No @@W4]</span>
+
+126
+00:11:19,079 --> 00:11:25,820
+<span style="color: #10ebb0">[W0@@ No @@W0]</span> <span style="color: #1eabe3">[W1@@ No @@W1]</span> <span style="color: #8e54eb">[W2@@ This is @@W2]</span> <span style="color: #54eba2">[W3@@ is not @@W3]</span> <span style="color: #54e3eb">[W4@@ is @@W4]</span> <span style="color: #7dbcf0">[W5@@ is the same Not @@W5]</span> <span style="color: #10ebb0">[W6@@ like @@W6]</span> <span style="color: #1eabe3">[W7@@ like @@W7]</span>
+
+127
+00:11:28,800 --> 00:11:35,279
+<span style="color: #10ebb0">[W0@@ what no @@W0]</span> <span style="color: #1eabe3">[W1@@ in the first place @@W1]</span> <span style="color: #8e54eb">[W2@@ going up @@W2]</span> <span style="color: #54eba2">[W3@@ length @@W3]</span> <span style="color: #54e3eb">[W4@@ blocked @@W4]</span> <span style="color: #7dbcf0">[W5@ @uh @@W5]</span>
+
+128
+00:11:35,880 --> 00:11:43,519
+<span style="color: #10ebb0">[W0@@ Just now @@W0]</span> <span style="color: #1eabe3">[W1@@ like this @@W1]</span> <span style="color: #8e54eb">[W2@@ I didn’t know @@W2]</span> <span style="color: #54eba2">[W3@@ So @@W3]</span> <span style="color: #54e3eb">[W4@@ go here @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Go @@W5]</span> <span style="color: #10ebb0">[W6@@ say @@W6]</span> <span style="color: #1eabe3">[W7@@ that's @@W7]</span>
+
+129
+00:11:50,220 --> 00:11:55,140
+<span style="color: #10ebb0">[W0@@ Mood [Music] @@W0]</span>
+
+130
+00:12:00,120 --> 00:12:04,999
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+131
+00:12:11,040 --> 00:12:16,320
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ well @@W1]</span> <span style="color: #8e54eb">[W2@@ came out @@W2]</span> <span style="color: #54eba2">[W3@@ now @@W3]</span> <span style="color: #54e3eb">[W4@@ here @@W4]</span> <span style="color: #7dbcf0">[W5@@ my house Is it @@W5]</span>
+
+132
+00:12:16,320 --> 00:12:19,860
+<span style="color: #10ebb0">[W0@@ House @@W0]</span> <span style="color: #1eabe3">[W1@@ Easyline over there @@W1]</span>
+
+133
+00:12:19,860 --> 00:12:23,679
+<span style="color: #10ebb0">[W0@@ Isn't It [Music] @@W0]</span>
+
+134
+00:12:24,480 --> 00:12:28,519
+<span style="color: #10ebb0">[W0@@ That's right @@W0]</span> <span style="color: #1eabe3">[W1@@ came out @@W1]</span> <span style="color: #8e54eb">[W2@@ that's @@W2]</span> <span style="color: #54eba2">[W3@@ that's right @@W3]</span>
+
+135
+00:12:29,810 --> 00:12:32,880
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+136
+00:12:34,079 --> 00:12:39,940
+<span style="color: #10ebb0">[W0@@ just before @@W0]</span> <span style="color: #1eabe3">[W1@@ couldn't @@W1]</span> <span style="color: #8e54eb">[W2@@ entered @@W2]</span> <span style="color: #54eba2">[W3@@ door @@W3]</span> <span style="color: #54e3eb">[W4@@ opened @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Go here @@W5]</span> <span style="color: #10ebb0">[If you go to W6@@ @@W6]</span> <span style="color: #1eabe3">[W7@@ you can @@W7]</span>
+
+137
+00:12:39,940 --> 00:12:47,300
+<span style="color: #10ebb0">[W0@@ [Music] now @@W0]</span> <span style="color: #1eabe3">[W1@@ home @@W1]</span> <span style="color: #8e54eb">[W2@@ here @@W2]</span>
+
+138
+00:12:49,580 --> 00:12:53,619
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+139
+00:12:56,940 --> 00:13:02,300
+<span style="color: #10ebb0">[W0@@ The house is @@W0]</span> <span style="color: #1eabe3">[W1@@ a lot @@W1]</span> <span style="color: #8e54eb">[W2@@ How is it dark @@W2]</span>
+
+140
+00:13:05,880 --> 00:13:08,000
+<span style="color: #10ebb0">[W0@@ bathroom @@W0]</span>
+
+141
+00:13:14,220 --> 00:13:17,540
+<span style="color: #10ebb0">[W0@@ hey @@W0]</span> <span style="color: #1eabe3">[W1@@ toilet @@W1]</span> <span style="color: #8e54eb">[W2@@ this @@W2]</span> <span style="color: #54eba2">[W3@@ on @@W3]</span> <span style="color: #54e3eb">[W4@@ in @@W4]</span> <span style="color: #7dbcf0">[W5@@ stuff @@W5]</span> <span style="color: #10ebb0">[W6@@ Look @@W6]</span>
+
+142
+00:13:17,639 --> 00:13:22,040
+<span style="color: #10ebb0">[W0@@ Nice view @@W0]</span> <span style="color: #1eabe3">[W1@@ Nice @@W1]</span>
+
+143
+00:13:25,380 --> 00:13:29,839
+<span style="color: #10ebb0">[W0@@ This is the warehouse @@W0]</span> <span style="color: #1eabe3">[W1@@ Warehouse @@W1]</span>
+
+144
+00:13:30,779 --> 00:13:35,459
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ better than I thought @@W1]</span> <span style="color: #8e54eb">[W2@@ but @@W2]</span> <span style="color: #54eba2">[W3@@ here @@W3]</span> <span style="color: #54e3eb">[W4@@ me @@W4]</span> <span style="color: #7dbcf0">[W5@@ Living alone @@W5]</span> <span style="color: #10ebb0">[W6@@ Day @@W6]</span> <span style="color: #1eabe3">[W7@@ Is that right @@W7]</span> <span style="color: #8e54eb">[W8@@ isn't it @@W8]</span> <span style="color: #54eba2">[W9@@ with people @@W9]</span>
+
+145
+00:13:35,459 --> 00:13:38,000
+<span style="color: #10ebb0">[W0@@ as @@W0]</span> <span style="color: #1eabe3">[W1@@ as @@W1]</span>
+
+146
+00:13:38,160 --> 00:13:43,920
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span> <span style="color: #1eabe3">[W1@@ landlord @@W1]</span> <span style="color: #8e54eb">[W2@@ room @@W2]</span> <span style="color: #54eba2">[W3@@ joint @@W3]</span> <span style="color: #54e3eb">[W4@@ that @@W4]</span> <span style="color: #7dbcf0">[W5@@ Maybe @@W5]</span> <span style="color: #10ebb0">[W6@@ is more correct @@W6]</span>
+
+147
+00:13:43,920 --> 00:13:48,060
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span> <span style="color: #1eabe3">[W1@@ Now my @@W1]</span> <span style="color: #8e54eb">[W2@@ Homework @@W2]</span> <span style="color: #54eba2">[W3@@ Capital @@W3]</span> <span style="color: #54e3eb">[W4@@ I have @@W4]</span>
+
+148
+00:13:48,060 --> 00:13:50,839
+<span style="color: #10ebb0">[W0@@ It's different @@W0]</span> <span style="color: #1eabe3">[W1@@ first @@W1]</span> <span style="color: #8e54eb">[W2@@ once @@W2]</span> <span style="color: #54eba2">[W3@@ shall we go @@W3]</span>
+
+149
+00:13:51,000 --> 00:13:53,899
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ This is the kitchen @@W1]</span>
+
+150
+00:13:57,560 --> 00:14:02,779
+<span style="color: #10ebb0">[W0@@ [Music] Very @@W0]</span> <span style="color: #1eabe3">[W1@@ Aged @@W1]</span> <span style="color: #8e54eb">[W2@@ Seriously @@W2]</span>
+
+151
+00:14:03,060 --> 00:14:06,839
+<span style="color: #10ebb0">[W0@@ Facility balcony @@W0]</span> <span style="color: #1eabe3">[W1@@ The door is @@W1]</span> <span style="color: #8e54eb">[W2@@ closed @@W2]</span> <span style="color: #54eba2">[W3@@ says @@W3]</span>
+
+152
+00:14:06,839 --> 00:14:11,540
+<span style="color: #10ebb0">[W0@@ this @@W0]</span> <span style="color: #1eabe3">[W1@@ moths @@W1]</span> <span style="color: #8e54eb">[W2@@ what @@W2]</span> <span style="color: #54eba2">[W3@@ what the hell @@W3]</span>
+
+153
+00:14:13,320 --> 00:14:16,220
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span> <span style="color: #1eabe3">[W1@@ My @@W1]</span> <span style="color: #8e54eb">[W2@@ This is my room @@W2]</span>
+
+154
+00:14:17,519 --> 00:14:21,019
+<span style="color: #10ebb0">[W0@@ first @@W0]</span> <span style="color: #1eabe3">[W1@@ bed @@W1]</span> <span style="color: #8e54eb">[W2@@ on @@W2]</span> <span style="color: #54eba2">[W3@@ load @@W3]</span> <span style="color: #54e3eb">[W4@@ put @@W4]</span>
+
+155
+00:14:25,320 --> 00:14:30,740
+<span style="color: #10ebb0">[W0@@ Once @@W0]</span> <span style="color: #1eabe3">[W1@@ Door @@W1]</span> <span style="color: #8e54eb">[W2@@ Let's close warm @@W2]</span> <span style="color: #54eba2">[W3@@ Tea @@W3]</span> <span style="color: #54e3eb">[W4@@ A cup @@W4]</span> <span style="color: #7dbcf0">[W5@ @ drink @@W5]</span> <span style="color: #10ebb0">[W6@@ wanna @@W6]</span>
+
+156
+00:14:36,180 --> 00:14:40,399
+<span style="color: #10ebb0">[W0@@ this @@W0]</span> <span style="color: #1eabe3">[W1@@ why @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span> <span style="color: #54eba2">[W3@@ open @@W3]</span>
+
+157
+00:14:43,320 --> 00:14:46,399
+<span style="color: #10ebb0">[W0@@ crib @@W0]</span> <span style="color: #1eabe3">[W1@@ because @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span> <span style="color: #54eba2">[W3@@ open @@W3]</span> <span style="color: #54e3eb">[W4@@ do @@W4]</span>
+
+158
+00:14:46,860 --> 00:14:49,279
+<span style="color: #10ebb0">[W0@@ blocked @@W0]</span> <span style="color: #1eabe3">[W1@@ stuff @@W1]</span> <span style="color: #8e54eb">[W2@@ looks like @@W2]</span>
+
+159
+00:14:50,579 --> 00:14:54,019
+<span style="color: #10ebb0">[W0@@ Once @@W0]</span> <span style="color: #1eabe3">[W1@@ Tea @@W1]</span> <span style="color: #8e54eb">[W2@@ One cup @@W2]</span> <span style="color: #54eba2">[W3@@ Drink @@W3]</span> <span style="color: #54e3eb">[W4@@ Come @@W4]</span>
+
+160
+00:14:55,199 --> 00:14:57,800
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ go @@W1]</span>
+
+161
+00:15:02,459 --> 00:15:04,880
+<span style="color: #10ebb0">[W0@@ wait @@W0]</span> <span style="color: #1eabe3">[W1@@ will work @@W1]</span>
+
+162
+00:15:07,500 --> 00:15:11,520
+<span style="color: #10ebb0">[W0@@ Now @@W0]</span> <span style="color: #1eabe3">[W1@@ I'll eat @@W1]</span> <span style="color: #8e54eb">[W2@@ I'll give you @@W2]</span> <span style="color: #54eba2">[W3@@ eat @@W3]</span> <span style="color: #54e3eb">[W4@@ if you want @@W4]</span> <span style="color: #7dbcf0">[W5 @@ two @@W5]</span> <span style="color: #10ebb0">[W6@@ times @@W6]</span> <span style="color: #1eabe3">[W7@@ talking @@W7]</span>
+
+163
+00:15:11,520 --> 00:15:15,220
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+164
+00:15:16,620 --> 00:15:19,100
+<span style="color: #10ebb0">[W0@@ just @@W0]</span> <span style="color: #1eabe3">[W1@@ something @@W1]</span> <span style="color: #8e54eb">[W2@@ sounds @@W2]</span>
+
+165
+00:15:21,540 --> 00:15:24,019
+<span style="color: #10ebb0">[W0@@ something @@W0]</span> <span style="color: #1eabe3">[W1@@ heard @@W1]</span>
+
+166
+00:15:27,839 --> 00:15:30,320
+<span style="color: #10ebb0">[W0@@ one shot @@W0]</span> <span style="color: #1eabe3">[W1@@ did @@W1]</span>
+
+167
+00:15:33,779 --> 00:15:39,620
+<span style="color: #10ebb0">[W0@@ my @@W0]</span> <span style="color: #1eabe3">[W1@@ into the room @@W1]</span> <span style="color: #8e54eb">[W2@@ let's go @@W2]</span> <span style="color: #54eba2">[W3@@ like this @@W3]</span> <span style="color: #54e3eb">[W4@@ sound @@W4]</span>
+
+168
+00:15:46,680 --> 00:15:50,779
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ here @@W1]</span> <span style="color: #8e54eb">[W2@@ original @@W2]</span> <span style="color: #54eba2">[W3@@ like this @@W3]</span> <span style="color: #54e3eb">[W4@@ opened @@W4]</span>
+
+169
+00:15:56,880 --> 00:15:59,839
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ open @@W1]</span>
+
+170
+00:16:01,260 --> 00:16:04,980
+<span style="color: #10ebb0">[W0@@ What is it @@W0]</span> <span style="color: #1eabe3">[W1@@ I'm scared @@W1]</span> <span style="color: #8e54eb">[W2@@ Home @@W2]</span> <span style="color: #54eba2">[W3@@ I'm going @@W3]</span> <span style="color: #54e3eb">[W4@@ I want to @@W4]</span> <span style="color: #7dbcf0">[W5@ @ landlord @@W5]</span>
+
+171
+00:16:04,980 --> 00:16:09,680
+<span style="color: #10ebb0">[W0@@ Granny @@W0]</span> <span style="color: #1eabe3">[W1@@ Crazy @@W1]</span> <span style="color: #8e54eb">[W2@@ Like @@W2]</span> <span style="color: #54eba2">[W3@@ Like @@W3]</span> <span style="color: #54e3eb">[W4@@ Long @@W4]</span> <span style="color: #7dbcf0">[W5@@ Go outside @@W5]</span> <span style="color: #10ebb0">[W6@@ can't @@W6]</span> <span style="color: #1eabe3">[W7@@ there @@W7]</span> <span style="color: #8e54eb">[W8@@ I mean @@W8]</span>
+
+172
+00:16:09,680 --> 00:16:14,930
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+173
+00:16:16,260 --> 00:16:19,160
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ what @@W1]</span> <span style="color: #8e54eb">[W2@@ are you talking about @@W2]</span>
+
+174
+00:16:20,699 --> 00:16:25,880
+<span style="color: #10ebb0">[W0@@ nonsense @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span> <span style="color: #8e54eb">[W2@@ ok @@W2]</span> <span style="color: #54eba2">[W3@@ but @@W3]</span> <span style="color: #54e3eb">[W4@@ if @@W4]</span> <span style="color: #7dbcf0">[W5@@ Prepare the front door @@W5]</span> <span style="color: #10ebb0">[W6@@ check @@W6]</span> <span style="color: #1eabe3">[W7@@ would @@W7]</span> <span style="color: #8e54eb">[W8@@ I wish @@W8]</span>
+
+175
+00:16:26,600 --> 00:16:31,760
+<span style="color: #10ebb0">[W0@@ [Music] How @@W0]</span> <span style="color: #1eabe3">[W1@@ check @@W1]</span>
+
+176
+00:16:32,410 --> 00:16:35,559
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+177
+00:16:36,120 --> 00:16:38,839
+<span style="color: #10ebb0">[W0@@ What is @@W0]</span>
+
+178
+00:16:39,480 --> 00:16:42,320
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ impatient @@W1]</span>
+
+179
+00:16:42,420 --> 00:16:45,760
+<span style="color: #10ebb0">[W0@@ Hey @@W0]</span> <span style="color: #1eabe3">[W1@@ Really @@W1]</span> <span style="color: #8e54eb">[W2@@ Can't @@W2]</span> <span style="color: #54eba2">[W3@@ Get out @@W3]</span> <span style="color: #54e3eb">[W4@@ I'm stuck @@W4]</span>
+
+180
+00:16:45,760 --> 00:16:49,920
+<span style="color: #10ebb0">[W0@@ [Music] How @@W0]</span>
+
+181
+00:16:49,920 --> 00:16:54,920
+<span style="color: #10ebb0">[W0@@ [Music] Hang @@W0]</span> <span style="color: #1eabe3">[W1@@ Lock @@W1]</span>
+
+182
+00:16:55,920 --> 00:17:02,080
+<span style="color: #10ebb0">[W0@@ Me @@W0]</span> <span style="color: #1eabe3">[W1@@ Here @@W1]</span> <span style="color: #8e54eb">[W2@@ Now @@W2]</span> <span style="color: #54eba2">[W3@@ Like @@W3]</span> <span style="color: #54e3eb">[W4@@ Is [Music] @@W4]</span>
+
+183
+00:17:03,360 --> 00:17:06,020
+<span style="color: #10ebb0">[W0@@ how @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span>
+
+184
+00:17:09,600 --> 00:17:13,520
+<span style="color: #10ebb0">[W0@@ ruined @@W0]</span> <span style="color: #1eabe3">[W1@@ wrong @@W1]</span> <span style="color: #8e54eb">[W2@@ got caught @@W2]</span>
+
+185
+00:17:13,890 --> 00:17:16,969
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+186
+00:17:18,480 --> 00:17:21,419
+<span style="color: #10ebb0">[W0@@ just saw @@W0]</span> <span style="color: #1eabe3">[W1@@ saw @@W1]</span> <span style="color: #8e54eb">[W2@@ people[music] @@W2]</span>
+
+187
+00:17:21,419 --> 00:17:23,540
+<span style="color: #10ebb0">[W0@@ Shh @@W0]</span>
+
+188
+00:17:23,880 --> 00:17:27,040
+<span style="color: #10ebb0">[W0@@ grandma @@W0]</span> <span style="color: #1eabe3">[W1@@ me @@W1]</span> <span style="color: #8e54eb">[W2@@ staring @@W2]</span> <span style="color: #54eba2">[W3@@ was originally @@W3]</span>
+
+189
+00:17:27,040 --> 00:17:32,299
+<span style="color: #10ebb0">[W0@@ [MUSIC] Hey @@W0]</span>
+
+190
+00:17:32,700 --> 00:17:35,789
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+191
+00:17:38,039 --> 00:17:41,480
+<span style="color: #10ebb0">[W0@@ at night @@W0]</span> <span style="color: #1eabe3">[W1@@ carelessly @@W1]</span> <span style="color: #8e54eb">[W2@@ outside @@W2]</span> <span style="color: #54eba2">[W3@@ don't go out @@W3]</span> <span style="color: #54e3eb">[W4@@ stop @@W4]</span>
+
+192
+00:17:42,900 --> 00:17:49,020
+<span style="color: #10ebb0">[W0@@ Hey @@W0]</span> <span style="color: #1eabe3">[W1@@ I need to find the exit now @@W1]</span> <span style="color: #8e54eb">[W2@@ I need to find it @@W2]</span> <span style="color: #54eba2">[W3@@ No @@W3]</span> <span style="color: #54e3eb">[W4@@ What is @@W4]</span> <span style="color: #7dbcf0">[W5 @@ grandmother @@W5]</span>
+
+193
+00:17:49,020 --> 00:17:52,700
+<span style="color: #10ebb0">[W0@@ [Music] How @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span>
+
+194
+00:17:54,940 --> 00:18:00,460
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+195
+00:18:04,620 --> 00:18:09,600
+<span style="color: #10ebb0">[W0@@ Why @@W0]</span> <span style="color: #1eabe3">[W1@@ This is @@W1]</span> <span style="color: #8e54eb">[W2@@ This is everywhere @@W2]</span> <span style="color: #54eba2">[W3@@ Something @@W3]</span> <span style="color: #54e3eb">[W4@@ Strange @@W4]</span> <span style="color: #7dbcf0">[W5@ @Now @@W5]</span>
+
+196
+00:18:09,600 --> 00:18:15,559
+<span style="color: #10ebb0">[W0@@ Why @@W0]</span> <span style="color: #1eabe3">[W1@@ Ask Yourself @@W1]</span> <span style="color: #8e54eb">[W2@@ Ask[Music] @@W2]</span>
+
+197
+00:18:16,740 --> 00:18:22,580
+<span style="color: #10ebb0">[W0@@ like this @@W0]</span> <span style="color: #1eabe3">[W1@@ door @@W1]</span> <span style="color: #8e54eb">[W2@@ opened @@W2]</span> <span style="color: #54eba2">[W3@@ now @@W3]</span> <span style="color: #54e3eb">[W4@@ in the comic room @@W4]</span> <span style="color: #7dbcf0">[W5@ @ sound @@W5]</span> <span style="color: #10ebb0">[W6@@ hear @@W6]</span>
+
+198
+00:18:22,580 --> 00:18:29,849
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+199
+00:18:32,820 --> 00:18:35,179
+<span style="color: #10ebb0">[W0@@ stay @@W0]</span>
+
+200
+00:18:35,340 --> 00:18:39,480
+<span style="color: #10ebb0">[W0@@ Now @@W0]</span> <span style="color: #1eabe3">[W1@@ Taking a shower @@W1]</span> <span style="color: #8e54eb">[W2@@ Did you go in @@W2]</span> <span style="color: #54eba2">[W3@@ Granny [Music] @@W3]</span>
+
+201
+00:18:39,480 --> 00:18:42,980
+<span style="color: #10ebb0">[W0@@ It's now @@W0]</span> <span style="color: #1eabe3">[W1@@ quickly @@W1]</span> <span style="color: #8e54eb">[W2@@ something @@W2]</span> <span style="color: #54eba2">[W3@@ I need to find @@W3]</span> <span style="color: #54e3eb">[W4@@ ok @@W4]</span>
+
+202
+00:18:43,140 --> 00:18:46,860
+<span style="color: #10ebb0">[W0@@ I know @@W0]</span> <span style="color: #1eabe3">[W1@@ It's a big deal @@W1]</span> <span style="color: #8e54eb">[W2@@ This is here @@W2]</span> <span style="color: #54eba2">[W3@@ Crazy @@W3]</span>
+
+203
+00:18:46,860 --> 00:19:07,100
+<span style="color: #10ebb0">[W0@@ Hurry up @@W0]</span> <span style="color: #1eabe3">[W1@@ Gotta get out @@W1]</span> <span style="color: #8e54eb">[W2@@ Go [Music] @@W2]</span>
+
+204
+00:19:07,100 --> 00:19:11,160
+<span style="color: #10ebb0">[W0@@ how @@W0]</span> <span style="color: #1eabe3">[W1@@ do [music] @@W1]</span>
+
+205
+00:19:11,160 --> 00:19:15,080
+<span style="color: #10ebb0">[W0@@ heart @@W0]</span> <span style="color: #1eabe3">[W1@@ ready, surprised @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span>
+
+206
+00:19:15,230 --> 00:19:18,329
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+207
+00:19:22,200 --> 00:19:24,070
+<span style="color: #10ebb0">[W0@@ slowly slowly @@W0]</span>
+
+208
+00:19:24,070 --> 00:19:28,709
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+209
+00:19:35,860 --> 00:19:39,590
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+210
+00:19:46,200 --> 00:19:49,349
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+211
+00:19:51,420 --> 00:19:55,119
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+212
+00:19:56,360 --> 00:20:00,299
+<span style="color: #10ebb0">[W0@@ how @@W0]</span> <span style="color: #1eabe3">[W1@@ do [music] @@W1]</span>
+
+213
+00:20:00,299 --> 00:20:02,660
+<span style="color: #10ebb0">[W0@@ how @@W0]</span>
+
+214
+00:20:07,380 --> 00:20:12,880
+<span style="color: #10ebb0">[W0@@ Not [Music] @@W0]</span>
+
+215
+00:20:14,910 --> 00:20:18,000
+<span style="color: #10ebb0">[W0@@ [Music] How @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span>
+
+216
+00:20:18,000 --> 00:20:24,499
+<span style="color: #10ebb0">[W0@@ Can't [Music] @@W0]</span>
+
+217
+00:20:24,900 --> 00:20:26,960
+<span style="color: #10ebb0">[W0@@ Wait a minute @@W0]</span>
+
+218
+00:20:28,080 --> 00:20:32,940
+<span style="color: #10ebb0">[W0@@ [Music] What should I do @@W0]</span>
+
+219
+00:20:36,059 --> 00:20:38,240
+<span style="color: #10ebb0">[W0@@ big deal @@W0]</span> <span style="color: #1eabe3">[W1@@ happened @@W1]</span>
+
+220
+00:20:41,040 --> 00:20:44,150
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+221
+00:20:49,130 --> 00:21:07,509
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+222
+00:21:10,620 --> 00:21:16,160
+<span style="color: #10ebb0">[W0@@ what @@W0]</span> <span style="color: #1eabe3">[W1@@ me @@W1]</span> <span style="color: #8e54eb">[W2@@ Caught @@W2]</span> <span style="color: #54eba2">[W3@@ No way @@W3]</span> <span style="color: #54e3eb">[W4@@ Caught @@W4]</span> <span style="color: #7dbcf0">[W5@@ That @@W5]</span> <span style="color: #10ebb0">[W6@@ no @@W6]</span>
+
+223
+00:21:17,880 --> 00:21:21,600
+<span style="color: #10ebb0">[W0@@ Aigoo @@W0]</span>
+
+224
+00:21:21,600 --> 00:21:25,679
+<span style="color: #10ebb0">[W0@@ Aigoo @@W0]</span>
+
+225
+00:21:25,679 --> 00:21:27,860
+<span style="color: #10ebb0">[W0@@ Trouble @@W0]</span>
+
+226
+00:21:30,480 --> 00:21:32,900
+<span style="color: #10ebb0">[W0@@ What is @@W0]</span>
+
+227
+00:21:39,120 --> 00:21:42,559
+<span style="color: #10ebb0">[W0@@ Why @@W0]</span> <span style="color: #1eabe3">[W1@@ The door is @@W1]</span> <span style="color: #8e54eb">[W2@@ Only this @@W2]</span> <span style="color: #54eba2">[W3@@ not @@W3]</span> <span style="color: #54e3eb">[W4@@ won't open @@W4]</span>
+
+228
+00:21:42,780 --> 00:21:46,159
+<span style="color: #10ebb0">[W0@@ this @@W0]</span> <span style="color: #1eabe3">[W1@@ look at @@W1]</span> <span style="color: #8e54eb">[W2@@ that's it @@W2]</span>
+
+229
+00:21:49,860 --> 00:21:52,880
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span> <span style="color: #1eabe3">[W1@@ really @@W1]</span>
+
+230
+00:21:59,820 --> 00:22:02,900
+<span style="color: #10ebb0">[W0@@ how @@W0]</span> <span style="color: #1eabe3">[W1@@ this @@W1]</span>
+
+231
+00:22:04,020 --> 00:22:08,659
+<span style="color: #10ebb0">[W0@@ Flashlight @@W0]</span> <span style="color: #1eabe3">[W1@@ Same @@W1]</span> <span style="color: #8e54eb">[W2@@ Something @@W2]</span> <span style="color: #54eba2">[W3@@ No @@W3]</span> <span style="color: #54e3eb">[W4@@ Too @@W4]</span> <span style="color: #7dbcf0">[W5@@ Dark That's right @@W5]</span>
+
+232
+00:22:21,720 --> 00:22:25,340
+<span style="color: #10ebb0">[W0@@ Once @@W0]</span> <span style="color: #1eabe3">[W1@@ Around @@W1]</span> <span style="color: #8e54eb">[W2@@ Get @@W2]</span> <span style="color: #54eba2">[W3@@ Investigate @@W3]</span>
+
+233
+00:22:26,640 --> 00:22:32,760
+<span style="color: #10ebb0">[W0@@ oops @@W0]</span> <span style="color: #1eabe3">[W1@@ open @@W1]</span> <span style="color: #8e54eb">[W2@@ that @@W2]</span> <span style="color: #54eba2">[W3@@ key is @@W3]</span> <span style="color: #54e3eb">[W4@@ here @@W4]</span> <span style="color: #7dbcf0">[W5@@ Is that @@W5]</span> <span style="color: #10ebb0">[W6@@ look at @@W6]</span> <span style="color: #1eabe3">[W7@@ got @@W7]</span> <span style="color: #8e54eb">[W8@@ that @@W8]</span>
+
+234
+00:22:32,760 --> 00:22:35,780
+<span style="color: #10ebb0">[W0@@ all @@W0]</span> <span style="color: #1eabe3">[W1@@ is here @@W1]</span>
+
+235
+00:22:41,100 --> 00:22:44,840
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ here @@W1]</span> <span style="color: #8e54eb">[W2@@ where are you @@W2]</span>
+
+236
+00:23:02,100 --> 00:23:06,480
+<span style="color: #10ebb0">[W0@@ These days @@W0]</span> <span style="color: #1eabe3">[W1@@ village @@W1]</span> <span style="color: #8e54eb">[W2@@ situation @@W2]</span> <span style="color: #54eba2">[W3@@ strange @@W3]</span> <span style="color: #54e3eb">[W4@@ like @@W4]</span> <span style="color: #7dbcf0">[W5@ @ I'm in danger @@W5]</span> <span style="color: #10ebb0">[W6@@ in danger @@W6]</span> <span style="color: #1eabe3">[W7@@ that's @@W7]</span> <span style="color: #8e54eb">[W8@@ same @@W8]</span> <span style="color: #54eba2">[W9@@ refurbishment @@W9]</span>
+
+237
+00:23:06,480 --> 00:23:09,500
+<span style="color: #10ebb0">[W0@@ When it's over @@W0]</span> <span style="color: #1eabe3">[W1@@ quickly @@W1]</span> <span style="color: #8e54eb">[W2@@ I'm moving @@W2]</span> <span style="color: #54eba2">[W3@@ I have to go @@W3]</span>
+
+238
+00:23:11,940 --> 00:23:14,480
+<span style="color: #10ebb0">[W0@@ Who is @@W0]</span>
+
+239
+00:23:29,520 --> 00:23:33,419
+<span style="color: #10ebb0">[W0@@ Ah @@W0]</span> <span style="color: #1eabe3">[W1@@ Why @@W1]</span>
+
+240
+00:23:41,580 --> 00:23:43,880
+<span style="color: #10ebb0">[W0@@ what @@W0]</span> <span style="color: #1eabe3">[W1@@ sounds like @@W1]</span>
+
+241
+00:23:49,140 --> 00:23:51,320
+<span style="color: #10ebb0">[W0@@ stay @@W0]</span>
+
+242
+00:24:24,419 --> 00:24:26,840
+<span style="color: #10ebb0">[W0@@ What is @@W0]</span>
+
+243
+00:24:41,520 --> 00:24:43,520
+<span style="color: #10ebb0">[W0@@ What is @@W0]</span>
+
+244
+00:24:48,720 --> 00:24:51,500
+<span style="color: #10ebb0">[W0@@ What is @@W0]</span> <span style="color: #1eabe3">[W1@@ what the hell @@W1]</span>
+
+245
+00:24:52,440 --> 00:24:56,240
+<span style="color: #10ebb0">[W0@@ Refrigerator @@W0]</span> <span style="color: #1eabe3">[W1@@ Door @@W1]</span> <span style="color: #8e54eb">[W2@@ Why @@W2]</span> <span style="color: #54eba2">[W3@@ keeps @@W3]</span> <span style="color: #54e3eb">[W4@@ open @@W4]</span> <span style="color: #7dbcf0">[W5@@ closed that's @@W5]</span>
+
+246
+00:24:56,780 --> 00:25:00,080
+<span style="color: #10ebb0">[W0@@ It's dark @@W0]</span> <span style="color: #1eabe3">[W1@@ I can't @@W1]</span> <span style="color: #8e54eb">[W2@@ I can see @@W2]</span>
+
+247
+00:25:03,600 --> 00:25:07,820
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ now @@W1]</span> <span style="color: #8e54eb">[W2@@ go in @@W2]</span>
+
+248
+00:25:10,620 --> 00:25:14,400
+<span style="color: #10ebb0">[W0@@ be @@W0]</span> <span style="color: #1eabe3">[W1@@ be @@W1]</span> <span style="color: #8e54eb">[W2@@ key @@W2]</span> <span style="color: #54eba2">[W3@@ key @@W3]</span>
+
+249
+00:25:15,960 --> 00:25:19,760
+<span style="color: #10ebb0">[W0@@ Ah @@W0]</span> <span style="color: #1eabe3">[W1@@ Turning back @@W1]</span> <span style="color: #8e54eb">[W2@@ too @@W2]</span> <span style="color: #54eba2">[W3@@ I hate @@W3]</span>
+
+250
+00:25:30,480 --> 00:25:32,840
+<span style="color: #10ebb0">[W0@@ just saw @@W0]</span> <span style="color: #1eabe3">[W1@@ saw @@W1]</span>
+
+251
+00:25:33,779 --> 00:25:38,900
+<span style="color: #10ebb0">[W0@@ Kakao Talk @@W0]</span> <span style="color: #1eabe3">[W1@@ Bouncing @@W1]</span> <span style="color: #8e54eb">[W2@@ It wasn’t @@W2]</span> <span style="color: #54eba2">[W3@@ Who @@W3]</span> <span style="color: #54e3eb">[W4@@ Everything @@W4]</span> <span style="color: #7dbcf0">[W5@@ I made you look at it @@W5]</span>
+
+252
+00:25:41,640 --> 00:25:44,539
+<span style="color: #10ebb0">[W0@@ but @@W0]</span> <span style="color: #1eabe3">[W1@@ key @@W1]</span> <span style="color: #8e54eb">[W2@@ where @@W2]</span> <span style="color: #54eba2">[W3@@ key @@W3]</span>
+
+253
+00:26:01,440 --> 00:26:04,159
+<span style="color: #10ebb0">[W0@@ It must be here @@W0]</span>
+
+254
+00:28:03,120 --> 00:28:08,480
+<span style="color: #10ebb0">[W0@@ lock, password @@W0]</span> <span style="color: #1eabe3">[W1@@ format @@W1]</span> <span style="color: #8e54eb">[W2@@ @@W2]</span> <span style="color: #54eba2">[W3@@ same as @@W3]</span>
+
+255
+00:28:10,500 --> 00:28:14,760
+<span style="color: #10ebb0">[W0@@ Finish this @@W0]</span>
+
+256
+00:28:14,760 --> 00:28:17,299
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ we @@W1]</span>
+
+257
+00:28:19,020 --> 00:28:21,200
+<span style="color: #10ebb0">[W0@@ I don't know @@W0]</span>
+
+258
+00:28:23,940 --> 00:28:27,320
+<span style="color: #10ebb0">[W0@@ other @@W0]</span> <span style="color: #1eabe3">[W1@@ where @@W1]</span> <span style="color: #8e54eb">[W2@@ what @@W2]</span> <span style="color: #54eba2">[W3@@ need to know @@W3]</span> <span style="color: #54e3eb">[W4@@ can be @@W4]</span>
+
+259
+00:29:24,230 --> 00:29:27,309
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+260
+00:29:30,419 --> 00:29:36,200
+<span style="color: #10ebb0">[W0@@ Kakao Talk @@W0]</span> <span style="color: #1eabe3">[W1@@ Be careful first @@W1]</span>
+
+261
+00:29:38,279 --> 00:29:41,659
+<span style="color: #10ebb0">[W0@@ Ah @@W0]</span> <span style="color: #1eabe3">[W1@@ Surprise @@W1]</span>
+
+262
+00:29:43,279 --> 00:29:48,840
+<span style="color: #10ebb0">[W0@@ Middle @@W0]</span> <span style="color: #1eabe3">[W1@@ C Middle @@W1]</span> <span style="color: #8e54eb">[W2@@ C @@W2]</span> <span style="color: #54eba2">[W3@@ Same @@W3]</span> <span style="color: #54e3eb">[W4@@ City @@W4]</span>
+
+263
+00:29:48,840 --> 00:29:55,740
+<span style="color: #10ebb0">[W0@@ this @@W0]</span> <span style="color: #1eabe3">[W1@@ behind @@W1]</span> <span style="color: #8e54eb">[W2@@ looking back @@W2]</span> <span style="color: #54eba2">[W3@@ in the middle @@W3]</span> <span style="color: #54e3eb">[W4@@ and the rest @@W4]</span> <span style="color: #7dbcf0">[ W5@@ where @@W5]</span>
+
+264
+00:29:55,740 --> 00:29:58,220
+<span style="color: #10ebb0">[W0@@ oxygen is @@W0]</span> <span style="color: #1eabe3">[W1@@ is @@W1]</span> <span style="color: #8e54eb">[W2@@ is @@W2]</span>
+
+265
+00:30:03,899 --> 00:30:06,440
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span> <span style="color: #1eabe3">[W1@@ this too @@W1]</span>
+
+266
+00:30:37,200 --> 00:30:40,220
+<span style="color: #10ebb0">[W0@@ Just now @@W0]</span> <span style="color: #1eabe3">[W1@@ is here @@W1]</span>
+
+267
+00:30:59,279 --> 00:31:01,580
+<span style="color: #10ebb0">[W0@@ no @@W0]</span> <span style="color: #1eabe3">[W1@@ no @@W1]</span>
+
+268
+00:31:38,159 --> 00:31:42,720
+<span style="color: #10ebb0">[W0@@ yes @@W0]</span> <span style="color: #1eabe3">[W1@@ ah @@W1]</span> <span style="color: #8e54eb">[W2@@ pictures @@W2]</span> <span style="color: #54eba2">[W3@@ single line @@W3]</span>
+
+269
+00:31:42,720 --> 00:31:46,700
+<span style="color: #10ebb0">[W0@@ Mr. Lee @@W0]</span> <span style="color: #1eabe3">[W1@@ Mr. Lee @@W1]</span>
+
+270
+00:31:49,740 --> 00:31:54,679
+<span style="color: #10ebb0">[W0@@ Hit-and-Go Pictures @@W0]</span> <span style="color: #1eabe3">[W1@@ Find @@W1]</span> <span style="color: #8e54eb">[W2@@ Can @@W2]</span>
+
+271
+00:32:00,360 --> 00:32:02,840
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span>
+
+272
+00:32:03,740 --> 00:32:09,500
+<span style="color: #10ebb0">[W0@@ ding @@W0]</span> <span style="color: #1eabe3">[W1@@ CA ding @@W1]</span> <span style="color: #8e54eb">[W2@@ e @@W2]</span> <span style="color: #54eba2">[W3@@ c @@W3]</span> <span style="color: #54e3eb">[W4@@ a @@W4]</span>
+
+273
+00:32:37,200 --> 00:32:42,899
+<span style="color: #10ebb0">[W0@@ Ding @@W0]</span> <span style="color: #1eabe3">[W1@@ Mr. Lee @@W1]</span> <span style="color: #8e54eb">[W2@@ a @@W2]</span> <span style="color: #54eba2">[W3@@ yecay @@W3]</span> <span style="color: #54e3eb">[W4@@ then @@W4]</span> <span style="color: #7dbcf0">[W5@@ first @@W5]</span> <span style="color: #10ebb0">[W6@@th @@W6]</span> <span style="color: #1eabe3">[W7@@ arrogant @@W7]</span> <span style="color: #8e54eb">[W8@@ find @@W8]</span>
+
+274
+00:32:42,899 --> 00:32:48,380
+<span style="color: #10ebb0">[W0@@ It's okay @@W0]</span> <span style="color: #1eabe3">[W1@@ remember @@W1]</span> <span style="color: #8e54eb">[W2@@ please @@W2]</span>
+
+275
+00:32:51,779 --> 00:32:55,159
+<span style="color: #10ebb0">[W0@@ ok @@W0]</span> <span style="color: #1eabe3">[W1@@ last @@W1]</span> <span style="color: #8e54eb">[W2@@ one @@W2]</span>
+
+276
+00:32:58,799 --> 00:33:01,880
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ one @@W1]</span> <span style="color: #8e54eb">[W2@@ maybe @@W2]</span>
+
+277
+00:33:06,720 --> 00:33:10,039
+<span style="color: #10ebb0">[W0@@ cover @@W0]</span> <span style="color: #1eabe3">[W1@@ one @@W1]</span> <span style="color: #8e54eb">[W2@@ where @@W2]</span> <span style="color: #54eba2">[W3@@ is @@W3]</span>
+
+278
+00:33:35,100 --> 00:33:37,100
+<span style="color: #10ebb0">[W0@@ sound @@W0]</span>
+
+279
+00:33:42,179 --> 00:33:47,000
+<span style="color: #10ebb0">[W0@@ is @@W0]</span> <span style="color: #1eabe3">[W1@@ no @@W1]</span> <span style="color: #8e54eb">[W2@@ but @@W2]</span> <span style="color: #54eba2">[W3@@ last @@W3]</span> <span style="color: #54e3eb">[W4@@ drawing @@W4]</span> <span style="color: #7dbcf0">[W5@@ Find progress @@W5]</span> <span style="color: #10ebb0">[W6@@ can't @@W6]</span> <span style="color: #1eabe3">[W7@@ won't @@W7]</span>
+
+280
+00:33:48,659 --> 00:33:53,760
+<span style="color: #10ebb0">[W0@@ but @@W0]</span> <span style="color: #1eabe3">[W1@@ here @@W1]</span> <span style="color: #8e54eb">[W2@@ inside @@W2]</span> <span style="color: #54eba2">[W3@@ I draw @@W3]</span>
+
+281
+00:33:53,760 --> 00:33:57,360
+<span style="color: #10ebb0">[W0@@ this is @@W0]</span> <span style="color: #1eabe3">[W1@@ earlier @@W1]</span> <span style="color: #8e54eb">[W2@@ lock @@W2]</span> <span style="color: #54eba2">[W3@@ click @@W3]</span> <span style="color: #54e3eb">[W4@@ not @@W4]</span> <span style="color: #7dbcf0">[W5 @@ That’s okay @@W5]</span>
+
+282
+00:33:57,360 --> 00:34:00,140
+<span style="color: #10ebb0">[W0@@ Clues @@W0]</span> <span style="color: #1eabe3">[W1@@ Everything @@W1]</span> <span style="color: #8e54eb">[W2@@ must be gathered @@W2]</span>
+
+283
+00:34:03,299 --> 00:34:06,080
+<span style="color: #10ebb0">[W0@@ go to @@W0]</span> <span style="color: #1eabe3">[W1@@ be @@W1]</span> <span style="color: #8e54eb">[W2@@ be @@W2]</span> <span style="color: #54eba2">[W3@@ be @@W3]</span>
+
+284
+00:34:08,159 --> 00:34:10,760
+<span style="color: #10ebb0">[W0@@ bathroom @@W0]</span> <span style="color: #1eabe3">[W1@@ on the floor @@W1]</span>
+
+285
+00:34:18,679 --> 00:34:21,980
+<span style="color: #10ebb0">[W0@@ be @@W0]</span> <span style="color: #1eabe3">[W1@@ be @@W1]</span> <span style="color: #8e54eb">[W2@@ be @@W2]</span>
+
+286
+00:34:24,960 --> 00:34:27,679
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span> <span style="color: #1eabe3">[W1@@ This is @@W1]</span>
+
+287
+00:34:30,359 --> 00:34:33,980
+<span style="color: #10ebb0">[W0@@ Substitute @@W0]</span> <span style="color: #1eabe3">[W1@@ ja @@W1]</span> <span style="color: #8e54eb">[W2@@ d @@W2]</span>
+
+288
+00:34:34,500 --> 00:34:37,339
+<span style="color: #10ebb0">[Let's solve W0@@ @@W0]</span> <span style="color: #1eabe3">[Let's solve W1@@ @@W1]</span>
+
+289
+00:34:39,240 --> 00:34:41,540
+<span style="color: #10ebb0">[W0@@ to @@W0]</span> <span style="color: #1eabe3">[W1@@ and @@W1]</span>
+
+290
+00:34:48,720 --> 00:34:53,460
+<span style="color: #10ebb0">[W0@@ is out @@W0]</span> <span style="color: #1eabe3">[W1@@ is out @@W1]</span> <span style="color: #8e54eb">[W2@@ is @@W2]</span> <span style="color: #54eba2">[W3@@ is @@W3]</span> <span style="color: #54e3eb">[W4@@ is @@W4]</span>
+
+291
+00:34:53,460 --> 00:34:56,000
+<span style="color: #10ebb0">[W0@@ or @@W0]</span> <span style="color: #1eabe3">[W1@@ just right @@W1]</span>
+
+292
+00:34:59,339 --> 00:35:01,520
+<span style="color: #10ebb0">[W0@@ separately @@W0]</span> <span style="color: #1eabe3">[There is W1@@ @@W1]</span>
+
+293
+00:35:14,940 --> 00:35:18,320
+<span style="color: #10ebb0">[W0@@ child @@W0]</span> <span style="color: #1eabe3">[W1@@ corner @@W1]</span> <span style="color: #8e54eb">[W2@@ why @@W2]</span> <span style="color: #54eba2">[W3@@ like this @@W3]</span> <span style="color: #54e3eb">[W4@@ scary @@W4]</span>
+
+294
+00:35:37,440 --> 00:35:40,579
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ only here @@W1]</span> <span style="color: #8e54eb">[W2@@ open @@W2]</span> <span style="color: #54eba2">[W3@@ @@W3]</span>
+
+295
+00:35:53,160 --> 00:35:56,160
+<span style="color: #10ebb0">[W0@@ is here @@W0]</span>
+
+296
+00:35:56,220 --> 00:36:00,140
+<span style="color: #10ebb0">[W0@@ Finally, finally @@W0]</span> <span style="color: #1eabe3">[W1@@ is out @@W1]</span>
+
+297
+00:36:00,839 --> 00:36:03,800
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ get out @@W1]</span> <span style="color: #8e54eb">[W2@@ be @@W2]</span> <span style="color: #54eba2">[W3@@ be @@W3]</span>
+
+298
+00:36:07,140 --> 00:36:09,980
+<span style="color: #10ebb0">[W0@@ Go @@W0]</span> <span style="color: #1eabe3">[W1@@ Go @@W1]</span>
+
+299
+00:36:18,900 --> 00:36:21,320
+<span style="color: #10ebb0">[W0@@ Go @@W0]</span> <span style="color: #1eabe3">[W1@@ Go @@W1]</span>
+
+300
+00:36:23,160 --> 00:36:25,760
+<span style="color: #10ebb0">[W0@@ quickly @@W0]</span> <span style="color: #1eabe3">[W1@@ I have to run away @@W1]</span> <span style="color: #8e54eb">[W2@@ I can @@W2]</span>
+
+301
+00:36:25,920 --> 00:36:27,920
+<span style="color: #10ebb0">[W0@@ quickly @@W0]</span>
+
+302
+00:36:51,359 --> 00:36:56,520
+<span style="color: #10ebb0">[W0@@ Earlier @@W0]</span> <span style="color: #1eabe3">[W1@@ That @@W1]</span> <span style="color: #8e54eb">[W2@@ Puppy @@W2]</span> <span style="color: #54eba2">[W3@@ Where @@W3]</span> <span style="color: #54e3eb">[W4@@ went @@W4]</span> <span style="color: #7dbcf0">[W5@@ Eunhye @@W5]</span> <span style="color: #10ebb0">[W6@@ Pay me back @@W6]</span> <span style="color: #1eabe3">[W7@@ This @@W7]</span> <span style="color: #8e54eb">[W8@@ It's not @@W8]</span>
+
+303
+00:36:56,520 --> 00:37:01,800
+<span style="color: #10ebb0">[W0@@ Me @@W0]</span> <span style="color: #1eabe3">[W1@@ In crisis @@W1]</span> <span style="color: #8e54eb">[W2@@ Situation @@W2]</span> <span style="color: #54eba2">[W3@@ Help @@W3]</span> <span style="color: #54e3eb">[W4@@ Even if the puppy survives @@W4]</span> <span style="color: #7dbcf0">[W5@@ gave it to me @@W5]</span> <span style="color: #10ebb0">[W6@@ just @@W6]</span> <span style="color: #1eabe3">[W7@@ feel good @@W7]</span> <span style="color: #8e54eb">[W8@@ I like it @@W8]</span>
+
+304
+00:37:01,800 --> 00:37:04,640
+<span style="color: #10ebb0">[W0@@ @@W0]</span> <span style="color: #1eabe3">[W1@@ event @@W1]</span>
+
+305
+00:37:22,880 --> 00:37:27,300
+<span style="color: #10ebb0">[W0@@ Why @@W0]</span> <span style="color: #1eabe3">[W1@@ Why @@W1]</span> <span style="color: #8e54eb">[W2@@ Why @@W2]</span> <span style="color: #54eba2">[W3@@ Why @@W3]</span> <span style="color: #54e3eb">[W4@@ Why @@W4]</span> <span style="color: #7dbcf0">[W5@@ Why Running away @@W5]</span> <span style="color: #10ebb0">[W6@@ suddenly @@W6]</span>
+
+306
+00:37:27,300 --> 00:37:32,640
+<span style="color: #10ebb0">[W0@@ Suddenly @@W0]</span> <span style="color: #1eabe3">[W1@@ told me to run away @@W1]</span> <span style="color: #8e54eb">[W2@@ says @@W2]</span> <span style="color: #54eba2">[W3@@ wait a minute @@W3]</span> <span style="color: #54e3eb">[W4@@ over @@W4]</span> <span style="color: #7dbcf0">[W5@ @ uh @@W5]</span> <span style="color: #10ebb0">[W6@@ embarrassed @@W6]</span> <span style="color: #1eabe3">[W7@@ now @@W7]</span>
+
+307
+00:37:32,640 --> 00:37:36,000
+<span style="color: #10ebb0">[W0@@ Where @@W0]</span> <span style="color: #1eabe3">[W1@@ I have to run away @@W1]</span> <span style="color: #8e54eb">[W2@@ will be @@W2]</span> <span style="color: #54eba2">[W3@@ I don't know @@W3]</span> <span style="color: #54e3eb">[W4@@ now @@W4]</span> <span style="color: #7dbcf0">[W5@ @ @@W5]</span> <span style="color: #10ebb0">[W6@@ ran away @@W6]</span>
+
+308
+00:37:36,000 --> 00:37:39,119
+<span style="color: #10ebb0">[W0@@ well @@W0]</span> <span style="color: #1eabe3">[W1@@ ran away @@W1]</span> <span style="color: #8e54eb">[W2@@ go ok @@W2]</span>
+
+309
+00:37:39,119 --> 00:37:43,140
+<span style="color: #10ebb0">[W0@@ exit @@W0]</span> <span style="color: #1eabe3">[W1@@ way @@W1]</span> <span style="color: #8e54eb">[W2@@ no password @@W2]</span> <span style="color: #54eba2">[W3@@ 5913 @@W3]</span>
+
+310
+00:37:43,140 --> 00:37:45,560
+<span style="color: #10ebb0">[W0@@ 513 @@W0]</span>
+
+311
+00:37:50,520 --> 00:37:53,060
+<span style="color: #10ebb0">[W0@@ Run @@W0]</span> <span style="color: #1eabe3">[W1@@ Run @@W1]</span> <span style="color: #8e54eb">[W2@@ Run @@W2]</span>
+
+312
+00:37:58,579 --> 00:38:06,260
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ what @@W1]</span> <span style="color: #8e54eb">[W2@@ came out @@W2]</span> <span style="color: #54eba2">[W3@@ that @@W3]</span> <span style="color: #54e3eb">[W4@@ no this @@W4]</span> <span style="color: #7dbcf0">[W5@@ It's outside @@W5]</span>
+
+313
+00:38:16,800 --> 00:38:19,800
+<span style="color: #10ebb0">[W0@@ Weird @@W0]</span>
+
+314
+00:38:20,220 --> 00:38:25,700
+<span style="color: #10ebb0">[W0@@ Terrain @@W0]</span> <span style="color: #1eabe3">[W1@@ now @@W1]</span> <span style="color: #8e54eb">[W2@@ distance @@W2]</span> <span style="color: #54eba2">[W3@@ is out @@W3]</span> <span style="color: #54e3eb">[W4@@ out of town @@W4]</span> <span style="color: #7dbcf0">[W5@@ method @@W5]</span> <span style="color: #10ebb0">[W6@@ find @@W6]</span>
+
+315
+00:38:33,780 --> 00:38:38,040
+<span style="color: #10ebb0">[W0@@ Underground @@W0]</span> <span style="color: #1eabe3">[W1@@ Let's go here @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span> <span style="color: #54eba2">[W3@@ @@W3]</span> <span style="color: #54e3eb">[Same as W4@@ @@W4]</span>
+
+316
+00:38:38,040 --> 00:38:40,700
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span> <span style="color: #1eabe3">[W1@@ Hell @@W1]</span> <span style="color: #8e54eb">[It looks like W2@@ @@W2]</span>
+
+317
+00:38:42,839 --> 00:38:45,500
+<span style="color: #10ebb0">[W0@@ Here it is @@W0]</span>
+
+318
+00:38:49,619 --> 00:38:54,920
+<span style="color: #10ebb0">[W0@@ this is @@W0]</span> <span style="color: #1eabe3">[W1@@ here okay @@W1]</span> <span style="color: #8e54eb">[W2@@ please @@W2]</span>
+
+319
+00:38:56,420 --> 00:39:02,119
+<span style="color: #10ebb0">[W0@@ Go here @@W0]</span> <span style="color: #1eabe3">[W1@@ go in @@W1]</span> <span style="color: #8e54eb">[W2@@ just before @@W2]</span> <span style="color: #54eba2">[W3@@ go there @@W3]</span> <span style="color: #54e3eb">[W4@@ or @@W4]</span>
+
+320
+00:39:07,619 --> 00:39:11,180
+<span style="color: #10ebb0">[W0@@ no @@W0]</span> <span style="color: #1eabe3">[W1@@ but @@W1]</span> <span style="color: #8e54eb">[W2@@ here @@W2]</span> <span style="color: #54eba2">[W3@@ atmosphere @@W3]</span> <span style="color: #54e3eb">[W4@@ weird @@W4]</span>
+
+321
+00:39:11,640 --> 00:39:14,180
+<span style="color: #10ebb0">[W0@@ mood @@W0]</span> <span style="color: #1eabe3">[W1@@ why @@W1]</span> <span style="color: #8e54eb">[W2@@ @@W2]</span> <span style="color: #54eba2">[W3@@ here @@W3]</span>
+
+322
+00:39:18,480 --> 00:39:25,400
+<span style="color: #10ebb0">[W0@@ me @@W0]</span> <span style="color: #1eabe3">[W1@@ something @@W1]</span> <span style="color: #8e54eb">[W2@@ wrong @@W2]</span> <span style="color: #54eba2">[W3@@ came in @@W3]</span> <span style="color: #54e3eb">[W4@@ something @@W4]</span> <span style="color: #7dbcf0">[W5@@ same In the first place @@W5]</span> <span style="color: #10ebb0">[W6@@ here @@W6]</span> <span style="color: #1eabe3">[W7@@ was coming @@W7]</span> <span style="color: #8e54eb">[W8@@ wasn't @@W8]</span>
+
+323
+00:39:28,740 --> 00:39:31,640
+<span style="color: #10ebb0">[W0@@ call @@W0]</span> <span style="color: #1eabe3">[W1@@ sound @@W1]</span> <span style="color: #8e54eb">[W2@@ what @@W2]</span>
+
+324
+00:39:33,780 --> 00:39:36,680
+<span style="color: #10ebb0">[W0@@ there @@W0]</span> <span style="color: #1eabe3">[W1@@ in @@W1]</span> <span style="color: #8e54eb">[W2@@ call @@W2]</span>
+
+325
+00:39:41,339 --> 00:39:45,140
+<span style="color: #10ebb0">[W0@@ phone @@W0]</span> <span style="color: #1eabe3">[W1@@ write @@W1]</span> <span style="color: #8e54eb">[W2@@ structure @@W2]</span> <span style="color: #54eba2">[W3@@ must request @@W3]</span> <span style="color: #54e3eb">[W4@@ can @@W4]</span>
+
+326
+00:39:46,700 --> 00:39:51,740
+<span style="color: #10ebb0">[W0@@ this is @@W0]</span> <span style="color: #1eabe3">[W1@@ what exit is @@W1]</span> <span style="color: #8e54eb">[W2@@ here @@W2]</span> <span style="color: #54eba2">[W3@@ there @@W3]</span>
+
+327
+00:39:51,839 --> 00:39:57,980
+<span style="color: #10ebb0">[W0@@ but @@W0]</span> <span style="color: #1eabe3">[W1@@ bought @@W1]</span> <span style="color: #8e54eb">[W2@@ string @@W2]</span> <span style="color: #54eba2">[W3@@ find something @@W3]</span> <span style="color: #54e3eb">[W4@@ find @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Habolt @@W5]</span> <span style="color: #10ebb0">[W6@@ Cutter @@W6]</span>
+
+328
+00:39:59,640 --> 00:40:05,760
+<span style="color: #10ebb0">[W0@@ ever @@W0]</span> <span style="color: #1eabe3">[W1@@ something @@W1]</span> <span style="color: #8e54eb">[W2@@ but @@W2]</span> <span style="color: #54eba2">[W3@@ no money @@W3]</span> <span style="color: #54e3eb">[W4@@ no lever @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Something like @@W5]</span> <span style="color: #10ebb0">[There's a W6@@ @@W6]</span> <span style="color: #1eabe3">[W7@@ on the vending machine @@W7]</span>
+
+329
+00:40:08,160 --> 00:40:12,980
+<span style="color: #10ebb0">[W0@@ flashlight @@W0]</span> <span style="color: #1eabe3">[W1@@ where @@W1]</span> <span style="color: #8e54eb">[W2@@ gone @@W2]</span> <span style="color: #54eba2">[W3@@ go @@W3]</span> <span style="color: #54e3eb">[W4@@ that @@W4]</span> <span style="color: #7dbcf0">[W5@@ uh Barely @@W5]</span>
+
+330
+00:40:15,060 --> 00:40:19,740
+<span style="color: #10ebb0">[W0@@ What happened yesterday @@W0]</span> <span style="color: #1eabe3">[W1@@ situation @@W1]</span> <span style="color: #8e54eb">[W2@@ Suddenly @@W2]</span> <span style="color: #54eba2">[W3@@ Why @@W3]</span>
+
+331
+00:40:19,740 --> 00:40:25,079
+<span style="color: #10ebb0">[W0@@ What's up @@W0]</span> <span style="color: #1eabe3">[W1@@ flashlight @@W1]</span> <span style="color: #8e54eb">[W2@@ suddenly @@W2]</span> <span style="color: #54eba2">[W3@@ deleted @@W3]</span>
+
+332
+00:40:25,079 --> 00:40:28,280
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ say go in @@W1]</span> <span style="color: #8e54eb">[W2@@ is @@W2]</span>
+
+333
+00:40:42,599 --> 00:40:45,599
+<span style="color: #10ebb0">[W0@@ scared @@W0]</span>
+
+334
+00:40:52,079 --> 00:40:55,280
+<span style="color: #10ebb0">[W0@@ don @@W0]</span> <span style="color: #1eabe3">[W1@@ find @@W1]</span> <span style="color: #8e54eb">[W2@@ become @@W2]</span> <span style="color: #54eba2">[W3@@ or @@W3]</span> <span style="color: #54e3eb">[W4@@ don @@W4]</span>
+
+335
+00:40:58,500 --> 00:41:00,859
+<span style="color: #10ebb0">[W0@@ will not die @@W0]</span>
+
+336
+00:41:03,540 --> 00:41:07,079
+<span style="color: #10ebb0">[W0@@ Elevator is @@W0]</span> <span style="color: #1eabe3">[W1@@ not working @@W1]</span> <span style="color: #8e54eb">[W2@@ is not on generator @@W2]</span> <span style="color: #54eba2">[W3@@ out of fuel @@W3]</span> <span style="color: #54e3eb">[W4@@ dropping @@W4]</span> <span style="color: #7dbcf0">[W5@@ start @@W5]</span> <span style="color: #10ebb0">[W6@@ lever is @@W6]</span>
+
+337
+00:41:07,079 --> 00:41:09,660
+<span style="color: #10ebb0">[W0@@ Malfunction @@W0]</span> <span style="color: #1eabe3">[W1@@ Got fuel @@W1]</span> <span style="color: #8e54eb">[W2@@ Find @@W2]</span> <span style="color: #54eba2">[W3@@ Could be @@W3]</span> <span style="color: #54e3eb">[W4@@ Lever is @@W4]</span> <span style="color: #7dbcf0">[W5 @@ Earlier @@W5]</span>
+
+338
+00:41:09,660 --> 00:41:12,380
+<span style="color: #10ebb0">[W0@@ vending machine @@W0]</span> <span style="color: #1eabe3">[W1@@ was @@W1]</span>
+
+339
+00:41:16,020 --> 00:41:18,619
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span>
+
+340
+00:41:19,740 --> 00:41:23,880
+<span style="color: #10ebb0">[W0@@ on the lever @@W0]</span> <span style="color: #1eabe3">[W1@@ gasoline lemon @@W1]</span> <span style="color: #8e54eb">[W2@@ earlier @@W2]</span> <span style="color: #54eba2">[W3@@ saw @@W3]</span>
+
+341
+00:41:23,880 --> 00:41:30,519
+<span style="color: #10ebb0">[W0@@ Gasoline [Music] @@W0]</span>
+
+342
+00:41:38,940 --> 00:41:41,720
+<span style="color: #10ebb0">[W0@@ @@W0 just now]</span> <span style="color: #1eabe3">[W1@@ in hand @@W1]</span>
+
+343
+00:41:42,150 --> 00:41:47,419
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+344
+00:41:57,599 --> 00:42:00,619
+<span style="color: #10ebb0">[W0@@ Ah @@W0]</span> <span style="color: #1eabe3">[W1@@ outside @@W1]</span> <span style="color: #8e54eb">[W2@@ is out @@W2]</span>
+
+345
+00:42:01,430 --> 00:42:05,339
+<span style="color: #10ebb0">[W0@@ [MUSIC] Enclosed @@W0]</span> <span style="color: #1eabe3">[W1@@ space @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span>
+
+346
+00:42:05,339 --> 00:42:09,619
+<span style="color: #10ebb0">[W0@@ Ah @@W0]</span> <span style="color: #1eabe3">[W1@@ What @@W1]</span> <span style="color: #8e54eb">[W2@@ This @@W2]</span> <span style="color: #54eba2">[W3@@ It's easy @@W3]</span> <span style="color: #54e3eb">[W4@@ now @@W4]</span>
+
+347
+00:42:14,400 --> 00:42:20,480
+<span style="color: #10ebb0">[W0@@ [Music] Separation @@W0]</span> <span style="color: #1eabe3">[W1@@ I don't have @@W1]</span>
+
+348
+00:42:20,480 --> 00:42:24,949
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+349
+00:42:25,140 --> 00:42:29,960
+<span style="color: #10ebb0">[W0@@ I'll show you @@W0]</span> <span style="color: #1eabe3">[W1@@ I have @@W1]</span> <span style="color: #8e54eb">[W2@@ seesaw @@W2]</span> <span style="color: #54eba2">[W3@@ side @@W3]</span> <span style="color: #54e3eb">[W4@@ rock @@W4]</span> <span style="color: #7dbcf0">[W5@@ Check the bottom @@W5]</span> <span style="color: #10ebb0">[W6@@ look @@W6]</span>
+
+350
+00:42:31,830 --> 00:42:33,860
+<span style="color: #10ebb0">[W0@@ [music] seesaw @@W0]</span> <span style="color: #1eabe3">[next to W1@@ @@W1]</span>
+
+351
+00:42:33,860 --> 00:42:37,179
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+352
+00:42:39,880 --> 00:42:49,860
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+353
+00:42:50,400 --> 00:42:54,740
+<span style="color: #10ebb0">[W0@@ It's all here @@W0]</span>
+
+354
+00:42:56,640 --> 00:43:01,300
+<span style="color: #10ebb0">[W0@@ Is this @@W0]</span> <span style="color: #1eabe3">[W1@@ Rock [Music] @@W1]</span>
+
+355
+00:43:01,880 --> 00:43:06,859
+<span style="color: #10ebb0">[W0@@ hahaha @@W0]</span> <span style="color: #1eabe3">[W1@@ now @@W1]</span> <span style="color: #8e54eb">[W2@@ red @@W2]</span> <span style="color: #54eba2">[W3@@ to the refrigerator @@W3]</span> <span style="color: #54e3eb">[W4@@ move @@W4]</span>
+
+356
+00:43:08,819 --> 00:43:12,079
+<span style="color: #10ebb0">[W0@@ @@W0 with me]</span> <span style="color: #1eabe3">[W1@@ playing around @@W1]</span> <span style="color: #8e54eb">[W2@@ is that @@W2]</span>
+
+357
+00:43:12,220 --> 00:43:22,220
+<span style="color: #10ebb0">[W0@@ [Music] Earlier @@W0]</span> <span style="color: #1eabe3">[W1@@ That @@W1]</span> <span style="color: #8e54eb">[W2@@ It's a refrigerator @@W2]</span>
+
+358
+00:43:28,619 --> 00:43:31,460
+<span style="color: #10ebb0">[W0@@ Refrigerator @@W0]</span> <span style="color: #1eabe3">[W1@@ moves @@W1]</span>
+
+359
+00:43:35,819 --> 00:43:42,940
+<span style="color: #10ebb0">[W0@@ open [music] @@W0]</span>
+
+360
+00:43:43,020 --> 00:43:48,420
+<span style="color: #10ebb0">[W0@@ in the yard @@W0]</span> <span style="color: #1eabe3">[W1@@ in @@W1]</span> <span style="color: #8e54eb">[W2@@ pink @@W2]</span> <span style="color: #54eba2">[W3@@ cloth @@W3]</span> <span style="color: #54e3eb">[W4@@ saw @@W4]</span> <span style="color: #7dbcf0">[W5@@ What's behind that @@W5]</span> <span style="color: #10ebb0">[W6@@ @@W6]</span> <span style="color: #1eabe3">[W7@@ sure @@W7]</span> <span style="color: #8e54eb">[W8@@ wonder @@W8]</span> <span style="color: #54eba2">[W9@@ not @@W9]</span> <span style="color: #54e3eb">[W10@@ in the yard @ @W10]</span>
+
+361
+00:43:48,420 --> 00:43:53,999
+<span style="color: #10ebb0">[W0@@@@W0]</span> <span style="color: #1eabe3">[W1@@ Pink @@W1]</span> <span style="color: #8e54eb">[W2@@ Cloth[Music] @@W2]</span>
+
+362
+00:43:54,619 --> 00:43:58,640
+<span style="color: #10ebb0">[W0@@ I love @@W0]</span> <span style="color: #1eabe3">[W1@@ too @@W1]</span> <span style="color: #8e54eb">[W2@@ a lot @@W2]</span> <span style="color: #54eba2">[W3@@ just @@W3]</span> <span style="color: #54e3eb">[W4@@ too @@W4]</span> <span style="color: #7dbcf0">[W5@ @ a lot @@W5]</span> <span style="color: #10ebb0">[W6@@ just @@W6]</span>
+
+363
+00:43:59,700 --> 00:44:02,420
+<span style="color: #10ebb0">[W0@@ was also @@W0]</span>
+
+364
+00:44:04,380 --> 00:44:08,180
+<span style="color: #10ebb0">[W0@@ no @@W0]</span> <span style="color: #1eabe3">[W1@@ now @@W1]</span> <span style="color: #8e54eb">[W2@@ grandma @@W2]</span> <span style="color: #54eba2">[W3@@ isn't it @@W3]</span>
+
+365
+00:44:09,960 --> 00:44:22,140
+<span style="color: #10ebb0">[W0@@ Residents @@W0]</span> <span style="color: #1eabe3">[W1@@ Crazy @@W1]</span> <span style="color: #8e54eb">[W2@@ Look [Music] @@W2]</span>
+
+366
+00:44:22,140 --> 00:44:26,400
+<span style="color: #10ebb0">[W0@@ quickly @@W0]</span> <span style="color: #1eabe3">[W1@@ something pink @@W1]</span> <span style="color: #8e54eb">[W2@@ cloth @@W2]</span> <span style="color: #54eba2">[W3@@ in the yard @@W3]</span>
+
+367
+00:44:26,400 --> 00:44:30,420
+<span style="color: #10ebb0">[W0@@ that's @@W0]</span> <span style="color: #1eabe3">[W1@@ which @@W1]</span> <span style="color: #8e54eb">[W2@@ side @@W2]</span> <span style="color: #54eba2">[W3@@ wait @@W3]</span> <span style="color: #54e3eb">[W4@@ here @@W4]</span>
+
+368
+00:44:30,420 --> 00:44:36,079
+<span style="color: #10ebb0">[W0@@ only @@W0]</span> <span style="color: #1eabe3">[W1@@ once @@W1]</span> <span style="color: #8e54eb">[W2@@ just @@W2]</span> <span style="color: #54eba2">[W3@@ look more @@W3]</span> <span style="color: #54e3eb">[W4@@ more than @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Ozzy @@W5]</span> <span style="color: #10ebb0">[Let's not W6@@ @@W6]</span>
+
+369
+00:44:39,240 --> 00:44:45,359
+<span style="color: #10ebb0">[W0@@ No way @@W0]</span> <span style="color: #1eabe3">[W1@@ Is this [Music] @@W1]</span>
+
+370
+00:44:45,359 --> 00:44:48,319
+<span style="color: #10ebb0">[W0@@ uh @@W0]</span> <span style="color: #1eabe3">[W1@@ what @@W1]</span>
+
+371
+00:44:51,660 --> 00:44:54,260
+<span style="color: #10ebb0">[W0@@ This is @@W0]</span>
+
+372
+00:44:54,660 --> 00:44:57,260
+<span style="color: #10ebb0">[W0@@ What @@W0]</span> <span style="color: #1eabe3">[W1@@ Hideout @@W1]</span> <span style="color: #8e54eb">[Same as W2@@ @@W2]</span>
+
+373
+00:44:57,660 --> 00:45:01,920
+<span style="color: #10ebb0">[W0@@ My @@W0]</span> <span style="color: #1eabe3">[W1@@ Hideout @@W1]</span> <span style="color: #8e54eb">[W2@@ Isn't it beautiful @@W2]</span> <span style="color: #54eba2">[W3@@ Isn't it @@W3]</span> <span style="color: #54e3eb">[W4@@ I'm us @@W4]</span> <span style="color: #7dbcf0">[W5 @@ Family @@W5]</span> <span style="color: #10ebb0">[W6@@ Village @@W6]</span> <span style="color: #1eabe3">[W7@@ All @@W7]</span> <span style="color: #8e54eb">[W8@@ Wake up @@W8]</span>
+
+374
+00:45:01,920 --> 00:45:06,000
+<span style="color: #10ebb0">[W0@@ started @@W0]</span> <span style="color: #1eabe3">[W1@@ all @@W1]</span> <span style="color: #8e54eb">[W2@@ horrendous @@W2]</span> <span style="color: #54eba2">[W3@@ things @@W3]</span> <span style="color: #54e3eb">[W4@@ damage here @@W4]</span> <span style="color: #7dbcf0">[W5 @@ Hiding @@W5]</span> <span style="color: #10ebb0">[W6@@ I've been @@W6]</span> <span style="color: #1eabe3">[W7@@ now @@W7]</span> <span style="color: #8e54eb">[W8@@ rather @@W8]</span>
+
+375
+00:45:06,000 --> 00:45:09,359
+<span style="color: #10ebb0">[W0@@ Kowloon @@W0]</span> <span style="color: #1eabe3">[W1@@ alive @@W1]</span> <span style="color: #8e54eb">[W2@@ no one @@W2]</span> <span style="color: #54eba2">[W3@@ glad there's no @@W3]</span> <span style="color: #54e3eb">[W4@@ I think @@W4]</span> <span style="color: #7dbcf0">[W5@@ that @@W5]</span> <span style="color: #10ebb0">[W6@@ @@W6 on coins]</span> <span style="color: #1eabe3">[W7@@ need @@W7]</span>
+
+376
+00:45:09,359 --> 00:45:12,599
+<span style="color: #10ebb0">[W0@@ will [Music] @@W0]</span>
+
+377
+00:45:12,599 --> 00:45:14,780
+<span style="color: #10ebb0">[W0@@ coin @@W0]</span>
+
+378
+00:45:16,380 --> 00:45:18,560
+<span style="color: #10ebb0">[W0@@ Thank you @@W0]</span>
+
+379
+00:45:20,760 --> 00:45:24,900
+<span style="color: #10ebb0">[W0@@ Thank you [Music] @@W0]</span>
+
+380
+00:45:24,900 --> 00:45:29,960
+<span style="color: #10ebb0">[W0@@ vending machine @@W0]</span> <span style="color: #1eabe3">[W1@@ go now @@W1]</span>
+
+381
+00:45:30,780 --> 00:45:33,500
+<span style="color: #10ebb0">[W0@@ Coins @@W0]</span> <span style="color: #1eabe3">[W1@@ Write @@W1]</span> <span style="color: #8e54eb">[W2@@ @@W2]</span>
+
+382
+00:45:34,440 --> 00:45:37,510
+<span style="color: #10ebb0">[W0@@ this is @@W0]</span> <span style="color: #1eabe3">[W1@@ what @@W1]</span> <span style="color: #8e54eb">[W2@@ is @@W2]</span> <span style="color: #54eba2">[W3@@ is connected @@W3]</span> <span style="color: #54e3eb">[W4@@ is @@W4]</span>
+
+383
+00:45:37,510 --> 00:45:42,300
+<span style="color: #10ebb0">[W0@@ [Music]uh @@W0]</span> <span style="color: #1eabe3">[W1@@ Phone @@W1]</span>
+
+384
+00:45:42,300 --> 00:45:45,380
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span> <span style="color: #8e54eb">[W2@@ now @@W2]</span>
+
+385
+00:45:45,540 --> 00:45:49,640
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ Oil @@W1]</span> <span style="color: #8e54eb">[W2@@ Same as @@W2]</span> <span style="color: #54eba2">[W3@@ Something @@W3]</span> <span style="color: #54e3eb">[W4@@ I hope @@W4]</span> <span style="color: #7dbcf0">[W5@@ Gasoline @@W5]</span>
+
+386
+00:45:52,650 --> 00:46:09,989
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+387
+00:46:10,740 --> 00:46:13,579
+<span style="color: #10ebb0">[W0@@ just passed @@W0]</span> <span style="color: #1eabe3">[W1@@ person @@W1]</span> <span style="color: #8e54eb">[W2@@ just passed @@W2]</span>
+
+388
+00:46:17,760 --> 00:46:20,760
+<span style="color: #10ebb0">[W0@@ vending machine @@W0]</span>
+
+389
+00:46:23,280 --> 00:46:27,119
+<span style="color: #10ebb0">[W0@@ vending machine @@W0]</span> <span style="color: #1eabe3">[W1@@ go to [Music] @@W1]</span>
+
+390
+00:46:27,119 --> 00:46:30,140
+<span style="color: #10ebb0">[W0@@ to the vending machine @@W0]</span> <span style="color: #1eabe3">[W1@@ go to @@W1]</span>
+
+391
+00:46:30,660 --> 00:46:34,440
+<span style="color: #10ebb0">[W0@@ vending machine @@W0]</span> <span style="color: #1eabe3">[W1@@ go to [Music] @@W1]</span>
+
+392
+00:46:34,440 --> 00:46:38,880
+<span style="color: #10ebb0">[W0@@ take out the lever @@W0]</span>
+
+393
+00:46:38,880 --> 00:46:41,780
+<span style="color: #10ebb0">[W0@@ that @@W0]</span> <span style="color: #1eabe3">[W1@@ then now @@W1]</span>
+
+394
+00:46:41,780 --> 00:46:46,579
+<span style="color: #10ebb0">[W0@@ [MUSIC] Gasoline @@W0]</span> <span style="color: #1eabe3">[W1@@ Find @@W1]</span>
+
+395
+00:47:05,000 --> 00:47:10,140
+<span style="color: #10ebb0">[W0@@ that @@W0]</span> <span style="color: #1eabe3">[W1@@ in front of @@W1]</span> <span style="color: #8e54eb">[W2@@ person @@W2]</span> <span style="color: #54eba2">[W3@@ is near @@W3]</span> <span style="color: #54e3eb">[W4@@ go @@W4]</span> <span style="color: #7dbcf0">[W5@@ Out of nowhere @@W5]</span> <span style="color: #10ebb0">[W6@@ comes out @@W6]</span> <span style="color: #1eabe3">[W7@@ like before @@W7]</span>
+
+396
+00:47:10,140 --> 00:47:12,839
+<span style="color: #10ebb0">[W0@@ screaming @@W0]</span> <span style="color: #1eabe3">[W1@@ screaming @@W1]</span> <span style="color: #8e54eb">[W2@@ might come running @@W2]</span> <span style="color: #54eba2">[W3@@ I don't know @@W3]</span> <span style="color: #54e3eb">[W4@@ absolutely not @@W4]</span> <span style="color: #7dbcf0">[W5 @@ Up @@W5]</span>
+
+397
+00:47:12,839 --> 00:47:15,920
+<span style="color: #10ebb0">[W0@@ Now @@W0]</span> <span style="color: #1eabe3">[W1@@ Heart @@W1]</span> <span style="color: #8e54eb">[W2@@ Ready @@W2]</span>
+
+398
+00:47:21,900 --> 00:47:24,200
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span>
+
+399
+00:47:28,840 --> 00:47:32,339
+<span style="color: #10ebb0">[W0@@ [Music] Do @@W0]</span> <span style="color: #1eabe3">[W1@@ Just @@W1]</span>
+
+400
+00:47:32,339 --> 00:47:34,400
+<span style="color: #10ebb0">[W0@@ OK @@W0]</span>
+
+401
+00:47:40,740 --> 00:47:44,790
+<span style="color: #10ebb0">[W0@@ Once @@W0]</span> <span style="color: #1eabe3">[W1@@ Lever @@W1]</span> <span style="color: #8e54eb">[W2@@ Me @@W2]</span> <span style="color: #54eba2">[W3@@ Looking back @@W3]</span> <span style="color: #54e3eb">[W4@@ Really @@W4]</span> <span style="color: #7dbcf0">[W5@ @ No @@W5]</span> <span style="color: #10ebb0">[W6@@ please @@W6]</span>
+
+402
+00:47:44,790 --> 00:47:47,960
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+403
+00:47:48,119 --> 00:47:54,260
+<span style="color: #10ebb0">[W0@@ Why @@W0]</span> <span style="color: #1eabe3">[W1@@ What is this @@W1]</span> <span style="color: #8e54eb">[W2@@ sounds @@W2]</span> <span style="color: #54eba2">[W3@@ comes out @@W3]</span> <span style="color: #54e3eb">[W4@@ is @@W4]</span> <span style="color: #7dbcf0">[W5@ @ background sound @@W5]</span>
+
+404
+00:47:58,440 --> 00:48:01,040
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span>
+
+405
+00:48:08,819 --> 00:48:12,240
+<span style="color: #10ebb0">[W0@@ situation @@W0]</span> <span style="color: #1eabe3">[W1@@ good @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span> <span style="color: #54eba2">[W3@@ my @@W3]</span> <span style="color: #54e3eb">[W4@@ my daughter ran away @@W4]</span> <span style="color: #7dbcf0">[ W5@@ What @@W5]</span> <span style="color: #10ebb0">[W6@@ problem @@W6]</span> <span style="color: #1eabe3">[W7@@ I don't know @@W7]</span>
+
+406
+00:48:12,240 --> 00:48:15,900
+<span style="color: #10ebb0">[W0@@ My wife is @@W0]</span> <span style="color: #1eabe3">[W1@@ 3 days @@W1]</span> <span style="color: #8e54eb">[W2@@ during @@W2]</span> <span style="color: #54eba2">[W3@@ in the bathtub @@W3]</span> <span style="color: #54e3eb">[W4@@ not coming out @@W4]</span> <span style="color: #7dbcf0">[W5 @@ and @@W5]</span> <span style="color: #10ebb0">[W6@@ around @@W6]</span> <span style="color: #1eabe3">[W7@@ people @@W7]</span> <span style="color: #8e54eb">[W8@@ all @@W8]</span> <span style="color: #54eba2">[W9@@ crazy @@W9]</span>
+
+407
+00:48:15,900 --> 00:48:20,040
+<span style="color: #10ebb0">[W0@@ how @@W0]</span> <span style="color: #1eabe3">[W1@@ should be @@W1]</span> <span style="color: #8e54eb">[W2@@ should be @@W2]</span> <span style="color: #54eba2">[W3@@ before @@W3]</span> <span style="color: #54e3eb">[W4@@ I didn't notice @@W4]</span> <span style="color: #7dbcf0">[W5@ @ @@W5 at the coronation]</span> <span style="color: #10ebb0">[W6@@ gas @@W6]</span> <span style="color: #1eabe3">[W7@@ comes out @@W7]</span>
+
+408
+00:48:20,040 --> 00:48:24,319
+<span style="color: #10ebb0">[W0@@ all @@W0]</span> <span style="color: #1eabe3">[W1@@ that @@W1]</span> <span style="color: #8e54eb">[W2@@ person @@W2]</span> <span style="color: #54eba2">[W3@@ that @@W3]</span> <span style="color: #54e3eb">[W4@@ that @@W4]</span> <span style="color: #7dbcf0">[W5@@ I guess Please help @@W5]</span>
+
+409
+00:48:30,540 --> 00:48:34,619
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ 100 won @@W1]</span> <span style="color: #8e54eb">[W2@@ gas @@W2]</span> <span style="color: #54eba2">[W3@@ comes out @@W3]</span> <span style="color: #54e3eb">[W4@@ did it anytime @@W4]</span> <span style="color: #7dbcf0">[ W5@@ pops out @@W5]</span> <span style="color: #10ebb0">[W6@@ pops out @@W6]</span> <span style="color: #1eabe3">[W7@@ can @@W7]</span> <span style="color: #8e54eb">[W8@@ has @@W8]</span>
+
+410
+00:48:34,619 --> 00:48:37,040
+<span style="color: #10ebb0">[W0@@ gas @@W0]</span> <span style="color: #1eabe3">[W1@@ sound @@W1]</span>
+
+411
+00:48:41,819 --> 00:48:48,140
+<span style="color: #10ebb0">[W0@@ It's okay @@W0]</span> <span style="color: #1eabe3">[W1@@ They're in the neighborhood @@W1]</span> <span style="color: #8e54eb">[W2@@ try to kick us out @@W2]</span> <span style="color: #54eba2">[W3@@ try to kick them out @@W3]</span> <span style="color: #54e3eb">[W4@@ do @@W4]</span>
+
+412
+00:48:49,260 --> 00:48:54,380
+<span style="color: #10ebb0">[W0@@ the government is @@W0]</span> <span style="color: #1eabe3">[W1@@ the fact that we are @@W1]</span> <span style="color: #8e54eb">[W2@@ where @@W2]</span> <span style="color: #54eba2">[W3@@ is dying @@W3]</span> <span style="color: #54e3eb">[W4@@ is @@W4]</span> <span style="color: #7dbcf0">[W5@@ Hide @@W5]</span> <span style="color: #10ebb0">[W6@@ Hide @@W6]</span>
+
+413
+00:49:02,760 --> 00:49:06,140
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ Gasoline @@W1]</span> <span style="color: #8e54eb">[W2@@ Got @@W2]</span>
+
+414
+00:49:11,580 --> 00:49:15,320
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+415
+00:49:17,550 --> 00:49:21,280
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+416
+00:49:24,040 --> 00:49:33,190
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+417
+00:49:35,480 --> 00:49:39,900
+<span style="color: #10ebb0">[W0@@ [music] characters @@W0]</span>
+
+418
+00:49:39,900 --> 00:49:42,319
+<span style="color: #10ebb0">[W0@@ Suddenly @@W0]</span> <span style="color: #1eabe3">[W1@@ Be careful @@W1]</span>
+
+419
+00:49:55,350 --> 00:49:59,310
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+420
+00:50:07,590 --> 00:50:10,709
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+421
+00:50:16,319 --> 00:50:19,040
+<span style="color: #10ebb0">[W0@@ not @@W0]</span> <span style="color: #1eabe3">[W1@@ That's scary @@W1]</span>
+
+422
+00:50:28,220 --> 00:50:31,520
+<span style="color: #10ebb0">[W0@@ not one @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span> <span style="color: #8e54eb">[W2@@ scared @@W2]</span>
+
+423
+00:50:36,420 --> 00:50:40,200
+<span style="color: #10ebb0">[W0@@ lever lever @@W0]</span>
+
+424
+00:50:40,200 --> 00:50:42,240
+<span style="color: #10ebb0">[W0@@ Oil @@W0]</span> <span style="color: #1eabe3">[W1@@ Insert Lever @@W1]</span>
+
+425
+00:50:42,240 --> 00:50:44,300
+<span style="color: #10ebb0">[W0@@ on @@W0]</span>
+
+426
+00:50:46,500 --> 00:50:50,099
+<span style="color: #10ebb0">[W0@@ Elevator @@W0]</span> <span style="color: #1eabe3">[W1@@ Working @@W1]</span> <span style="color: #8e54eb">[W2@@ Possible @@W2]</span>
+
+427
+00:50:51,710 --> 00:50:56,469
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+428
+00:51:03,180 --> 00:51:06,079
+<span style="color: #10ebb0">[W0@@ ah @@W0]</span> <span style="color: #1eabe3">[W1@@ what @@W1]</span>
+
+429
+00:51:06,480 --> 00:51:10,339
+<span style="color: #10ebb0">[W0@@ once @@W0]</span> <span style="color: #1eabe3">[W1@@ came out @@W1]</span> <span style="color: #8e54eb">[W2@@ for the time being @@W2]</span> <span style="color: #54eba2">[W3@@ again @@W3]</span> <span style="color: #54e3eb">[W4@@ won't come out @@W4]</span>
+
+430
+00:51:18,180 --> 00:51:21,440
+<span style="color: #10ebb0">[W0@@ Elevator @@W0]</span> <span style="color: #1eabe3">[W1@@ Like a dog @@W1]</span> <span style="color: #8e54eb">[W2@@ Scary @@W2]</span> <span style="color: #54eba2">[Looks like W3@@ @@W3]</span>
+
+431
+00:51:23,160 --> 00:51:26,119
+<span style="color: #10ebb0">[W0@@ at the elevator @@W0]</span> <span style="color: #1eabe3">[W1@@ away @@W1]</span> <span style="color: #8e54eb">[W2@@ away @@W2]</span> <span style="color: #54eba2">[W3@@ you know @@W3]</span>
+
+432
+00:51:31,380 --> 00:51:40,590
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+433
+00:51:42,599 --> 00:51:46,040
+<span style="color: #10ebb0">[W0@@ I @@W0]</span> <span style="color: #1eabe3">[W1@@ Dreaming @@W1]</span> <span style="color: #8e54eb">[W2@@ Dreaming @@W2]</span> <span style="color: #54eba2">[W3@@ @@W3]</span> <span style="color: #54e3eb">[W4@@ I @@W4]</span>
+
+434
+00:51:48,119 --> 00:51:53,830
+<span style="color: #10ebb0">[W0@@ what @@W0]</span> <span style="color: #1eabe3">[W1@@ do @@W1]</span> <span style="color: #8e54eb">[W2@@ place [music] @@W2]</span>
+
+435
+00:52:01,020 --> 00:52:03,380
+<span style="color: #10ebb0">[W0@@ Bolt @@W0]</span> <span style="color: #1eabe3">[W1@@ Cutter @@W1]</span>
+
+436
+00:52:04,319 --> 00:52:07,980
+<span style="color: #10ebb0">[W0@@ Finally, the World Cup @@W0]</span>
+
+437
+00:52:07,980 --> 00:52:13,420
+<span style="color: #10ebb0">[W0@@ Like this @@W0]</span> <span style="color: #1eabe3">[W1@@ Calm @@W1]</span> <span style="color: #8e54eb">[W2@@ Riga @@W2]</span> <span style="color: #54eba2">[W3@@ What are you doing @@W3]</span> <span style="color: #54e3eb">[W4@@ atmosphere @@W4]</span>
+
+438
+00:52:13,420 --> 00:52:18,240
+<span style="color: #10ebb0">[W0@@ [Music] Go @@W0]</span>
+
+439
+00:52:18,240 --> 00:52:19,740
+<span style="color: #10ebb0">[W0@@ door @@W0]</span> <span style="color: #1eabe3">[W1@@ closed @@W1]</span> <span style="color: #8e54eb">[W2@@ when @@W2]</span> <span style="color: #54eba2">[W3@@ what @@W3]</span> <span style="color: #54e3eb">[W4@@ cutting into @@W4]</span> <span style="color: #7dbcf0">[W5 @@ do @@W5]</span> <span style="color: #10ebb0">[W6@@ do @@W6]</span>
+
+440
+00:52:19,740 --> 00:52:22,850
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+441
+00:52:31,740 --> 00:52:37,579
+<span style="color: #10ebb0">[W0@@ now @@W0]</span> <span style="color: #1eabe3">[W1@@ now @@W1]</span> <span style="color: #8e54eb">[W2@@ bolt @@W2]</span> <span style="color: #54eba2">[W3@@ cutter @@W3]</span> <span style="color: #54e3eb">[W4@@ write only @@W4]</span> <span style="color: #7dbcf0">[W5@@ If you do @@W5]</span> <span style="color: #10ebb0">[W6@@ let's do it @@W6]</span> <span style="color: #1eabe3">[W7@@ everything @@W7]</span> <span style="color: #8e54eb">[W8@@ is here @@W8]</span>
+
+442
+00:52:40,740 --> 00:52:44,579
+<span style="color: #10ebb0">[W0@@ It's okay just go @@W0]</span> <span style="color: #1eabe3">[W1@@ @@W1]</span> <span style="color: #8e54eb">[W2@@ OK @@W2]</span> <span style="color: #54eba2">[W3@@ difficult @@W3]</span> <span style="color: #54e3eb">[W4@@ that @@W4]</span> <span style="color: #7dbcf0">[W5@ @ No @@W5]</span> <span style="color: #10ebb0">[W6@@ what @@W6]</span>
+
+443
+00:52:44,579 --> 00:52:48,450
+<span style="color: #10ebb0">[W0@@ @@W0]</span> <span style="color: #1eabe3">[W1@@ It's okay @@W1]</span> <span style="color: #8e54eb">[W2@@ Over there @@W2]</span> <span style="color: #54eba2">[W3@@ It's a game anyway @@W3]</span> <span style="color: #54e3eb">[W4@@ It's a game @@W4]</span>
+
+444
+00:52:48,450 --> 00:52:51,760
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+445
+00:52:53,040 --> 00:52:56,339
+<span style="color: #10ebb0">[W0@@ You @@W0]</span> <span style="color: #1eabe3">[W1@@ No way [Music] @@W1]</span>
+
+446
+00:52:56,339 --> 00:53:00,839
+<span style="color: #10ebb0">[W0@@ Eunhye @@W0]</span> <span style="color: #1eabe3">[W1@@ Envious @@W1]</span> <span style="color: #8e54eb">[W2@@ Goonie @@W2]</span> <span style="color: #54eba2">[W3@@ Back @@W3]</span> <span style="color: #54e3eb">[W4@@ Well @@W4]</span> <span style="color: #7dbcf0">[W5@ @ Must see @@W5]</span> <span style="color: #10ebb0">[W6@@ can @@W6]</span>
+
+447
+00:53:00,839 --> 00:53:05,520
+<span style="color: #10ebb0">[W0@@ Me @@W0]</span> <span style="color: #1eabe3">[W1@@ I live for you @@W1]</span> <span style="color: #8e54eb">[W2@@ Jun @@W2]</span> <span style="color: #54eba2">[W3@@ that @@W3]</span> <span style="color: #54e3eb">[W4@@ I don't remember @@W4]</span>
+
+448
+00:53:05,520 --> 00:53:09,059
+<span style="color: #10ebb0">[W0@@ uh[music] @@W0]</span>
+
+449
+00:53:09,059 --> 00:53:11,960
+<span style="color: #10ebb0">[W0@@ look at @@W0]</span> <span style="color: #1eabe3">[W1@@ don't @@W1]</span> <span style="color: #8e54eb">[W2@@ I'm scared @@W2]</span>
+
+450
+00:53:23,700 --> 00:53:26,240
+<span style="color: #10ebb0">[W0@@ Finally @@W0]</span> <span style="color: #1eabe3">[W1@@ came out @@W1]</span> <span style="color: #8e54eb">[W2@@ is it @@W2]</span>
+
+451
+00:53:27,960 --> 00:53:30,500
+<span style="color: #10ebb0">[W0@@ joke @@W0]</span> <span style="color: #1eabe3">[W1@@ not @@W1]</span>
+
+452
+00:53:35,160 --> 00:53:39,200
+<span style="color: #10ebb0">[W0@@ Honey @@W0]</span> <span style="color: #1eabe3">[W1@@ What @@W1]</span> <span style="color: #8e54eb">[W2@@ Village @@W2]</span> <span style="color: #54eba2">[W3@@ Residents @@W3]</span> <span style="color: #54e3eb">[W4@@ What @@W4]</span> <span style="color: #7dbcf0">[W5@@ Why is this @@W5]</span>
+
+453
+00:53:40,460 --> 00:53:43,819
+<span style="color: #10ebb0">[W0@@ here @@W0]</span> <span style="color: #1eabe3">[W1@@ weird @@W1]</span>
+
+454
+00:53:45,780 --> 00:53:48,800
+<span style="color: #10ebb0">[W0@@ I @@W0]</span> <span style="color: #1eabe3">[W1@@ too @@W1]</span> <span style="color: #8e54eb">[W2@@ earlier @@W2]</span>
+
+455
+00:53:53,570 --> 00:53:57,859
+<span style="color: #10ebb0">[W0@@ [Music] Go @@W0]</span> <span style="color: #1eabe3">[W1@@ Go @@W1]</span>
+
+456
+00:54:02,340 --> 00:54:07,440
+<span style="color: #10ebb0">[W0@@ [Music] Gas @@W0]</span> <span style="color: #1eabe3">[W1@@ Affected @@W1]</span> <span style="color: #8e54eb">[W2@@ Received @@W2]</span> <span style="color: #54eba2">[W3@@ So @@W3]</span> <span style="color: #54e3eb">[W4@@ Been @@W4]</span> <span style="color: #7dbcf0">[W5@@ or @@W5]</span>
+
+457
+00:54:07,440 --> 00:54:09,980
+<span style="color: #10ebb0">[W0@@ residents @@W0]</span>
+
+458
+00:54:12,119 --> 00:54:15,180
+<span style="color: #10ebb0">[W0@@ Where @@W0]</span>
+
+459
+00:54:15,180 --> 00:54:21,260
+<span style="color: #10ebb0">[W0@@ Ah @@W0]</span> <span style="color: #1eabe3">[W1@@ Finally, finally @@W1]</span> <span style="color: #8e54eb">[W2@@ is out @@W2]</span> <span style="color: #54eba2">[W3@@ go home @@W3]</span> <span style="color: #54e3eb">[W4@@ go @@W4]</span> <span style="color: #7dbcf0">[W5@ @can @@W5]</span> <span style="color: #10ebb0">[W6@@ have @@W6]</span>
+
+460
+00:54:24,720 --> 00:54:30,180
+<span style="color: #10ebb0">[W0@@ Must come @@W0]</span> <span style="color: #1eabe3">[W1@@ After a while @@W1]</span> <span style="color: #8e54eb">[W2@@ Really @@W2]</span> <span style="color: #54eba2">[W3@@ uh @@W3]</span>
+
+461
+00:54:30,180 --> 00:54:33,559
+<span style="color: #10ebb0">[W0@@ Quality @@W0]</span> <span style="color: #1eabe3">[W1@@ Crazy @@W1]</span> <span style="color: #8e54eb">[W2@@ Atmosphere @@W2]</span>
+
+462
+00:54:35,420 --> 00:54:40,800
+<span style="color: #10ebb0">[W0@@ Amazing cost performance @@W0]</span> <span style="color: #1eabe3">[W1@@ Best @@W1]</span> <span style="color: #8e54eb">[W2@@ 7,800 won @@W2]</span> <span style="color: #54eba2">[W3@@ around @@W3]</span>
+
+463
+00:54:40,800 --> 00:54:43,160
+<span style="color: #10ebb0">[W0@@ Quality is @@W0]</span>
+
+464
+00:54:43,940 --> 00:54:47,139
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+465
+00:54:50,099 --> 00:54:54,900
+<span style="color: #10ebb0">[W0@@ what is it yet @@W0]</span> <span style="color: #1eabe3">[W1@@ not over @@W1]</span> <span style="color: #8e54eb">[W2@@ not @@W2]</span> <span style="color: #54eba2">[W3@@ is it @@W3]</span> <span style="color: #54e3eb">[W4@@ latest @@W4]</span> <span style="color: #7dbcf0">[W5@@ Kowloon @@W5]</span>
+
+466
+00:54:54,900 --> 00:54:58,020
+<span style="color: #10ebb0">[W0@@ went to @@W0]</span> <span style="color: #1eabe3">[W1@@ from people @@W1]</span> <span style="color: #8e54eb">[W2@@ police @@W2]</span> <span style="color: #54eba2">[W3@@ reported @@W3]</span> <span style="color: #54e3eb">[W4@@ a lot came in @@W4]</span> <span style="color: #7dbcf0">[ W5@@ exists @@W5]</span> <span style="color: #10ebb0">[W6@@ these are @@W6]</span> <span style="color: #1eabe3">[W7@@ do not exist @@W7]</span>
+
+467
+00:54:58,020 --> 00:55:02,280
+<span style="color: #10ebb0">[W0@@ does @@W0]</span> <span style="color: #1eabe3">[W1@@ city @@W1]</span> <span style="color: #8e54eb">[W2@@ saw @@W2]</span> <span style="color: #54eba2">[W3@@ claims 5 years @@W3]</span> <span style="color: #54e3eb">[W4@@ before @@W4]</span> <span style="color: #7dbcf0">[ W5@@ Demolished @@W5]</span> <span style="color: #10ebb0">[W6@@ Kowloon @@W6]</span> <span style="color: #1eabe3">[W7@@ Walls @@W7]</span> <span style="color: #8e54eb">[W8@@ Cities are @@W8]</span>
+
+468
+00:55:02,280 --> 00:55:06,599
+<span style="color: #10ebb0">[W0@@ China @@W0]</span> <span style="color: #1eabe3">[W1@@ Worst @@W1]</span> <span style="color: #8e54eb">[W2@@ Cities @@W2]</span> <span style="color: #54eba2">[W3@@ Of @@W3]</span> <span style="color: #54e3eb">[W4@@ Was One Demolition @@W4]</span> <span style="color: #7dbcf0">[W5 Just before @@ @@W5]</span> <span style="color: #10ebb0">[W6@@ here @@W6]</span> <span style="color: #1eabe3">[W7@@ crime and @@W7]</span>
+
+469
+00:55:06,599 --> 00:55:10,920
+<span style="color: #10ebb0">[W0@@ Unsavory @@W0]</span> <span style="color: #1eabe3">[W1@@ Murder @@W1]</span> <span style="color: #8e54eb">[W2@@ cases @@W2]</span> <span style="color: #54eba2">[W3@@ soared @@W3]</span> <span style="color: #54e3eb">[W4@@ people @@W4]</span> <span style="color: #7dbcf0">[W5@@ Government @@W5]</span> <span style="color: #10ebb0">[W6@@ Kowloon @@W6]</span> <span style="color: #1eabe3">[W7@@ demolition @@W7]</span>
+
+470
+00:55:10,920 --> 00:55:14,839
+<span style="color: #10ebb0">[W0@@ for @@W0]</span> <span style="color: #1eabe3">[W1@@ cruel @@W1]</span> <span style="color: #8e54eb">[W2@@ means @@W2]</span> <span style="color: #54eba2">[W3@@ mobilized @@W3]</span> <span style="color: #54e3eb">[W4@@ I believe @@W4]</span>
+
+471
+00:55:16,559 --> 00:55:19,400
+<span style="color: #10ebb0">[W0@@ But @@W0]</span> <span style="color: #1eabe3">[W1@@ Until the end @@W1]</span> <span style="color: #8e54eb">[W2@@ Why @@W2]</span> <span style="color: #54eba2">[W3@@ Yes @@W3]</span>
+
+472
+00:55:19,980 --> 00:55:25,040
+<span style="color: #10ebb0">[W0@@ ugh @@W0]</span> <span style="color: #1eabe3">[W1@@ press @@W1]</span> <span style="color: #8e54eb">[W2@@ again @@W2]</span> <span style="color: #54eba2">[W3@@ what @@W3]</span> <span style="color: #54e3eb">[W4@@ comes out @@W4]</span> <span style="color: #7dbcf0">[W5@@ That @@W5]</span> <span style="color: #10ebb0">[W6@@ no @@W6]</span>
+
+473
+00:55:30,960 --> 00:55:33,740
+<span style="color: #10ebb0">[W0@@ well @@W0]</span> <span style="color: #1eabe3">[W1@@ made @@W1]</span>
+
+474
+00:55:34,020 --> 00:55:36,960
+<span style="color: #10ebb0">[W0@@ Really @@W0]</span> <span style="color: #1eabe3">[W1@@ Quality @@W1]</span> <span style="color: #8e54eb">[W2@@ Good atmosphere @@W2]</span> <span style="color: #54eba2">[W3@@ Good @@W3]</span>
+
+475
+00:55:36,960 --> 00:55:39,559
+<span style="color: #10ebb0">[W0@@ WELCOME TO COOL @@W0]</span> <span style="color: #1eabe3">[W1@@ WELCOME TO @@W1]</span> <span style="color: #8e54eb">[W2@@ WELCOME TO @@W2]</span> <span style="color: #54eba2">[W3@@ WELCOME TO @@W3]</span> <span style="color: #54e3eb">[W4@@ WELCOME @@W4]</span>
+
+476
+00:55:39,559 --> 00:55:44,420
+<span style="color: #10ebb0">[W0@@ Here @@W0]</span> <span style="color: #1eabe3">[W1@@ I'll finish @@W1]</span> <span style="color: #8e54eb">[W2@@ I like @@W2]</span>
+
+477
+00:55:51,180 --> 00:55:54,250
+<span style="color: #10ebb0">[W0@@ [Music] @@W0]</span>
+
+478
+00:56:01,740 --> 00:56:05,000
+<span style="color: #10ebb0">[W0@@ Yes @@W0]</span> <span style="color: #1eabe3">[W1@@ Ah @@W1]</span> <span style="color: #8e54eb">[W2@@ Too @@W2]</span> <span style="color: #54eba2">[W3@@ Easy @@W3]</span>
