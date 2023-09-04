@@ -1,3 +1,8 @@
+/**
+ * Manipulate Korean subtitles alongside with https://translatesubtitles.co/ translation
+ * to get triple merged subtitles for learning Korean.
+ */
+
 import { readFile, writeFile } from 'fs/promises';
 
 console.log(`Huehangeul - parallel subtitle constructor`);
