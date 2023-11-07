@@ -359,6 +359,8 @@ function complexPrintTable(
         )
     );
 
+    console.log(tbl.toString());
+
     if (withTokenComplex) {
         console.log();
         console.log(
@@ -375,8 +377,6 @@ function complexPrintTable(
                 .join(`\n`)
         );
     }
-
-    console.log(tbl.toString());
 }
 
 async function main() {
@@ -415,6 +415,15 @@ async function main() {
     if (cmd === 'lrtf') {
         const fname = process.argv[3];
         await analyzeLyricsTranslate(readFileSync(fname, 'utf8'));
+    }
+
+    if (cmd === 'pair') {
+        const jp = process.argv[3];
+        const en = process.argv[4];
+        const tokens = await analysis(jp, en);
+        console.log(`\n\n${jp}`.green);
+        console.log(`${en}`.magenta);
+        complexPrintTable(tokens, true);
     }
 }
 
