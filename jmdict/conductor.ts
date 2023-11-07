@@ -271,7 +271,7 @@ async function analyzeEntries(entry: SrtEntry, reference: SrtEntry) {
     return out;
 }
 
-async function fetchLyricsTranslateLyrics(url: string) {
+async function fetchLyricsTranslate(url: string) {
     console.log(`Fetching ${url}`.green);
     const response = await fetch(url);
 
@@ -280,6 +280,10 @@ async function fetchLyricsTranslateLyrics(url: string) {
     }
 
     const html = await response.text();
+    return html;
+}
+
+async function analyzeLyricsTranslate(html: string) {
     const dom = new JSDOM(html);
 
     type Lyric = {
@@ -403,9 +407,14 @@ async function main() {
         console.log(`Saved analyzed srt to ${outFile}`.green);
     }
 
-    if (cmd === 'lyricstranslate') {
+    if (cmd === 'lrt') {
         const url = process.argv[3];
-        await fetchLyricsTranslateLyrics(url);
+        await analyzeLyricsTranslate(await fetchLyricsTranslate(url));
+    }
+
+    if (cmd === 'lrtf') {
+        const fname = process.argv[3];
+        await analyzeLyricsTranslate(readFileSync(fname, 'utf8'));
     }
 }
 
