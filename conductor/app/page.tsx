@@ -49,7 +49,7 @@ export const TokensDisplay: FC<{
                     >
                         <ruby>
                             <span style={{ color }}>
-                                {token.text === '*' ? ' ' : token.text}
+                                {token.surface === '*' ? ' ' : token.surface}
                             </span>
                             {!separateExplanationPos.includes(token.pos) &&
                                 !doNotTranslatePos.includes(token.pos) && (

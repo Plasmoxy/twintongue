@@ -47,7 +47,9 @@ export type Dict = {
 };
 
 export type AnalysedToken = {
-    text: string;
+    text: string; // base form
+    surface: string; // surface form as in text
+
     pos: KuromojiPos;
     token: KuromojiToken;
 
@@ -203,11 +205,12 @@ export async function analysis(
     // First process individual tokens
     const intermediate = tokens.map((token) => {
         const text = token.basic_form || token.surface_form;
+        const surface = token.surface_form;
         const words = dict.fromKanjiMap.get(text) || dict.fromKanaMap.get(text);
         const pos: KuromojiPos = kuromojiPartOfSpeech[token.pos] || '';
         const senses = words?.flatMap((w) => w.sense);
 
-        return { text, pos, token, senses };
+        return { text, surface, pos, token, senses };
     });
 
     return intermediate.map((token, idx) => {
