@@ -1,3 +1,4 @@
+import { JMdict } from '@scriptin/jmdict-simplified-types';
 import 'colors';
 import { readFileSync, writeFileSync } from 'fs';
 import {
@@ -6,7 +7,7 @@ import {
     analyzeSrtEntries,
     complexPrintTable,
     fetchLyricsTranslate,
-    loadJmdict
+    initJmdict
 } from './conductor';
 import { fromSrt, toSrt } from './srt-tools';
 
@@ -15,7 +16,13 @@ const samplejap = `深海の山雰囲気なのでちっちゃい布が群れを�
 const samplereference = `It looks like a mountain in the deep sea, so it looks like small pieces of cloth are swimming in groups, like fish.`;
 
 async function main() {
-    await loadJmdict();
+    console.log('Loading jmdict');
+    const jmdict: JMdict = JSON.parse(
+        readFileSync('jmdict-eng-3.5.0.json', 'utf8')
+    );
+    console.log(`Loaded jmict with ${jmdict.words.length} words`);
+
+    await initJmdict(jmdict);
 
     const cmd = process.argv[2];
     // No command, show help

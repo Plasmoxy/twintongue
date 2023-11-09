@@ -8,8 +8,6 @@ import {
     JMdictWord
 } from '@scriptin/jmdict-simplified-types';
 import Table from 'cli-table3';
-import 'colors';
-import { readFileSync } from 'fs';
 import { JSDOM } from 'jsdom';
 import { KuromojiToken, tokenize } from 'kuromojin';
 import { toHiragana } from 'wanakana';
@@ -65,13 +63,7 @@ const inspect = (obj: any) => console.dir(obj, { depth: null });
 
 let dict: Dict = {} as Dict;
 
-export async function loadJmdict() {
-    console.log('Loading jmdict');
-    const jmdict: JMdict = JSON.parse(
-        readFileSync('jmdict-eng-3.5.0.json', 'utf8')
-    );
-    console.log(`Loaded jmict with ${jmdict.words.length} words`);
-
+export async function initJmdict(jmdict: JMdict) {
     // map from kanji to word
     const fromKanjiMap = new Map<string, JMdictWord[]>();
     const fromKanaMap = new Map<string, JMdictWord[]>();
