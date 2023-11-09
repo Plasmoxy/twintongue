@@ -74,6 +74,8 @@ export type LrtLyric = {
     en?: string;
 };
 
+export const DISABLE_GLOSS_SCORE_SORT_ON_POS: KuromojiPos[] = ['particle'];
+
 const inspect = (obj: any) => console.dir(obj, { depth: null });
 
 let dict: Dict = {} as Dict;
@@ -127,6 +129,28 @@ export function cleanGlossEntry(text: string) {
     return text;
 }
 
+// Custom text similarity for gloss cmp
+function getGlossScore(text: string, ref: string): number {
+    const refTrimmed = ref.trim();
+    let score = refTrimmed
+        .toLowerCase()
+        .includes(cleanGlossEntry(text).toLowerCase())
+        ? 1
+        : 0;
+
+    // additional score by entire word present
+    const tWords = text
+        .trim()
+        .split(' ')
+        .map((w) => w.trim());
+    const refWords = refTrimmed.split(' ').map((w) => w.trim());
+    if (refWords.some((word) => tWords.includes(word))) {
+        score += 1;
+    }
+
+    return score;
+}
+
 // Pick the best sense from the list that would match the reference.
 // Sort priority:
 // 1. matching POS
@@ -134,29 +158,34 @@ export function cleanGlossEntry(text: string) {
 export function determineBestAlignedSenses(
     senses: JMdictSense[],
     reference: string,
-    targetPos?: string
+    targetPos?: KuromojiPos
 ): AlignedGlossMatch[] {
     // get flat glosses
     const combined = senses.flatMap((sense) =>
         sense.gloss.map((gloss) => ({
             sense,
             gloss,
-            sensePosScore: sense.partOfSpeech.filter(
-                (p) => !!kuromojiToJmdictTagsMapping[targetPos || '']?.[p]
-            ).length,
-            glossScore: reference
-                .trim()
-                .toLowerCase()
-                .includes(cleanGlossEntry(gloss.text))
-                ? 1
-                : 0
+            sensePosScore:
+                sense.partOfSpeech.filter(
+                    (p) => !!kuromojiToJmdictTagsMapping[targetPos || '']?.[p]
+                ).length > 0
+                    ? 1
+                    : 0,
+            glossScore: getGlossScore(gloss.text, reference)
         }))
     );
 
     const unique = uniqBy(combined, (x) => x.gloss.text);
-    const sorted = combined.sort(
-        (a, b) =>
-            b.sensePosScore - a.sensePosScore || b.glossScore - a.glossScore
+
+    // sort by scores
+    // note: on some POS we don't want to sort by gloss score like particles
+    // TODO: is this good?
+    const sorted = unique.sort(
+        DISABLE_GLOSS_SCORE_SORT_ON_POS.includes(targetPos)
+            ? (a, b) => b.sensePosScore - a.sensePosScore
+            : (a, b) =>
+                  b.sensePosScore - a.sensePosScore ||
+                  b.glossScore - a.glossScore
     );
 
     return sorted;

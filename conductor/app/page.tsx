@@ -27,12 +27,12 @@ const doNotTranslatePos: KuromojiPos[] = ['symbol'];
 
 export const TokensDisplay: FC<{
     tokens: (AnalysedToken | 'sep')[];
-    onTokenHovered: (token: AnalysedToken | null) => void;
-}> = ({ tokens, onTokenHovered }) => {
+    onTokenSelected: (token: AnalysedToken | null) => void;
+}> = ({ tokens, onTokenSelected }) => {
     let palleteCounter = 0;
 
     return (
-        <div onMouseLeave={() => onTokenHovered(null)}>
+        <div>
             {tokens.map((token, idx) => {
                 if (token === 'sep') return <br />;
 
@@ -44,7 +44,8 @@ export const TokensDisplay: FC<{
                 return (
                     <ruby
                         key={`${idx}${token.text}`}
-                        onMouseEnter={() => onTokenHovered(token)}
+                        onClick={() => onTokenSelected(token)}
+                        className="cursor-pointer"
                     >
                         <ruby>
                             <span style={{ color }}>{token.text}</span>
@@ -68,7 +69,7 @@ export const TokensDisplay: FC<{
     );
 };
 
-export const AddtionalExplanationDisplay: FC<{
+export const AdditionalExplanationDisplay: FC<{
     token: AnalysedToken | undefined;
 }> = ({ token }) => {
     if (!token) return null;
@@ -77,7 +78,9 @@ export const AddtionalExplanationDisplay: FC<{
         <div className="my-12 font-light text-white">
             <div className="flex items-start my-10">
                 <ruby>
-                    <span className="text-[34px]">{token.text}</span>
+                    <span className="text-[50px] font-light text-pink-400">
+                        {token.text}
+                    </span>
                     <rt style={{ color: '#d9d9d9' }}>
                         {toHiragana(token.token.reading)}
                     </rt>
@@ -89,7 +92,7 @@ export const AddtionalExplanationDisplay: FC<{
                     <li className="text-pink-400 font-normal mr-5">
                         {token.eng}
                     </li>
-                    {token.alignedGloss.slice(1, 10).map((g) => (
+                    {token.alignedGloss.map((g) => (
                         <li>{g.gloss.text}</li>
                     ))}
                 </ul>
@@ -105,7 +108,7 @@ export default function Home() {
     const [lineByLine, setLineByLine] = useState<boolean>(false);
 
     const [analysed, setAnalysed] = useState<(AnalysedToken | 'sep')[]>([]);
-    const [hoveredToken, setHoveredToken] = useState<AnalysedToken | null>(
+    const [selectedToken, setSelectedToken] = useState<AnalysedToken | null>(
         null
     );
 
@@ -207,10 +210,10 @@ export default function Home() {
                 <div className="my-10 text-[34px] font-light text-white leading-[100px]">
                     <TokensDisplay
                         tokens={analysed}
-                        onTokenHovered={(token) => setHoveredToken(token)}
+                        onTokenSelected={(token) => setSelectedToken(token)}
                     />
                 </div>
-                <AddtionalExplanationDisplay token={hoveredToken} />
+                <AdditionalExplanationDisplay token={selectedToken} />
             </div>
         </main>
     );
