@@ -1,7 +1,7 @@
 export const huePallete: string[] = [
     '#10ebb0',
     '#1eabe3',
-    '#8e54eb',
+    '#ccfbf1',
     '#54eba2',
     '#54e3eb',
     '#7dbcf0'

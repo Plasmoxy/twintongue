@@ -14,6 +14,7 @@ The girl says, the girl says
 While playing with the meanings in her words!`;
 
 export default function Home() {
+    const [info, setInfo] = useState<string>('');
     const [jpText, setJpText] = useState(rljp);
     const [enText, setEnText] = useState(rlen);
 
@@ -21,13 +22,16 @@ export default function Home() {
 
     useEffect(() => {
         (async () => {
-            console.log('Loading jmdict');
+            setInfo('Loading jmdict');
             const dict = await fetch('/jmdict-eng-3.5.0.json').then((r) =>
                 r.json()
             );
             await initJmdict(dict);
-            console.log('Loaded jmdict');
-        })();
+            setInfo('Dict loaded, ready to go.');
+        })().catch((e) => {
+            console.log(e);
+            setInfo('Error loading jmdict');
+        });
     }, []);
 
     useEffect(() => {
@@ -44,6 +48,8 @@ export default function Home() {
                 <p>
                     Frontend for conductor - kuromoji dictionary alignment tool.
                 </p>
+                <br />
+                <p className="text-teal-100">{info}</p>
                 <br />
 
                 <div className="my-10">
