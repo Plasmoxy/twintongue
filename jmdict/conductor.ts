@@ -1,3 +1,7 @@
+/**
+ * Conductor Japanese text analysis by Plasmoxy.
+ */
+
 import {
     JMdict,
     JMdictSense,
@@ -5,55 +9,13 @@ import {
 } from '@scriptin/jmdict-simplified-types';
 import Table from 'cli-table3';
 import 'colors';
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync } from 'fs';
 import { JSDOM } from 'jsdom';
 import { KuromojiToken, tokenize } from 'kuromojin';
 import { toHiragana } from 'wanakana';
 import { hueColorizeSrt } from './hue-colors';
 import { KuromojiPos, kuromojiPartOfSpeech } from './kuromoji-lexical';
-import { SrtEntry, fromSrt, toSrt } from './srt-tools';
-
-const samplejap = `深海の山雰囲気なのでちっちゃい布が群れをなして泳いでるように見えますね魚のように`;
-const samplereference = `It looks like a mountain in the deep sea, so it looks like small pieces of cloth are swimming in groups, like fish.`;
-
-const inspect = (obj: any) => console.dir(obj, { depth: null });
-
-console.log('Loading jmdict');
-const jmdict: JMdict = JSON.parse(
-    readFileSync('jmdict-eng-3.5.0.json', 'utf8')
-);
-console.log(`Loaded jmict with ${jmdict.words.length} words`);
-
-// map from kanji to word
-const fromKanjiMap = new Map<string, JMdictWord[]>();
-const fromKanaMap = new Map<string, JMdictWord[]>();
-for (const word of jmdict.words) {
-    // common kanji
-    for (const kanji of word.kanji) {
-        if (kanji.common) {
-            fromKanjiMap.set(kanji.text, [
-                ...(fromKanjiMap.get(kanji.text) || []),
-                word
-            ]);
-        }
-    }
-    // all kana
-    for (const kana of word.kana) {
-        fromKanaMap.set(kana.text, [
-            ...(fromKanaMap.get(kana.text) || []),
-            word
-        ]);
-    }
-    // uncommon kanji
-    for (const kanji of word.kanji) {
-        if (!kanji.common) {
-            fromKanjiMap.set(kanji.text, [
-                ...(fromKanjiMap.get(kanji.text) || []),
-                word
-            ]);
-        }
-    }
-}
+import { SrtEntry } from './srt-tools';
 
 export type Candidate = {
     text: string;
@@ -62,62 +24,12 @@ export type Candidate = {
     word: JMdictWord;
 };
 
-// async function jmdictScan(sentence: string) {
-//     // Mapped levels
-//     const analysedWords = [];
-
-//     // Initize first fragment
-//     const maxFragmentLength = 20;
-
-//     // Fragment <start, end>
-//     let fragStart: number;
-//     let fragEnd: number;
-//     const initFrag = (start: number) => {
-//         fragStart = start;
-//         fragEnd = Math.min(start + maxFragmentLength - 1, sentence.length - 1);
-//     };
-//     initFrag(0);
-
-//     // Scan through fragments until start of fragment is at the end of sentence
-//     while (fragStart < sentence.length) {
-//         console.log(`Scanning frag ${fragStart} - ${fragEnd}`);
-
-//         let fragmentCandidates: Candidate[] = [];
-
-//         // Process candidates
-//         // Start at the end of fragment so we start with the longest possible word
-//         for (let end = fragEnd; end >= fragStart; end--) {
-//             const candidate = sentence.substring(fragStart, end + 1);
-//             const fromKanji = fromKanjiMap.get(candidate);
-//             const word = fromKanji || fromKanaMap.get(candidate);
-
-//             if (word) {
-//                 fragmentCandidates.push({
-//                     text: candidate,
-//                     type: fromKanji ? 'kanji' : 'kana',
-//                     length: candidate.length,
-//                     word
-//                 });
-//             }
-//         }
-
-//         if (fragmentCandidates.length === 0) {
-//             // No candidates found, move fragment by one
-//             initFrag(fragStart + 1);
-//             continue;
-//         }
-
-//         // Get longest candidate
-//         fragmentCandidates.sort((a, b) => b.length - a.length);
-//         const longestCandidate: Candidate | undefined = fragmentCandidates[0];
-//         analysedWords.push(longestCandidate);
-
-//         // Move fragment by found candidate length
-//         initFrag(fragStart + longestCandidate.length);
-//     }
-
-//     return analysedWords;
-// }
+export type Dict = {
+    jmdict: JMdict;
+    fromKanjiMap: Map<string, JMdictWord[]>;
+    fromKanaMap: Map<string, JMdictWord[]>;
+    tagsMapping: Partial<Record<KuromojiPos, object>>;
+};
 
 export type AnalysedToken = {
     text: string;
@@ -136,14 +48,77 @@ export type AnalysedToken = {
     withFollowingSenses?: JMdictSense[];
 };
 
-// async function idxOfMostSimilar(sources: string[], reference: string) {
-//     const similarities = await Promise.all(
-//         sources.map((source) => stringSimilarity(source, reference))
-//     );
-//     return similarities.indexOf(Math.max(...similarities));
-// }
+// Allowed POS from kuromoji
+export const allowedPos: KuromojiPos[] = [
+    'noun',
+    'adjectival noun',
+    'adjective',
+    'adverb',
+    'verb',
+    'symbol'
+    // 'auxiliary'
+    // 'particle',
+    // 'person name'
+];
 
-function cleanGlossEntry(text: string) {
+const inspect = (obj: any) => console.dir(obj, { depth: null });
+
+let dict: Dict = {} as Dict;
+
+export async function loadJmdict() {
+    console.log('Loading jmdict');
+    const jmdict: JMdict = JSON.parse(
+        readFileSync('jmdict-eng-3.5.0.json', 'utf8')
+    );
+    console.log(`Loaded jmict with ${jmdict.words.length} words`);
+
+    // map from kanji to word
+    const fromKanjiMap = new Map<string, JMdictWord[]>();
+    const fromKanaMap = new Map<string, JMdictWord[]>();
+    for (const word of jmdict.words) {
+        // common kanji
+        for (const kanji of word.kanji) {
+            if (kanji.common) {
+                fromKanjiMap.set(kanji.text, [
+                    ...(fromKanjiMap.get(kanji.text) || []),
+                    word
+                ]);
+            }
+        }
+        // all kana
+        for (const kana of word.kana) {
+            fromKanaMap.set(kana.text, [
+                ...(fromKanaMap.get(kana.text) || []),
+                word
+            ]);
+        }
+        // uncommon kanji
+        for (const kanji of word.kanji) {
+            if (!kanji.common) {
+                fromKanjiMap.set(kanji.text, [
+                    ...(fromKanjiMap.get(kanji.text) || []),
+                    word
+                ]);
+            }
+        }
+    }
+
+    dict.jmdict = jmdict;
+    dict.fromKanjiMap = fromKanjiMap;
+    dict.fromKanaMap = fromKanaMap;
+    dict.tagsMapping = Object.fromEntries(
+        allowedPos.map((pos) => [
+            pos,
+            Object.fromEntries(
+                Object.entries(dict.jmdict.tags).filter(([tag, description]) =>
+                    description.includes(pos)
+                )
+            )
+        ])
+    );
+}
+
+export function cleanGlossEntry(text: string) {
     // get rid of brackends and trim
     text = text.replace(/\(.*?\)/g, '').trim();
     // remove "to" if it's the first word
@@ -153,7 +128,10 @@ function cleanGlossEntry(text: string) {
 }
 
 // For now simply check by starts of the words in the referemce, otherwise pick first sense
-function determineBestAlignedSense(senses: JMdictSense[], reference: string) {
+export function determineBestAlignedSense(
+    senses: JMdictSense[],
+    reference: string
+) {
     let bestScore = -1;
     let bestMatch = undefined;
     for (const sense of senses) {
@@ -174,47 +152,20 @@ function determineBestAlignedSense(senses: JMdictSense[], reference: string) {
     return bestMatch;
 }
 
-const allowedPos: KuromojiPos[] = [
-    'noun',
-    'adjectival noun',
-    'adjective',
-    'adverb',
-    'verb',
-    'symbol'
-    // 'auxiliary'
-    // 'particle',
-    // 'person name'
-];
-
-export const jmDictTagsMapping: Partial<Record<KuromojiPos, object>> =
-    Object.fromEntries(
-        allowedPos.map((pos) => [
-            pos,
-            Object.fromEntries(
-                Object.entries(jmdict.tags).filter(([tag, description]) =>
-                    description.includes(pos)
-                )
-            )
-        ])
-    );
-
-async function analysis(
+export async function analysis(
     sentence: string,
-    reference: string, // reference in english for better polysemantic ambiguity alignment
-    config?: {
-        useAlignedTranslations?: boolean;
-    }
+    reference: string // reference in english for better polysemantic ambiguity alignment
 ): Promise<AnalysedToken[]> {
     const tokens = await tokenize(sentence);
     const intermediate = tokens.map((token) => {
         const text = token.basic_form || token.surface_form;
-        const words = fromKanjiMap.get(text) || fromKanaMap.get(text);
+        const words = dict.fromKanjiMap.get(text) || dict.fromKanaMap.get(text);
         const pos: KuromojiPos = kuromojiPartOfSpeech[token.pos] || '';
 
         // flat map to senses and exclude senses that do not match POS of the token
         const senses = words
             ?.flatMap((w) => w.sense)
-            ?.filter((s) => !!jmDictTagsMapping[pos]);
+            ?.filter((s) => !!dict.tagsMapping[pos]);
 
         return { text, pos, token, senses };
     });
@@ -227,11 +178,11 @@ async function analysis(
                     .map((x) => x.text)
                     .join('');
                 const withFollowingWords =
-                    fromKanjiMap.get(withFollowingText) ||
-                    fromKanaMap.get(withFollowingText);
+                    dict.fromKanjiMap.get(withFollowingText) ||
+                    dict.fromKanaMap.get(withFollowingText);
                 const withFollowingSenses = withFollowingWords
                     ?.flatMap((w) => w.sense)
-                    ?.filter((s) => !!jmDictTagsMapping[token.pos]);
+                    ?.filter((s) => !!dict.tagsMapping[token.pos]);
 
                 return {
                     ...token,
@@ -251,7 +202,7 @@ async function analysis(
     );
 }
 
-async function analyzeEntries(entry: SrtEntry, reference: SrtEntry) {
+export async function analyzeSrtEntries(entry: SrtEntry, reference: SrtEntry) {
     const tokens = await analysis(
         entry.lines.join(' '),
         reference.lines.join(' ')
@@ -271,7 +222,7 @@ async function analyzeEntries(entry: SrtEntry, reference: SrtEntry) {
     return out;
 }
 
-async function fetchLyricsTranslate(url: string) {
+export async function fetchLyricsTranslate(url: string) {
     console.log(`Fetching ${url}`.green);
     const response = await fetch(url);
 
@@ -283,7 +234,7 @@ async function fetchLyricsTranslate(url: string) {
     return html;
 }
 
-async function analyzeLyricsTranslate(html: string) {
+export async function analyzeLyricsTranslate(html: string) {
     const dom = new JSDOM(html);
 
     type Lyric = {
@@ -328,7 +279,7 @@ async function analyzeLyricsTranslate(html: string) {
     }
 }
 
-function complexPrintTable(
+export function complexPrintTable(
     tokens: AnalysedToken[],
     withTokenComplex = false,
     shortened = 100
@@ -378,53 +329,3 @@ function complexPrintTable(
         );
     }
 }
-
-async function main() {
-    const cmd = process.argv[2];
-    // No command, show help
-    if (cmd === undefined) {
-        console.log(`Usage: node conductor.js [command]`.yellow);
-        return;
-    }
-
-    // analyze
-    if (cmd === 'srt') {
-        const jpFile = process.argv[3];
-        const enFile = process.argv[4];
-        const srtJp = readFileSync(jpFile, 'utf8');
-        const entriesJp = fromSrt(srtJp);
-        const srtEn = readFileSync(enFile, 'utf8');
-        const entriesEn = fromSrt(srtEn);
-
-        // analyze with reference
-        const analysed = await Promise.all(
-            entriesJp.map((entry, idx) => analyzeEntries(entry, entriesEn[idx]))
-        );
-
-        // save to analyzed srt
-        const outFile = jpFile.replaceAll('.srt', '.conductor.srt');
-        writeFileSync(outFile, toSrt(analysed));
-        console.log(`Saved analyzed srt to ${outFile}`.green);
-    }
-
-    if (cmd === 'lrt') {
-        const url = process.argv[3];
-        await analyzeLyricsTranslate(await fetchLyricsTranslate(url));
-    }
-
-    if (cmd === 'lrtf') {
-        const fname = process.argv[3];
-        await analyzeLyricsTranslate(readFileSync(fname, 'utf8'));
-    }
-
-    if (cmd === 'pair') {
-        const jp = process.argv[3];
-        const en = process.argv[4];
-        const tokens = await analysis(jp, en);
-        console.log(`\n\n${jp}`.green);
-        console.log(`${en}`.magenta);
-        complexPrintTable(tokens, true);
-    }
-}
-
-main().catch((err) => console.error(err));

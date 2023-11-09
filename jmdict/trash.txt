@@ -1,0 +1,65 @@
+// async function jmdictScan(sentence: string) {
+//     // Mapped levels
+//     const analysedWords = [];
+
+//     // Initize first fragment
+//     const maxFragmentLength = 20;
+
+//     // Fragment <start, end>
+//     let fragStart: number;
+//     let fragEnd: number;
+//     const initFrag = (start: number) => {
+//         fragStart = start;
+//         fragEnd = Math.min(start + maxFragmentLength - 1, sentence.length - 1);
+//     };
+//     initFrag(0);
+
+//     // Scan through fragments until start of fragment is at the end of sentence
+//     while (fragStart < sentence.length) {
+//         console.log(`Scanning frag ${fragStart} - ${fragEnd}`);
+
+//         let fragmentCandidates: Candidate[] = [];
+
+//         // Process candidates
+//         // Start at the end of fragment so we start with the longest possible word
+//         for (let end = fragEnd; end >= fragStart; end--) {
+//             const candidate = sentence.substring(fragStart, end + 1);
+//             const fromKanji = fromKanjiMap.get(candidate);
+//             const word = fromKanji || fromKanaMap.get(candidate);
+
+//             if (word) {
+//                 fragmentCandidates.push({
+//                     text: candidate,
+//                     type: fromKanji ? 'kanji' : 'kana',
+//                     length: candidate.length,
+//                     word
+//                 });
+//             }
+//         }
+
+//         if (fragmentCandidates.length === 0) {
+//             // No candidates found, move fragment by one
+//             initFrag(fragStart + 1);
+//             continue;
+//         }
+
+//         // Get longest candidate
+//         fragmentCandidates.sort((a, b) => b.length - a.length);
+//         const longestCandidate: Candidate | undefined = fragmentCandidates[0];
+//         analysedWords.push(longestCandidate);
+
+//         // Move fragment by found candidate length
+//         initFrag(fragStart + longestCandidate.length);
+//     }
+
+//     return analysedWords;
+// }
+
+
+
+// async function idxOfMostSimilar(sources: string[], reference: string) {
+//     const similarities = await Promise.all(
+//         sources.map((source) => stringSimilarity(source, reference))
+//     );
+//     return similarities.indexOf(Math.max(...similarities));
+// }
