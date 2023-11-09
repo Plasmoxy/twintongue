@@ -2,7 +2,7 @@
  * Conductor Japanese text analyser and token-wise translator by Plasmoxy.
  *
  * TODO:
- * [ ] add support for 2-token, (maybe later 3-token) dictionary scans
+ * [ ] add support for 2-token, (maybe later 3-token) dictionary scans -> there is probably the 'expression' POS like in yomichan
  * [ ] higher priority for matching POS on kuromoji->jmdict lookup
  */
 

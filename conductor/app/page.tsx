@@ -48,7 +48,9 @@ export const TokensDisplay: FC<{
                         className="cursor-pointer"
                     >
                         <ruby>
-                            <span style={{ color }}>{token.text}</span>
+                            <span style={{ color }}>
+                                {token.text === '*' ? ' ' : token.text}
+                            </span>
                             {!separateExplanationPos.includes(token.pos) &&
                                 !doNotTranslatePos.includes(token.pos) && (
                                     <rt style={{ color: '#d9d9d9' }}>
