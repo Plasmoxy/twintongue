@@ -1,19 +1,29 @@
 /**
- * Conductor Japanese text analysis by Plasmoxy.
+ * Conductor Japanese text analyser and token-wise translator by Plasmoxy.
+ *
+ * TODO:
+ * [ ] add support for 2-token, (maybe later 3-token) dictionary scans
+ * [ ] higher priority for matching POS on kuromoji->jmdict lookup
  */
 
 import {
     JMdict,
+    JMdictGloss,
     JMdictSense,
     JMdictWord
 } from '@scriptin/jmdict-simplified-types';
 import Table from 'cli-table3';
 import 'colors';
 import { KuromojiToken, tokenize } from 'kuromojin';
+import { uniqBy } from 'lodash';
 import { toHiragana } from 'wanakana';
 import { parseLrtLyrics } from './dom';
 import { hueColorizeSrt } from './hue-colors';
-import { KuromojiPos, kuromojiPartOfSpeech } from './kuromoji-lexical';
+import {
+    KuromojiPos,
+    kuromojiPartOfSpeech,
+    kuromojiToJmdictTagsMapping
+} from './kuromoji-lexical';
 import { SrtEntry } from './srt-tools';
 
 export type Candidate = {
@@ -23,11 +33,17 @@ export type Candidate = {
     word: JMdictWord;
 };
 
+export type AlignedGlossMatch = {
+    sense: JMdictSense;
+    gloss: JMdictGloss;
+    sensePosScore: number;
+    glossScore: number;
+};
+
 export type Dict = {
     jmdict: JMdict;
     fromKanjiMap: Map<string, JMdictWord[]>;
     fromKanaMap: Map<string, JMdictWord[]>;
-    tagsMapping: Partial<Record<KuromojiPos, object>>;
 };
 
 export type AnalysedToken = {
@@ -40,11 +56,16 @@ export type AnalysedToken = {
 
     // because we expect an exact match with either the base or surface form,
     // we will use jmdict senses directly
-    senses?: JMdictSense[];
+    senses: JMdictSense[];
+
+    // aligned gloss
+    // best gloss matches are at the start
+    alignedGloss: AlignedGlossMatch[];
 
     withFollowingText?: string;
     withFollowingEng?: string;
     withFollowingSenses?: JMdictSense[];
+    withFollowingAlignedGloss?: AlignedGlossMatch[];
 };
 
 export type LrtLyric = {
@@ -52,19 +73,6 @@ export type LrtLyric = {
     jp: string;
     en?: string;
 };
-
-// Allowed POS from kuromoji
-export const allowedPos: KuromojiPos[] = [
-    'noun',
-    'adjectival noun',
-    'adjective',
-    'adverb',
-    'verb',
-    'symbol'
-    // 'auxiliary',
-    // 'particle',
-    // 'person name'
-];
 
 const inspect = (obj: any) => console.dir(obj, { depth: null });
 
@@ -105,17 +113,8 @@ export async function initJmdict(jmdict: JMdict) {
     dict.jmdict = jmdict;
     dict.fromKanjiMap = fromKanjiMap;
     dict.fromKanaMap = fromKanaMap;
-    dict.tagsMapping = Object.fromEntries(
-        allowedPos.map((pos) => [
-            pos,
-            Object.fromEntries(
-                Object.entries(dict.jmdict.tags).filter(([tag, description]) =>
-                    description.includes(pos)
-                )
-            )
-        ])
-    );
 
+    console.log(dict);
     console.log(`Initialized jmdict with ${jmdict.words.length} words`);
 }
 
@@ -128,29 +127,39 @@ export function cleanGlossEntry(text: string) {
     return text;
 }
 
-// For now simply check by starts of the words in the referemce, otherwise pick first sense
-export function determineBestAlignedSense(
+// Pick the best sense from the list that would match the reference.
+// Sort priority:
+// 1. matching POS
+// 2. term from gloss is in reference
+export function determineBestAlignedSenses(
     senses: JMdictSense[],
-    reference: string
-) {
-    let bestScore = -1;
-    let bestMatch = undefined;
-    for (const sense of senses) {
-        for (const gloss of sense.gloss) {
-            const clean = cleanGlossEntry(gloss.text);
-            const score = reference
-                .split(' ')
-                .map((w) => w.trim().toLowerCase())
-                .filter((w) => w.startsWith(clean.toLowerCase())).length;
+    reference: string,
+    targetPos?: string
+): AlignedGlossMatch[] {
+    // get flat glosses
+    const combined = senses.flatMap((sense) =>
+        sense.gloss.map((gloss) => ({
+            sense,
+            gloss,
+            sensePosScore: sense.partOfSpeech.filter(
+                (p) => !!kuromojiToJmdictTagsMapping[targetPos || '']?.[p]
+            ).length,
+            glossScore: reference
+                .trim()
+                .toLowerCase()
+                .includes(cleanGlossEntry(gloss.text))
+                ? 1
+                : 0
+        }))
+    );
 
-            if (score > bestScore) {
-                bestScore = score;
-                bestMatch = clean;
-            }
-        }
-    }
+    const unique = uniqBy(combined, (x) => x.gloss.text);
+    const sorted = combined.sort(
+        (a, b) =>
+            b.sensePosScore - a.sensePosScore || b.glossScore - a.glossScore
+    );
 
-    return bestMatch;
+    return sorted;
 }
 
 export async function analysis(
@@ -161,49 +170,53 @@ export async function analysis(
         // support statically served kuromoji dict resources for browser
         dicPath: typeof window === undefined ? undefined : '/kuromoji'
     });
+
+    // First process individual tokens
     const intermediate = tokens.map((token) => {
         const text = token.basic_form || token.surface_form;
         const words = dict.fromKanjiMap.get(text) || dict.fromKanaMap.get(text);
         const pos: KuromojiPos = kuromojiPartOfSpeech[token.pos] || '';
-
-        // flat map to senses and exclude senses that do not match POS of the token
-        const senses = words
-            ?.flatMap((w) => w.sense)
-            ?.filter((s) => !!dict.tagsMapping[pos]);
+        const senses = words?.flatMap((w) => w.sense);
 
         return { text, pos, token, senses };
     });
 
-    return Promise.all(
-        intermediate.map((token, idx) =>
-            (async () => {
-                const withFollowingText = intermediate
-                    .slice(idx, idx + 2)
-                    .map((x) => x.text)
-                    .join('');
-                const withFollowingWords =
-                    dict.fromKanjiMap.get(withFollowingText) ||
-                    dict.fromKanaMap.get(withFollowingText);
-                const withFollowingSenses = withFollowingWords
-                    ?.flatMap((w) => w.sense)
-                    ?.filter((s) => !!dict.tagsMapping[token.pos]);
+    return intermediate.map((token, idx) => {
+        const withFollowingText = intermediate
+            .slice(idx, idx + 2)
+            .map((x) => x.text)
+            .join('');
+        const withFollowingWords =
+            dict.fromKanjiMap.get(withFollowingText) ||
+            dict.fromKanaMap.get(withFollowingText);
 
-                return {
-                    ...token,
-                    eng: determineBestAlignedSense(
-                        token.senses || [],
-                        reference
-                    ),
-                    withFollowingText,
-                    withFollowingWords,
-                    withFollowingEng: determineBestAlignedSense(
-                        withFollowingSenses || [],
-                        reference
-                    )
-                };
-            })()
-        )
-    );
+        const withFollowingSenses = withFollowingWords?.flatMap((w) => w.sense);
+
+        const alignedGloss = determineBestAlignedSenses(
+            token.senses || [],
+            reference,
+            token.pos
+        );
+        const alignedGlossFollowing = determineBestAlignedSenses(
+            withFollowingSenses || [],
+            reference,
+            undefined // do not match POS with 2-token senses
+        );
+
+        return {
+            ...token,
+            eng: cleanGlossEntry(alignedGloss[0]?.gloss.text || ''),
+            withFollowingText,
+            withFollowingWords,
+            withFollowingEng: cleanGlossEntry(
+                alignedGlossFollowing[0]?.gloss.text || ''
+            ),
+            withFollowingSenses,
+
+            alignedGloss,
+            alignedGlossFollowing
+        };
+    });
 }
 
 export async function analyzeSrtEntries(entry: SrtEntry, reference: SrtEntry) {

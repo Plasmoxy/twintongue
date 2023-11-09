@@ -1,5 +1,119 @@
 export type KuromojiPos =
     (typeof kuromojiPartOfSpeech)[keyof typeof kuromojiPartOfSpeech];
+
+// Important POS that should be like higlighted or something.
+export const importantPos: KuromojiPos[] = [
+    'noun',
+    'adjectival noun',
+    'adjective',
+    'adverb',
+    'verb'
+];
+
+// Mapping from kuromoji to JMDict tags
+export const kuromojiToJmdictTagsMapping = {
+    noun: {
+        'n-pref': 'noun, used as a prefix',
+        'n-suf': 'noun, used as a suffix',
+        n: 'noun (common) (futsuumeishi)',
+        vs: 'noun or participle which takes the aux. verb suru',
+        'n-t': 'noun (temporal) (jisoumeishi)',
+        'n-adv': 'adverbial noun (fukushitekimeishi)',
+        'adj-f': 'noun or verb acting prenominally',
+        'adj-no': "nouns which may take the genitive case particle 'no'",
+        'n-pr': 'proper noun',
+        pn: 'pronoun'
+    },
+    'adjectival noun': {
+        'adj-na': 'adjectival nouns or quasi-adjectives (keiyodoshi)',
+        'adj-pn': 'pre-noun adjectival (rentaishi)'
+    },
+    adjective: {
+        'adj-kari': "'kari' adjective (archaic)",
+        'adj-shiku': "'shiku' adjective (archaic)",
+        'adj-ix': 'adjective (keiyoushi) - yoi/ii class',
+        'adj-nari': 'archaic/formal form of na-adjective',
+        'adj-i': 'adjective (keiyoushi)',
+        'adj-t': "'taru' adjective",
+        'adj-ku': "'ku' adjective (archaic)"
+    },
+    adverb: {
+        adv: 'adverb (fukushi)',
+        'adv-to': "adverb taking the 'to' particle"
+    },
+    verb: {
+        v5uru: 'Godan verb - Uru old class verb (old form of Eru)',
+        'v2g-s': "Nidan verb (lower class) with 'gu' ending (archaic)",
+        'v2g-k': "Nidan verb (upper class) with 'gu' ending (archaic)",
+        'v5k-s': 'Godan verb - Iku/Yuku special class',
+        'v2w-s':
+            "Nidan verb (lower class) with 'u' ending and 'we' conjugation (archaic)",
+        'v2n-s': "Nidan verb (lower class) with 'nu' ending (archaic)",
+        'v5r-i': "Godan verb with 'ru' ending (irregular verb)",
+        v1: 'Ichidan verb',
+        'v2y-k': "Nidan verb (upper class) with 'yu' ending (archaic)",
+        'v2a-s': "Nidan verb with 'u' ending (archaic)",
+        'v5u-s': "Godan verb with 'u' ending (special class)",
+        vi: 'intransitive verb',
+        'v2y-s': "Nidan verb (lower class) with 'yu' ending (archaic)",
+        vk: 'Kuru verb - special class',
+        vn: 'irregular nu verb',
+        vr: 'irregularq ru verb, plain form ends with -ri',
+        vs: 'noun or participle which takes the aux. verb suru',
+        vt: 'transitive verb',
+        vz: 'Ichidan verb - zuru verb (alternative form of -jiru verbs)',
+        'v2h-s': "Nidan verb (lower class) with 'hu/fu' ending (archaic)",
+        proverb: 'proverb',
+        'v2h-k': "Nidan verb (upper class) with 'hu/fu' ending (archaic)",
+        'v2k-s': "Nidan verb (lower class) with 'ku' ending (archaic)",
+        'v2s-s': "Nidan verb (lower class) with 'su' ending (archaic)",
+        'v2k-k': "Nidan verb (upper class) with 'ku' ending (archaic)",
+        v5aru: 'Godan verb - -aru special class',
+        'v-unspec': 'verb unspecified',
+        'v2r-k': "Nidan verb (upper class) with 'ru' ending (archaic)",
+        'v2r-s': "Nidan verb (lower class) with 'ru' ending (archaic)",
+        'v2b-k': "Nidan verb (upper class) with 'bu' ending (archaic)",
+        'vs-s': 'suru verb - special class',
+        'v2b-s': "Nidan verb (lower class) with 'bu' ending (archaic)",
+        'vs-c': 'su verb - precursor to the modern suru',
+        'vs-i': 'suru verb - included',
+        'v2z-s': "Nidan verb (lower class) with 'zu' ending (archaic)",
+        'v2m-s': "Nidan verb (lower class) with 'mu' ending (archaic)",
+        'v1-s': 'Ichidan verb - kureru special class',
+        'v2m-k': "Nidan verb (upper class) with 'mu' ending (archaic)",
+        v4b: "Yodan verb with 'bu' ending (archaic)",
+        v4g: "Yodan verb with 'gu' ending (archaic)",
+        v4h: "Yodan verb with 'hu/fu' ending (archaic)",
+        v4k: "Yodan verb with 'ku' ending (archaic)",
+        v4m: "Yodan verb with 'mu' ending (archaic)",
+        v4n: "Yodan verb with 'nu' ending (archaic)",
+        v4s: "Yodan verb with 'su' ending (archaic)",
+        v4r: "Yodan verb with 'ru' ending (archaic)",
+        v4t: "Yodan verb with 'tsu' ending (archaic)",
+        'v2t-k': "Nidan verb (upper class) with 'tsu' ending (archaic)",
+        v5b: "Godan verb with 'bu' ending",
+        'v2t-s': "Nidan verb (lower class) with 'tsu' ending (archaic)",
+        v5g: "Godan verb with 'gu' ending",
+        v5k: "Godan verb with 'ku' ending",
+        v5n: "Godan verb with 'nu' ending",
+        v5m: "Godan verb with 'mu' ending",
+        'v2d-k': "Nidan verb (upper class) with 'dzu' ending (archaic)",
+        v5r: "Godan verb with 'ru' ending",
+        v5t: "Godan verb with 'tsu' ending",
+        v5s: "Godan verb with 'su' ending",
+        v5u: "Godan verb with 'u' ending",
+        'v2d-s': "Nidan verb (lower class) with 'dzu' ending (archaic)"
+    },
+    auxiliary: {
+        'aux-v': 'auxiliary verb',
+        aux: 'auxiliary',
+        'aux-adj': 'auxiliary adjective'
+    },
+    particle: {
+        prt: 'particle'
+    }
+};
+
 export const kuromojiPartOfSpeech = {
     その他: 'other',
     アルファベット: 'alphabet',
