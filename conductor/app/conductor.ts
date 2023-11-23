@@ -118,7 +118,7 @@ export async function initJmdict(jmdict: JMdict) {
     dict.fromKanjiMap = fromKanjiMap;
     dict.fromKanaMap = fromKanaMap;
 
-    console.log(dict);
+    // console.log(dict);
     console.log(`Initialized jmdict with ${jmdict.words.length} words`);
 }
 
