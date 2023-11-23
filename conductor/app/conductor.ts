@@ -201,7 +201,6 @@ export async function analysis(
         typeof process !== undefined
             ? 'node_modules/kuromoji/dict'
             : '/kuromoji';
-    console.log(`Using kuromoji dic path ${kmojiDicPath}`.green);
 
     const tokens = await tokenize(sentence, {
         dicPath: kmojiDicPath
