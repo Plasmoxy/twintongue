@@ -197,9 +197,14 @@ export async function analysis(
     sentence: string,
     reference: string // reference in english for better polysemantic ambiguity alignment
 ): Promise<AnalysedToken[]> {
+    const kmojiDicPath =
+        typeof process !== undefined
+            ? 'node_modules/kuromoji/dict'
+            : '/kuromoji';
+    console.log(`Using kuromoji dic path ${kmojiDicPath}`.green);
+
     const tokens = await tokenize(sentence, {
-        // support statically served kuromoji dict resources for browser
-        dicPath: typeof window === undefined ? undefined : '/kuromoji'
+        dicPath: kmojiDicPath
     });
 
     // First process individual tokens
