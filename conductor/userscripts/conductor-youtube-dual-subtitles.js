@@ -83,7 +83,7 @@ function addGlobalStyle(css) {
         console.log(results);
 
         // split en by words for colorization
-        let coloredEn = en.trim().split(' ');
+        let coloredEn = en.trim().split(/\s+|[,;.!?\s"]+/);
 
         const Token = (t) => {
             const isColored =
