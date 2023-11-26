@@ -46,11 +46,13 @@ function addGlobalStyle(css) {
         'verb'
     ];
 
-    const EXCLUDED_TOKENS = [
-        { text: 'する', pos: 'verb' },
-        { text: 'い', pos: 'verb' },
-        { text: 'し', pos: 'verb' }
-    ];
+    function containsKanji(input) {
+        // Regular expression for kanji characters
+        const kanjiRegex = /[\u4E00-\u9FFF]/;
+
+        // Check if the input string contains any kanji characters
+        return kanjiRegex.test(input);
+    }
 
     let previousJp = 'INIT';
 
@@ -86,11 +88,7 @@ function addGlobalStyle(css) {
         let coloredEn = en.trim().split(/\s+|[,;.!?\s"]+/);
 
         const Token = (t) => {
-            const isColored =
-                importantPos.includes(t.pos) &&
-                !EXCLUDED_TOKENS.some(
-                    (ex) => ex.text === t.text && ex.pos === t.pos
-                );
+            const isColored = containsKanji(t.text) || t.text.length >= 3;
 
             const color = isColored
                 ? huePallete[palleteCounter++ % huePallete.length]
@@ -119,7 +117,7 @@ function addGlobalStyle(css) {
             }
 
             return `<div style="display: inline-flex; flex-direction: column;">
-                <ruby style="color: ${color};">${t.text}${rtpart}</ruby>
+                <ruby style="color: white;">${t.text}${rtpart}</ruby>
                 ${
                     isColored
                         ? `<span style="font-size: 14px; color: ${color}; margin-left: 3px; margin-right: 3px;">${t.eng}</span>`

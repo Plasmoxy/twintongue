@@ -212,6 +212,7 @@ export async function analysis(
         const surface = token.surface_form;
         const words = dict.fromKanjiMap.get(text) || dict.fromKanaMap.get(text);
         const pos: KuromojiPos = kuromojiPartOfSpeech[token.pos] || '';
+
         const senses = words?.flatMap((w) => w.sense);
 
         return { text, surface, pos, token, senses };
@@ -239,9 +240,15 @@ export async function analysis(
             undefined // do not match POS with 2-token senses
         );
 
+        // max 4 words direct glossary entry
+        const alignedGlossShort = alignedGloss.filter(
+            (g) =>
+                g.gloss.text.split(' ').length <= 4 || g.gloss.text.length <= 23
+        );
+
         return {
             ...token,
-            eng: cleanGlossEntry(alignedGloss[0]?.gloss.text || ''),
+            eng: cleanGlossEntry(alignedGlossShort[0]?.gloss.text || ''),
             withFollowingText,
             withFollowingWords,
             withFollowingEng: cleanGlossEntry(
