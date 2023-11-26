@@ -9,9 +9,10 @@ function extractTokens(tokens: AnalysedToken[]) {
     return tokens.map((token, index) => ({
         text: token.surface,
         eng: token.eng,
+        engMore: token.engMore,
         reading: toHiragana(token.token.reading),
         pos: token.pos,
-        alignedGlossTexts: token.alignedGloss.map((g) => g.gloss.text)
+        direct: token.direct
     }));
 }
 

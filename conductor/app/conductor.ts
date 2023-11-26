@@ -55,6 +55,9 @@ export type AnalysedToken = {
 
     // final determined eng translation
     eng?: string;
+    engMore?: string[]; // additional short translations
+
+    direct: string[]; // pos-only match without ref
 
     // because we expect an exact match with either the base or surface form,
     // we will use jmdict senses directly
@@ -234,6 +237,7 @@ export async function analysis(
             reference,
             token.pos
         );
+
         const alignedGlossFollowing = determineBestAlignedSenses(
             withFollowingSenses || [],
             reference,
@@ -241,14 +245,34 @@ export async function analysis(
         );
 
         // max 4 words direct glossary entry
-        const alignedGlossShort = alignedGloss.filter(
-            (g) =>
-                g.gloss.text.split(' ').length <= 4 || g.gloss.text.length <= 23
-        );
+        const glossShortFilter = (g: AlignedGlossMatch) =>
+            g.gloss.text.split(/['"\s]/i).length <= 4 &&
+            g.gloss.text.length < 23;
+
+        const alignedGlossShort = alignedGloss.filter(glossShortFilter);
+
+        // direct gloss with no reference align = only POS align
+        const directGlossShort = determineBestAlignedSenses(
+            token.senses || [],
+            '',
+            token.pos
+        ).filter(glossShortFilter);
 
         return {
             ...token,
+
+            // aligned short
             eng: cleanGlossEntry(alignedGlossShort[0]?.gloss.text || ''),
+            engMore: alignedGlossShort
+                .slice(1, 3)
+                .map((g) => cleanGlossEntry(g.gloss.text)),
+
+            // direct POS-aligned short
+            direct: directGlossShort
+                .slice(0, 3)
+                .map((g) => cleanGlossEntry(g.gloss.text)),
+
+            // following
             withFollowingText,
             withFollowingWords,
             withFollowingEng: cleanGlossEntry(
@@ -256,6 +280,7 @@ export async function analysis(
             ),
             withFollowingSenses,
 
+            // raw aligned gloss
             alignedGloss,
             alignedGlossFollowing
         };
