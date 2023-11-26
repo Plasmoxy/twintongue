@@ -78,6 +78,7 @@ function addGlobalStyle(css) {
 
         const [jpElement, enElement] = subtitlesElements;
         const subtitlesParent = jpElement.parentElement;
+        state.currentRoot = jpElement;
 
         const [jp, en] = subtitlesElements.map((t) => t.textContent);
 
@@ -182,9 +183,8 @@ function addGlobalStyle(css) {
                     </div>
                 </div>`;
 
-            // remove all children and add tx
-            subtitlesParent.innerHTML = '';
-            subtitlesParent.appendChild(root);
+            subtitlesParent.replaceChild(root, state.currentRoot);
+            state.currentRoot = root;
 
             // add event listener to translate button
             root.querySelector('#translbtn').addEventListener('click', () => {
