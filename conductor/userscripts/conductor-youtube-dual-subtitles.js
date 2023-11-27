@@ -38,13 +38,13 @@ function addGlobalStyle(css) {
     ];
     let palleteCounter = 0;
 
-    const importantPos = [
-        'noun',
-        'adjectival noun',
-        'adjective',
-        'adverb',
-        'verb'
-    ];
+    // const importantPos = [
+    //     'noun',
+    //     'adjectival noun',
+    //     'adjective',
+    //     'adverb',
+    //     'verb'
+    // ];
 
     function containsKanji(input) {
         // Regular expression for kanji characters
@@ -103,7 +103,9 @@ function addGlobalStyle(css) {
         let coloredEn = en.trim().split(/\s+|[,;.!?\s"]+/);
 
         const Token = (t) => {
-            const isColored = !isHiraganaOnly(t.text) || t.text.length >= 3;
+            const isColored =
+                t.pos !== 'symbol' &&
+                (!isHiraganaOnly(t.text) || t.text.length >= 3);
 
             const color = isColored
                 ? huePallete[palleteCounter++ % huePallete.length]
