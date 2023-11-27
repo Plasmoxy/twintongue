@@ -2,10 +2,11 @@
 // @name         Plasmoxy Conductor DUAL
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  conductor userscript for youtube subtitles
+// @description  conductor userscript for youtube subtitles (also asbplayer)
 // @author       You
 // @match        https://www.youtube.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @match        https://killergerbah.github.io/*
+// @icon         data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>
 // @grant        none
 // ==/UserScript==
 
@@ -21,11 +22,19 @@ function addGlobalStyle(css) {
 }
 
 (function () {
-    'use strict';
+    const host =
+        window.location.hostname === 'www.youtube.com' ? 'youtube' : 'asb';
 
-    console.log('Running conductor userscript 🌸');
+    console.log(`Running conductor userscript 🌸 with host ${host}`);
 
-    addGlobalStyle(`.ytp-caption-segment { display: none !important; }`);
+    // Custom global styles for hiding and fixing subtitles.
+    if (host === 'youtube')
+        addGlobalStyle(`.ytp-caption-segment { display: none !important; }`);
+
+    if (host === 'asb')
+        addGlobalStyle(
+            `.jss5 > div > div > span { display: none !important; }`
+        );
 
     const huePallete = [
         '#1eabe3', // blue
@@ -38,13 +47,7 @@ function addGlobalStyle(css) {
     ];
     let palleteCounter = 0;
 
-    // const importantPos = [
-    //     'noun',
-    //     'adjectival noun',
-    //     'adjective',
-    //     'adverb',
-    //     'verb'
-    // ];
+    // Japanese utils ...
 
     function containsKanji(input) {
         // Regular expression for kanji characters
@@ -54,6 +57,7 @@ function addGlobalStyle(css) {
         return kanjiRegex.test(input);
     }
 
+    // TODO: maybe rework to {Script} /u matcher
     function isHiraganaOnly(input) {
         // Regular expression for hiragana characters
         const hiraganaRegex = /^[\u3040-\u309F]+$/;
@@ -62,26 +66,75 @@ function addGlobalStyle(css) {
         return hiraganaRegex.test(input);
     }
 
+    function containsNoJapanese(text) {
+        const regex =
+            /^[^\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}ー]*$/u;
+        return regex.test(text);
+    }
+
+    // State and logic ...
+
     const state = {
         previousJp: 'INIT',
         translationVisible: true
     };
 
+    function retrieveElements() {
+        if (host === 'youtube') {
+            const subtitlesElements = [
+                ...document.querySelectorAll(
+                    '.caption-visual-line > .ytp-caption-segment'
+                )
+            ];
+
+            if (subtitlesElements.length !== 2) return;
+
+            const [jpElement, enElement] = subtitlesElements;
+            const subtitlesParent = jpElement.parentElement;
+            state.currentRoot = jpElement;
+
+            const [jp, en] = subtitlesElements.map((t) => t.textContent);
+            return { jp, en, jpElement, subtitlesParent };
+        }
+
+        if (host === 'asb') {
+            const asbSubtitleElement = document.querySelector(
+                `.jss5 > div > div > span`
+            );
+            if (!asbSubtitleElement) return;
+            const asbParent = asbSubtitleElement.parentElement;
+
+            // get text content and split into lines
+            let textContent = asbSubtitleElement.textContent;
+
+            // basic filtering, remove texts in brackets () and []
+            textContent = textContent.replace(/\(.*?\)/g, '');
+            textContent = textContent.replace(/\[.*?\]/g, '');
+            textContent = textContent.replace(/（.*?）/gu, ''); // remove text in japanese unicode brackets
+
+            const lines = textContent.split('\n').map((l) => l.trim());
+
+            // if user is using merged dual subtitles, there will be lines of japanese and then lines of english
+            // -> so we filter them and rejoin
+            const jp = lines.filter((l) => !containsNoJapanese(l)).join(' ');
+            const en = lines.filter((l) => containsNoJapanese(l)).join(' ');
+
+            return {
+                jp,
+                en,
+                asbParent,
+                asbSubtitleElement
+            };
+        }
+    }
+
     async function analyze() {
-        const subtitlesElements = [
-            ...document.querySelectorAll(
-                '.caption-visual-line > .ytp-caption-segment'
-            )
-        ];
+        // get elements
+        const elements = retrieveElements();
+        if (!elements) return;
+        const { jp, en } = elements;
 
-        if (subtitlesElements.length !== 2) return;
-
-        const [jpElement, enElement] = subtitlesElements;
-        const subtitlesParent = jpElement.parentElement;
-        state.currentRoot = jpElement;
-
-        const [jp, en] = subtitlesElements.map((t) => t.textContent);
-
+        // check if changed
         if (jp === state.previousJp) return;
         state.previousJp = jp;
 
@@ -166,16 +219,16 @@ function addGlobalStyle(css) {
                         .join('')}</div>
                     
                     <!-- en -->
-                    <div style="cursor: text !important; user-select: text !important; margin-top: 16px; font-size: 16px;">${coloredEn.join(
+                    <div style="cursor: text !important; user-select: text !important; margin-top: 16px; font-size: 18px;">${coloredEn.join(
                         ' '
                     )}</div>
                     
                     <!-- conductor controls -->
-                    <div  style="margin-top: 16px; font-size: 16px; margin-left: auto;">
+                    <div style="margin-top: 16px; font-size: 16px; margin-left: auto; display: flex;">
                     
                         <!-- translate button -->
-                        <div id="translbtn" style="margin: 3px; padding: 3px; cursor: pointer !important;">
-                            <svg style="margin: 6px; color: red;" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="${
+                        <div id="translbtn" style="margin: 3px; padding: 3px; cursor: pointer !important; display: flex;">
+                            <svg style="margin: 6px; color: red;" width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="${
                                 state.translationVisible ? '#ffffff' : '#909090'
                             }" class="bi bi-translate">
                                 <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
@@ -185,8 +238,25 @@ function addGlobalStyle(css) {
                     </div>
                 </div>`;
 
-            subtitlesParent.replaceChild(root, state.currentRoot);
-            state.currentRoot = root;
+            // Element replacement logic
+            if (host === 'youtube') {
+                const { subtitlesParent } = elements;
+                subtitlesParent.replaceChild(root, state.currentRoot);
+                state.currentRoot = root;
+            }
+
+            // in case of asb, the subtitle container gets cleared every time
+            // so we just hide the asb subtitle span and add our own div
+            if (host === 'asb') {
+                const { asbParent, asbSubtitleElement } = elements;
+                asbSubtitleElement.style.display = 'none';
+
+                // remove all div elemeents from asb parent
+                asbParent.querySelectorAll('div').forEach((e) => e.remove());
+
+                // add our own div
+                asbParent.appendChild(root);
+            }
 
             // add event listener to translate button
             root.querySelector('#translbtn').addEventListener('click', () => {
