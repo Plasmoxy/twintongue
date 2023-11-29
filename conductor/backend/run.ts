@@ -3,16 +3,23 @@ import cors from 'cors';
 import express from 'express';
 import { readFileSync } from 'fs';
 import { toHiragana } from 'wanakana';
-import { AnalysedToken, analysis, initJmdict } from '../app/conductor';
+import {
+    AnalysedToken,
+    analysis,
+    dict as conductorDict,
+    initJmdict
+} from '../app/conductor';
 
 function extractTokens(tokens: AnalysedToken[]) {
     return tokens.map((token, index) => ({
         text: token.surface,
         eng: token.eng,
         engMore: token.engMore,
+        direct: token.direct,
+        phrases: token.phrases,
         reading: toHiragana(token.token.reading),
         pos: token.pos,
-        direct: token.direct
+        phrasesDirect: token.phrasesDirect
     }));
 }
 
@@ -70,6 +77,28 @@ async function main() {
         const results = await analysis(jp, en || '');
 
         return res.json(extractTokens(results.filter((token) => !!token)));
+    });
+
+    app.post('/lookup', async (req, res) => {
+        const jp = req.body.jp;
+
+        if (typeof jp !== 'string') {
+            return res.status(400).json({
+                error: 'jp string required'
+            });
+        }
+
+        const words =
+            conductorDict.fromKanaMap.get(jp) ||
+            conductorDict.fromKanjiMap.get(jp);
+
+        return res.json(
+            words?.map((w) => ({
+                kanji: w.kanji.filter((k) => k.common).map((k) => k.text),
+                kana: w.kana.map((k) => k.text),
+                senses: w.sense.flatMap((s) => s.gloss.map((g) => g.text))
+            }))
+        );
     });
 
     app.listen(port, () => {

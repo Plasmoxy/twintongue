@@ -13,7 +13,6 @@
   "dependencies": {
     "@scriptin/jmdict-simplified-types": "^3.5.0",
     "@types/express": "^4.17.21",
-    "cli-table3": "^0.6.3",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
     "didyoumean2": "^6.0.1",

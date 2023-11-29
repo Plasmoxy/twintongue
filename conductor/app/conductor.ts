@@ -4,6 +4,7 @@
  * TODO:
  * [ ] add support for 2-token, (maybe later 3-token) dictionary scans -> there is probably the 'expression' POS like in yomichan
  * [ ] higher priority for matching POS on kuromoji->jmdict lookup
+ * [ ] kana kanji map lookup not respecting if the returned kanji is common or not (not sorted !)
  */
 
 import {
@@ -12,19 +13,14 @@ import {
     JMdictSense,
     JMdictWord
 } from '@scriptin/jmdict-simplified-types';
-import Table from 'cli-table3';
 import 'colors';
 import { KuromojiToken, tokenize } from 'kuromojin';
 import { uniqBy } from 'lodash';
-import { toHiragana } from 'wanakana';
-import { parseLrtLyrics } from './dom';
-import { hueColorizeSrt } from './hue-colors';
 import {
     KuromojiPos,
     kuromojiPartOfSpeech,
     kuromojiToJmdictTagsMapping
 } from './kuromoji-lexical';
-import { SrtEntry } from './srt-tools';
 
 export type Candidate = {
     text: string;
@@ -46,6 +42,18 @@ export type Dict = {
     fromKanaMap: Map<string, JMdictWord[]>;
 };
 
+export type Phrase = {
+    text: string;
+    length: number;
+    senses: JMdictSense[];
+};
+
+export type PhraseTexts = {
+    text: string;
+    length: number;
+    texts: string[];
+};
+
 export type AnalysedToken = {
     text: string; // base form
     surface: string; // surface form as in text
@@ -53,37 +61,29 @@ export type AnalysedToken = {
     pos: KuromojiPos;
     token: KuromojiToken;
 
-    // final determined eng translation
+    // final determined eng translations
     eng?: string;
     engMore?: string[]; // additional short translations
-
     direct: string[]; // pos-only match without ref
+    phrases: string[]; // multi-token matched phrases
 
     // because we expect an exact match with either the base or surface form,
     // we will use jmdict senses directly
     senses: JMdictSense[];
 
-    // aligned gloss
+    // raw aligned gloss
     // best gloss matches are at the start
     alignedGloss: AlignedGlossMatch[];
+    alignedPhrases: AlignedGlossMatch[];
 
-    withFollowingText?: string;
-    withFollowingEng?: string;
-    withFollowingSenses?: JMdictSense[];
-    withFollowingAlignedGloss?: AlignedGlossMatch[];
-};
-
-export type LrtLyric = {
-    id: string;
-    jp: string;
-    en?: string;
+    phrasesDirect: PhraseTexts[];
 };
 
 export const DISABLE_GLOSS_SCORE_SORT_ON_POS: KuromojiPos[] = ['particle'];
 
 const inspect = (obj: any) => console.dir(obj, { depth: null });
 
-let dict: Dict = {} as Dict;
+export const dict: Dict = {} as Dict;
 
 export async function initJmdict(jmdict: JMdict) {
     // map from kanji to word
@@ -222,26 +222,12 @@ export async function analysis(
     });
 
     return intermediate.map((token, idx) => {
-        const withFollowingText = intermediate
-            .slice(idx, idx + 2)
-            .map((x) => x.text)
-            .join('');
-        const withFollowingWords =
-            dict.fromKanjiMap.get(withFollowingText) ||
-            dict.fromKanaMap.get(withFollowingText);
-
-        const withFollowingSenses = withFollowingWords?.flatMap((w) => w.sense);
+        // --- Single token ---
 
         const alignedGloss = determineBestAlignedSenses(
             token.senses || [],
             reference,
             token.pos
-        );
-
-        const alignedGlossFollowing = determineBestAlignedSenses(
-            withFollowingSenses || [],
-            reference,
-            undefined // do not match POS with 2-token senses
         );
 
         // max 4 words direct glossary entry
@@ -258,6 +244,41 @@ export async function analysis(
             token.pos
         ).filter(glossShortFilter);
 
+        // --- Phrases (multi token) ---
+
+        const phrases: Phrase[] = [];
+
+        // lookahead relative from this token and try to lookup 4,3,2 token phrases
+        for (let length = 4; length >= 2; length--) {
+            // skip if out of bounds
+            if (idx + length > intermediate.length) continue;
+
+            const phraseText = intermediate
+                .slice(idx, idx + length)
+                .map((x) => x.text)
+                .join('');
+
+            const words =
+                dict.fromKanjiMap.get(phraseText) ||
+                dict.fromKanaMap.get(phraseText);
+
+            const newPhrases = words?.flatMap((w) => ({
+                text: phraseText,
+                length,
+                senses: w.sense
+            }));
+
+            if (newPhrases) {
+                phrases.push(...newPhrases);
+            }
+        }
+
+        const alignedPhrases = determineBestAlignedSenses(
+            phrases.flatMap((p) => p.senses) || [],
+            reference,
+            undefined // do not match POS with phrase senses
+        );
+
         return {
             ...token,
 
@@ -272,118 +293,17 @@ export async function analysis(
                 .slice(0, 3)
                 .map((g) => cleanGlossEntry(g.gloss.text)),
 
-            // following
-            withFollowingText,
-            withFollowingWords,
-            withFollowingEng: cleanGlossEntry(
-                alignedGlossFollowing[0]?.gloss.text || ''
-            ),
-            withFollowingSenses,
+            phrases: alignedPhrases.slice(0, 3).map((g) => g.gloss.text),
 
             // raw aligned gloss
             alignedGloss,
-            alignedGlossFollowing
+            alignedPhrases,
+
+            phrasesDirect: phrases.map((p) => ({
+                text: p.text,
+                length: p.length,
+                texts: p.senses.flatMap((s) => s.gloss.flatMap((g) => g.text))
+            }))
         };
     });
-}
-
-export async function analyzeSrtEntries(entry: SrtEntry, reference: SrtEntry) {
-    const tokens = await analysis(
-        entry.lines.join(' '),
-        reference.lines.join(' ')
-    );
-
-    const sensesLine = tokens
-        .map((t, idx) => hueColorizeSrt(t.eng || '', idx))
-        .join(' • ');
-    const tokensLine = tokens
-        .map((t, idx) => hueColorizeSrt(t.text, idx))
-        .join(' • ');
-
-    const out: SrtEntry = {
-        ...entry,
-        lines: [sensesLine, tokensLine, ...entry.lines, ...reference.lines]
-    };
-    return out;
-}
-
-export async function fetchLyricsTranslate(url: string) {
-    console.log(`Fetching ${url}`.green);
-    const response = await fetch(url);
-
-    if (!response.ok) {
-        throw new Error(`Failed to fetch ${url}`);
-    }
-
-    const html = await response.text();
-    return html;
-}
-
-export async function analyzeLyricsTranslate(html: string) {
-    const lyrics = await parseLrtLyrics(html);
-    const analyzed: (LrtLyric & { analyzed: AnalysedToken[] })[] =
-        await Promise.all(
-            lyrics.map(async (lyric) => ({
-                ...lyric,
-                analyzed: await analysis(lyric.jp, lyric.en || '')
-            }))
-        );
-
-    for (const lyric of analyzed) {
-        console.log(`\n\n${lyric.jp}`.green);
-        console.log(`${lyric.en}`.magenta);
-        console.log();
-        complexPrintTable(lyric.analyzed);
-    }
-}
-
-export function complexPrintTable(
-    tokens: AnalysedToken[],
-    withTokenComplex = false,
-    shortened = 100
-) {
-    const tbl = new Table();
-
-    tbl.push(tokens.map((t) => (t.eng ? t.text.green : t.text.white)));
-    tbl.push(
-        tokens.map((t) =>
-            t.eng
-                ? toHiragana(t.token.reading).green
-                : toHiragana(t.token.reading).white
-        )
-    );
-    tbl.push(tokens.map((t) => t.pos.slice(0, 3).grey));
-    tbl.push(
-        tokens.map((t) =>
-            t.eng ? (t.eng.length > shortened ? '***' : t.eng.magenta) : ''
-        )
-    );
-    tbl.push(
-        tokens.map((t) =>
-            t.withFollowingEng
-                ? t.withFollowingEng.length > shortened
-                    ? '***'
-                    : t.withFollowingEng.cyan
-                : ''
-        )
-    );
-
-    console.log(tbl.toString());
-
-    if (withTokenComplex) {
-        console.log();
-        console.log(
-            tokens
-                .map(
-                    (t) =>
-                        `${t.text.yellow} -> ${t.pos.cyan} [${t.senses?.map(
-                            (s) =>
-                                s.gloss
-                                    .map((g) => cleanGlossEntry(g.text))
-                                    .join(', ')
-                        )}]`
-                )
-                .join(`\n`)
-        );
-    }
 }
