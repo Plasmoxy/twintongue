@@ -186,7 +186,7 @@ function addGlobalStyle(css) {
                 }
             }
 
-            return `<div style="display: inline-flex; flex-direction: column;">
+            return `<div style="display: inline-flex; flex-direction: column; position: relative;">
                     <ruby style="color: white;">${t.text}${rtpart}</ruby>
                     ${
                         isColored
@@ -202,6 +202,11 @@ function addGlobalStyle(css) {
                                           `<span style="font-size: 11px; color: #aaa; margin-left: 3px; margin-right: 3px;">${e}</span>`
                                   )
                                   .join('')
+                            : ``
+                    }
+                    ${
+                        isColored && t.phrases?.[0]
+                            ? `<div style="position: absolute; top: 100%; margin-top: 5px; font-size: 10px; color: #4ffff6;">${t.phrases[0]}</div>`
                             : ``
                     }
                 </div>`;

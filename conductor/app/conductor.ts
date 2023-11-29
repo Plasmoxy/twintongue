@@ -5,6 +5,10 @@
  * [ ] add support for 2-token, (maybe later 3-token) dictionary scans -> there is probably the 'expression' POS like in yomichan
  * [ ] higher priority for matching POS on kuromoji->jmdict lookup
  * [ ] kana kanji map lookup not respecting if the returned kanji is common or not (not sorted !)
+ *
+ * BUG NOTES:
+ * https://www.youtube.com/watch?v=gs6DaLaIwmk&t=1631s　30:58 どうやって nepickuje jak expression
+ *
  */
 
 import {
