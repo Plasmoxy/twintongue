@@ -155,12 +155,16 @@ function addGlobalStyle(css) {
         // split en by words for colorization
         let coloredEn = en.trim().split(/\s+|[,;.!?\s"]+/);
 
+        // count phrase tokens that need to be colored
+        let remainingPhraseTokens = 0;
+        let lastPhraseColor = undefined;
+
         const Token = (t) => {
             const isColored =
                 t.pos !== 'symbol' &&
                 (!isHiraganaOnly(t.text) || t.text.length >= 3);
 
-            const color = isColored
+            let color = isColored
                 ? huePallete[palleteCounter++ % huePallete.length]
                 : '#ffffff';
             const rtpart = isColored
@@ -186,11 +190,43 @@ function addGlobalStyle(css) {
                 }
             }
 
+            const isPhraseStart =
+                remainingPhraseTokens === 0 &&
+                t.phrasesDirect?.[0] &&
+                (isColored || t.phrasesDirect?.[0].length >= 3);
+
+            // phrase token counter
+            if (isPhraseStart) {
+                remainingPhraseTokens = t.phrasesDirect?.[0].length + 1; // add 1 for the current token
+
+                // if this is a new phrase and the token is not colored, we pick a new color specifically for this phrase
+                if (!isColored) {
+                    color = huePallete[palleteCounter++ % huePallete.length];
+                }
+
+                // setup phrase color
+                lastPhraseColor = color;
+            }
+
+            if (remainingPhraseTokens > 0) remainingPhraseTokens--;
+
+            // if this token is within a phrase, it is highlighted
+            const isPhrase = remainingPhraseTokens > 0;
+            const phraseHighlight = isPhrase
+                ? `border-bottom: solid 3px ${lastPhraseColor};`
+                : '';
+
             return `<div style="display: inline-flex; flex-direction: column; position: relative;">
-                    <ruby style="color: white;">${t.text}${rtpart}</ruby>
+                    <ruby style="color: white; ${phraseHighlight}">${
+                t.text
+            }${rtpart}</ruby>
                     ${
                         isColored
-                            ? `<span style="font-size: 14px; color: ${color}; margin-left: 3px; margin-right: 3px;">${t.eng}</span>`
+                            ? `<span style="font-size: 14px; color: ${
+                                  isPhrase ? '#aaa' : color
+                              }; margin-left: 3px; margin-right: 3px;">${
+                                  t.eng
+                              }</span>`
                             : ``
                     }
                     ${
@@ -205,8 +241,10 @@ function addGlobalStyle(css) {
                             : ``
                     }
                     ${
-                        isColored && t.phrases?.[0]
-                            ? `<div style="position: absolute; top: 100%; margin-top: 5px; font-size: 10px; color: #4ffff6;">${t.phrases[0]}</div>`
+                        isPhraseStart
+                            ? `<div style="position: absolute; top: 100%; margin-top: 5px; font-size: 12px; padding-left: 3px; color: ${color};">
+                                <span style="white-space: nowrap;">${t.phrasesDirect?.[0].texts?.[0]}</span>
+                            </div>`
                             : ``
                     }
                 </div>`;
@@ -224,7 +262,7 @@ function addGlobalStyle(css) {
                         .join('')}</div>
                     
                     <!-- en -->
-                    <div style="cursor: text !important; user-select: text !important; margin-top: 16px; font-size: 18px;">${coloredEn.join(
+                    <div style="cursor: text !important; user-select: text !important; margin-top: 24px; font-size: 18px;">${coloredEn.join(
                         ' '
                     )}</div>
                     

@@ -255,11 +255,12 @@ export async function analysis(
         // lookahead relative from this token and try to lookup 4,3,2 token phrases
         for (let length = 4; length >= 2; length--) {
             // skip if out of bounds
+            // TODO: needs testing
             if (idx + length > intermediate.length) continue;
 
             const phraseText = intermediate
                 .slice(idx, idx + length)
-                .map((x) => x.text)
+                .map((x) => x.surface)
                 .join('');
 
             const words =
@@ -276,6 +277,9 @@ export async function analysis(
                 phrases.push(...newPhrases);
             }
         }
+
+        // sort by length on top
+        phrases.sort((a, b) => b.length - a.length);
 
         const alignedPhrases = determineBestAlignedSenses(
             phrases.flatMap((p) => p.senses) || [],
