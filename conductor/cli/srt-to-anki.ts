@@ -1,6 +1,10 @@
 // require single SRT file that contains both japanese and english subtitles
 // it can be merged using https://subtitletools.com/merge-subtitles-online
 
+// TODO:
+// [ ] support phrases
+// [ ] assign reading from base form and not from surface form (retrieve base reading from jmdict directly)
+
 import { JMdict } from '@scriptin/jmdict-simplified-types';
 import { readFileSync } from 'fs';
 import path from 'path';
@@ -41,12 +45,8 @@ async function main() {
                 t.pos !== 'symbol' &&
                 (!isHiraganaOnly(t.text) || t.text.length >= 3);
 
-            const isPhraseStart =
-                t.phrasesDirect?.[0] &&
-                (isSignificant || t.phrasesDirect?.[0].length >= 3);
-
-            // skip if not significant and not a phrase
-            if (!isSignificant && !isPhraseStart) continue;
+            // skip if not significant
+            if (!isSignificant) continue;
 
             let backText = '';
 
@@ -64,19 +64,22 @@ async function main() {
                         .join('<br/>') + `<hr>`;
             }
 
-            if (isPhraseStart) {
-                backText += t.phrasesDirect
-                    .slice(0, 4)
-                    .map((p) => p.texts.join('<br/>'))
-                    .join('<br/>');
-            }
-
             if (!cardMap.has(t.surface)) {
                 cardMap.set(t.surface, {
                     Front: frontText,
                     Back: backText
                 });
             }
+
+            // BONUS: resolve phrases with length >= 3
+            // for (const phrase of t.phrasesDirect) {
+            //     if (phrase.length >= 3 && !cardMap.has(phrase.text)) {
+            //         cardMap.set(phrase.text, {
+            //             Front: ,
+            //             Back: backText + phrase.gloss.text
+            //         });
+            //     }
+            // }
         }
     }
 
