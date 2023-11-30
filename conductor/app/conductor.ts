@@ -29,6 +29,10 @@ import {
     kuromojiToJmdictTagsMapping
 } from './kuromoji-lexical';
 
+export type Sense = JMdictSense & {
+    word: JMdictWord;
+};
+
 export type Candidate = {
     text: string;
     type: 'kanji' | 'kana';
@@ -37,7 +41,7 @@ export type Candidate = {
 };
 
 export type AlignedGlossMatch = {
-    sense: JMdictSense;
+    sense: Sense;
     gloss: JMdictGloss;
     sensePosScore: number;
     glossScore: number;
@@ -52,7 +56,7 @@ export type Dict = {
 export type Phrase = {
     text: string;
     length: number;
-    senses: JMdictSense[];
+    senses: Sense[];
 };
 
 export type PhraseTexts = {
@@ -63,7 +67,10 @@ export type PhraseTexts = {
 
 export type AnalysedToken = {
     text: string; // base form
-    surface: string; // surface form as in text
+    surface: string; // surface japanese form of the token (non-base form)
+
+    base: string; // base japanese form by JMDict dictionary word alignment
+    baseKana: string; // kana (reading) of the base word
 
     pos: KuromojiPos;
     token: KuromojiToken;
@@ -76,7 +83,7 @@ export type AnalysedToken = {
 
     // because we expect an exact match with either the base or surface form,
     // we will use jmdict senses directly
-    senses: JMdictSense[];
+    senses: Sense[];
 
     // raw aligned gloss
     // best gloss matches are at the start
@@ -168,7 +175,7 @@ function getGlossScore(text: string, ref: string): number {
 // 1. matching POS
 // 2. term from gloss is in reference
 export function determineBestAlignedSenses(
-    senses: JMdictSense[],
+    senses: Sense[],
     reference: string,
     targetPos?: KuromojiPos
 ): AlignedGlossMatch[] {
@@ -226,7 +233,9 @@ export async function analysis(
         const words = dict.fromKanjiMap.get(text) || dict.fromKanaMap.get(text);
         const pos: KuromojiPos = kuromojiPartOfSpeech[token.pos] || '';
 
-        const senses = words?.flatMap((w) => w.sense);
+        const senses: Sense[] | undefined = words?.flatMap((word) =>
+            word.sense.flatMap((s) => ({ word, ...s }))
+        );
 
         return { text, surface, pos, token, senses };
     });
@@ -273,10 +282,10 @@ export async function analysis(
                 dict.fromKanjiMap.get(phraseText) ||
                 dict.fromKanaMap.get(phraseText);
 
-            const newPhrases = words?.flatMap((w) => ({
+            const newPhrases: Phrase[] | undefined = words?.flatMap((w) => ({
                 text: phraseText,
                 length,
-                senses: w.sense
+                senses: w.sense.flatMap((s) => ({ word: w, ...s }))
             }));
 
             if (newPhrases) {
@@ -293,8 +302,13 @@ export async function analysis(
             undefined // do not match POS with phrase senses
         );
 
+        // pick base form from the jmdict word of first aligned sense
+        const baseWord = alignedGloss[0]?.sense?.word;
+
         return {
             ...token,
+            base: baseWord?.kanji[0]?.text || baseWord?.kana[0]?.text || '',
+            baseKana: baseWord?.kana[0]?.text || '',
 
             // aligned short
             eng: cleanGlossEntry(alignedGlossShort[0]?.gloss.text || ''),

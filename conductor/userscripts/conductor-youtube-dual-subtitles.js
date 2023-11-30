@@ -47,6 +47,13 @@ function addGlobalStyle(css) {
     ];
     let palleteCounter = 0;
 
+    const EXCLUDED_TOKENS = [
+        { text: 'する', pos: 'verb' },
+        { text: 'い', pos: 'verb' },
+        { text: 'ます', pos: 'noun' },
+        { text: 'ちゃっ', pos: 'verb' }
+    ];
+
     // Japanese utils ...
 
     function containsKanji(input) {
@@ -161,6 +168,11 @@ function addGlobalStyle(css) {
 
         const Token = (t) => {
             const isColored =
+                !EXCLUDED_TOKENS.some(
+                    (ex) =>
+                        (ex.text === t.text || ex.text === t.base) &&
+                        ex.pos === t.pos
+                ) &&
                 t.pos !== 'symbol' &&
                 (!isHiraganaOnly(t.text) || t.text.length >= 3);
 
@@ -242,7 +254,7 @@ function addGlobalStyle(css) {
                     }
                     ${
                         isPhraseStart
-                            ? `<div style="position: absolute; top: 100%; margin-top: 5px; font-size: 12px; padding-left: 3px; color: ${color};">
+                            ? `<div style="display: flex; position: absolute; top: 100%; margin-top: 5px; font-size: 12px; padding-left: 3px; color: ${color};">
                                 <span style="white-space: nowrap;">${t.phrasesDirect?.[0].texts?.[0]}</span>
                             </div>`
                             : ``

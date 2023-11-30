@@ -1,5 +1,7 @@
 // require single SRT file that contains both japanese and english subtitles
-// it can be merged using https://subtitletools.com/merge-subtitles-online
+// get subtitles directly from file using ffmpeg
+// and/or get them from https://kitsunekko.net/  (jp subtitles)
+// - eng+jp can be merged using https://subtitletools.com/merge-subtitles-online
 
 // TODO:
 // [ ] support phrases
@@ -11,16 +13,39 @@ import path from 'path';
 import { toHiragana } from 'wanakana';
 import { AnkiCardData, createAnkiDeck, sendDeckToAnki } from '../app/anki';
 import { analysis, initJmdict } from '../app/conductor';
-import { isHiraganaOnly } from '../app/jputilts';
+import { EXCLUDED_TOKENS } from '../app/excluded-tokens';
+import { containsNoJapanese, isHiraganaOnly } from '../app/jputilts';
 import { fromSrt } from '../app/srt-tools';
 
-async function main() {
+type SeparatedLine = {
+    jp: string;
+    en: string;
+};
+
+// separate input lines into jp and en by whether japanese characters are present
+function separate(lines: string[]): SeparatedLine {
+    return {
+        jp: lines.filter((l) => !containsNoJapanese(l)).join(' '),
+        en: lines.filter((l) => containsNoJapanese(l)).join(' ')
+    };
+}
+
+function getLines(fileName: string): SeparatedLine[] {
     // the subtitle file is the first argument
-    const file = process.argv[2];
 
     // read the file
-    const content = readFileSync(file, 'utf8');
-    const entries = fromSrt(content);
+    const content = readFileSync(fileName, 'utf8');
+
+    if (fileName.endsWith('.srt')) {
+        return fromSrt(content).map((s) => separate(s.lines));
+    } else {
+        // text files are split by lines
+        return content.split('\n').map((l) => separate([l]));
+    }
+}
+
+async function main() {
+    const fileName = process.argv[2];
 
     // init dict
     const dict: JMdict = JSON.parse(
@@ -28,20 +53,24 @@ async function main() {
     );
     await initJmdict(dict);
 
+    const lineEntries = getLines(fileName);
+
     // anki cards map
     const cardMap = new Map<string, AnkiCardData>();
 
     // now do analysis
-    for (const entry of entries) {
-        const jp = entry.lines.join(' ');
-
-        // TODO: eng mapping
-        const tokens = await analysis(jp, '');
+    for (const line of lineEntries) {
+        const tokens = await analysis(line.jp, line.en);
 
         // map through tokens
         for (const t of tokens) {
             // such token would be colored on the conductor FE
             const isSignificant =
+                !EXCLUDED_TOKENS.some(
+                    (ex) =>
+                        (ex.text === t.text || ex.text === t.base) &&
+                        ex.pos === t.pos
+                ) &&
                 t.pos !== 'symbol' &&
                 (!isHiraganaOnly(t.text) || t.text.length >= 3);
 
@@ -92,14 +121,14 @@ async function main() {
     function shuffleArray(array: any[]) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            // Swap array[i] and array[j]
             [array[i], array[j]] = [array[j], array[i]];
         }
     }
-    shuffleArray(cards);
+
+    // shuffleArray(cards);
 
     // deck
-    const deckName: string = `Conductor::${path.basename(file)}`;
+    const deckName: string = `Conductor::${path.basename(fileName)}`;
     console.log(`Creating deck '${deckName}' ...`);
     await createAnkiDeck(deckName);
 

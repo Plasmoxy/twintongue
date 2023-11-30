@@ -13,6 +13,8 @@ import {
 function extractTokens(tokens: AnalysedToken[]) {
     return tokens.map((token, index) => ({
         text: token.surface,
+        base: token.base,
+        baseKana: toHiragana(token.baseKana),
         eng: token.eng,
         engMore: token.engMore,
         direct: token.direct,
