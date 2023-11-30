@@ -9,6 +9,9 @@
  * BUG NOTES:
  * https://www.youtube.com/watch?v=gs6DaLaIwmk&t=1631s　30:58 どうやって nepickuje jak expression
  *
+ * NOTES:
+ * - interesting similar software https://subs2srs.sourceforge.net/
+ *
  */
 
 import {
@@ -204,6 +207,9 @@ export async function analysis(
     sentence: string,
     reference: string // reference in english for better polysemantic ambiguity alignment
 ): Promise<AnalysedToken[]> {
+    if (!dict.jmdict)
+        throw new Error('jmdict not initialized, please call initJmdict()');
+
     const kmojiDicPath =
         typeof process !== undefined
             ? 'node_modules/kuromoji/dict'
