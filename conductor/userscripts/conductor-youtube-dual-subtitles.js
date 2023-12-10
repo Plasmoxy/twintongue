@@ -166,6 +166,8 @@ function addGlobalStyle(css) {
         let remainingPhraseTokens = 0;
         let lastPhraseColor = undefined;
 
+        const bgColor = `rgba(0, 0, 0, 1)`;
+
         const Token = (t) => {
             const isColored =
                 !EXCLUDED_TOKENS.some(
@@ -180,7 +182,7 @@ function addGlobalStyle(css) {
                 ? huePallete[palleteCounter++ % huePallete.length]
                 : '#ffffff';
             const rtpart = isColored
-                ? `<rt style="color: ${color};">${t.reading}</rt>`
+                ? `<rt style="color: #eee;">${t.reading}</rt>`
                 : ``;
 
             // additionally colorize also en by looking up the english text by t.eng
@@ -228,8 +230,8 @@ function addGlobalStyle(css) {
                 ? `border-bottom: solid 3px ${lastPhraseColor};`
                 : '';
 
-            return `<div style="display: inline-flex; flex-direction: column; position: relative;">
-                    <ruby style="color: white; ${phraseHighlight}">${
+            return `<div style="background-color: ${bgColor}; border-radius: 8px; padding: 2px; display: inline-flex; flex-direction: column; position: relative;">
+                    <ruby style="color: ${color}; ${phraseHighlight}">${
                 t.text
             }${rtpart}</ruby>
                     ${
@@ -254,7 +256,7 @@ function addGlobalStyle(css) {
                     }
                     ${
                         isPhraseStart
-                            ? `<div style="display: flex; position: absolute; top: 100%; margin-top: 5px; font-size: 12px; padding-left: 3px; color: ${color};">
+                            ? `<div style="display: flex; position: absolute; top: 100%; margin-top: 5px; font-size: 12px; padding-left: 3px; color: ${color}; background-color: ${bgColor}; border-radius: 8px;">
                                 <span style="white-space: nowrap;">${t.phrasesDirect?.[0].texts?.[0]}</span>
                             </div>`
                             : ``
@@ -265,7 +267,7 @@ function addGlobalStyle(css) {
         function render() {
             const root = document.createElement('div');
 
-            root.innerHTML = `<div style="background-color: black; padding: 10px; margin-top: 15px; margin-bottom: 15px; font-size: 24px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            root.innerHTML = `<div style="padding: 10px; margin-top: 15px; margin-bottom: 15px; font-size: 24px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
                     <!-- jp -->
                     <div style="cursor: text !important; user-select: text !important;">${results
                         .map((tok) =>
@@ -274,9 +276,9 @@ function addGlobalStyle(css) {
                         .join('')}</div>
                     
                     <!-- en -->
-                    <div style="cursor: text !important; user-select: text !important; margin-top: 24px; font-size: 18px;">${coloredEn.join(
-                        ' '
-                    )}</div>
+                    <div style="cursor: text !important; user-select: text !important; padding: 3px; margin-top: 24px; font-size: 18px; background-color: ${bgColor}; border-radius: 8px;">${coloredEn.join(
+                ' '
+            )}</div>
                     
                     <!-- conductor controls -->
                     <div style="margin-top: 16px; font-size: 16px; margin-left: auto; display: flex;">
