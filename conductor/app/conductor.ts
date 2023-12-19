@@ -5,6 +5,7 @@
  * [ ] add support for 2-token, (maybe later 3-token) dictionary scans -> there is probably the 'expression' POS like in yomichan
  * [ ] higher priority for matching POS on kuromoji->jmdict lookup
  * [ ] kana kanji map lookup not respecting if the returned kanji is common or not (not sorted !)
+ * [ ] remove stop words and grammatical english stuff from glos alignment (maybe conditional based on POS?)
  *
  * BUG NOTES:
  * https://www.youtube.com/watch?v=gs6DaLaIwmk&t=1631s　30:58 どうやって nepickuje jak expression
@@ -307,8 +308,11 @@ export async function analysis(
 
         return {
             ...token,
-            base: baseWord?.kanji[0]?.text || baseWord?.kana[0]?.text || '',
-            baseKana: baseWord?.kana[0]?.text || '',
+            base:
+                baseWord?.kanji.filter((k) => k.common)[0]?.text ||
+                baseWord?.kana.filter((k) => k.common)[0]?.text ||
+                '',
+            baseKana: baseWord?.kana.filter((k) => k.common)[0]?.text || '',
 
             // aligned short
             eng: cleanGlossEntry(alignedGlossShort[0]?.gloss.text || ''),

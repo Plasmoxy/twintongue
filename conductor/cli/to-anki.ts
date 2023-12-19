@@ -6,6 +6,7 @@
 // TODO:
 // [ ] support phrases
 // [ ] assign reading from base form and not from surface form (retrieve base reading from jmdict directly)
+// [ ] usually-kana words are still written using kanji? why, めっちゃ
 
 import { JMdict } from '@scriptin/jmdict-simplified-types';
 import { readFileSync } from 'fs';
@@ -30,14 +31,25 @@ function separate(lines: string[]): SeparatedLine {
     };
 }
 
-function getLines(fileName: string): SeparatedLine[] {
+function getLines(
+    fileName: string,
+    srtTimeRangeMs?: number[]
+): SeparatedLine[] {
     // the subtitle file is the first argument
 
     // read the file
     const content = readFileSync(fileName, 'utf8');
 
     if (fileName.endsWith('.srt')) {
-        return fromSrt(content).map((s) => separate(s.lines));
+        const srt = fromSrt(content);
+        const filtered = srt.filter((s) => {
+            if (!srtTimeRangeMs) return true;
+            return (
+                s.timestamp >= srtTimeRangeMs[0] &&
+                s.timestamp <= srtTimeRangeMs[1]
+            );
+        });
+        return filtered.map((s) => separate(s.lines));
     } else {
         // text files are split by lines
         return content.split('\n').map((l) => separate([l]));
@@ -47,13 +59,30 @@ function getLines(fileName: string): SeparatedLine[] {
 async function main() {
     const fileName = process.argv[2];
 
+    // time range, if its only numbers then use as ms, otherwise if there is m at the end then use as minutes
+    const srtTimeRange = process.argv[3]
+        ? process.argv[3].split(',')
+        : undefined;
+    let srtTimeRangeMs: number[] | undefined = undefined;
+    if (srtTimeRange) {
+        srtTimeRangeMs = srtTimeRange.map((t) => {
+            if (t.endsWith('m')) {
+                return Number(t.slice(0, -1)) * 60000;
+            } else {
+                return Number(t);
+            }
+        });
+    }
+
     // init dict
     const dict: JMdict = JSON.parse(
         readFileSync('public/jmdict-eng-3.5.0.json', 'utf8')
     );
     await initJmdict(dict);
 
-    const lineEntries = getLines(fileName);
+    const lineEntries = getLines(fileName, srtTimeRangeMs);
+
+    console.log(`Got ${lineEntries.length} lines`);
 
     // anki cards map
     const cardMap = new Map<string, AnkiCardData>();
@@ -79,28 +108,27 @@ async function main() {
 
             let backText = '';
 
-            const frontText = `<ruby style="color: white; font-family: 'Noto Sans JP'; font-size: 36px;">${
-                t.text
-            }<rt style="color: #ff96e0;">${toHiragana(
-                t.token.reading || ''
+            const tx = t.base || t.surface;
+            const txKana = t.base ? t.baseKana : t.token.reading;
+
+            if (!tx) continue;
+
+            const frontText = `<ruby style="color: white; font-family: 'Noto Sans JP'; font-size: 36px;">${tx}<rt style="color: #ff96e0;">${toHiragana(
+                txKana || ''
             )}</rt></ruby>`;
 
-            if (isSignificant) {
-                backText +=
-                    t.alignedGloss
-                        .slice(0, 4)
-                        .map((g) => g.gloss.text)
-                        .join('<br/>') + `<hr>`;
-            }
+            backText +=
+                t.alignedGloss
+                    .slice(0, 4)
+                    .map((g) => g.gloss.text)
+                    .join('<br/>') + `<hr>`;
 
-            if (!cardMap.has(t.surface)) {
-                cardMap.set(t.surface, {
-                    Front: frontText,
-                    Back: backText
-                });
-            }
+            cardMap.set(tx, {
+                Front: frontText,
+                Back: backText
+            });
 
-            // BONUS: resolve phrases with length >= 3
+            // BONUS: resolve phrases with length >= 3 (remove continue clauess above)
             // for (const phrase of t.phrasesDirect) {
             //     if (phrase.length >= 3 && !cardMap.has(phrase.text)) {
             //         cardMap.set(phrase.text, {
@@ -128,7 +156,9 @@ async function main() {
     // shuffleArray(cards);
 
     // deck
-    const deckName: string = `Conductor::${path.basename(fileName)}`;
+    const deckName: string = `Conductor::${path.basename(fileName)}${
+        srtTimeRangeMs ? `-${srtTimeRange[0]}-${srtTimeRange[1]}` : ''
+    }`;
     console.log(`Creating deck '${deckName}' ...`);
     await createAnkiDeck(deckName);
 
