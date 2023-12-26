@@ -272,11 +272,17 @@ function addGlobalStyle(css) {
 
             root.innerHTML = `<div style="padding: 10px; margin-top: 15px; margin-bottom: 15px; font-size: 24px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
                     <!-- jp -->
-                    <div style="cursor: text !important; user-select: text !important;">${results
-                        .map((tok) =>
-                            state.translationVisible ? Token(tok) : tok.text
-                        )
-                        .join('')}</div>
+                    <div style="cursor: text !important; user-select: text !important; ${
+                        state.translationVisible
+                            ? ''
+                            : 'background-color: ' +
+                              bgColor +
+                              '; padding: 3px; border-radius: 8px;'
+                    }">${results
+                .map((tok) =>
+                    state.translationVisible ? Token(tok) : tok.text
+                )
+                .join('')}</div>
                     
                     <!-- en -->
                     <div style="cursor: text !important; user-select: text !important; padding: 3px; margin-top: 24px; font-size: 18px; background-color: ${bgColor}; border-radius: 8px;">${coloredEn.join(
