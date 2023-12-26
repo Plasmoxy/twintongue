@@ -105,14 +105,17 @@ function addGlobalStyle(css) {
         }
 
         if (host === 'asb') {
-            const asbSubtitleElement = document.querySelector(
-                `.jss5 > div > div > span`
-            );
-            if (!asbSubtitleElement) return;
-            const asbParent = asbSubtitleElement.parentElement;
+            const asbSubtitleElements = [
+                ...document.querySelectorAll(`.jss5 > div > div > span`)
+            ];
+            if (!asbSubtitleElements || asbSubtitleElements.length === 0)
+                return;
+            const asbParent = asbSubtitleElements[0].parentElement;
 
             // get text content and split into lines
-            let textContent = asbSubtitleElement.textContent;
+            let textContent = asbSubtitleElements
+                .map((e) => e.textContent)
+                .join('\n');
 
             // basic filtering, remove texts in brackets () and []
             textContent = textContent.replace(/\(.*?\)/g, '');
@@ -130,7 +133,7 @@ function addGlobalStyle(css) {
                 jp,
                 en,
                 asbParent,
-                asbSubtitleElement
+                asbSubtitleElements
             };
         }
     }
@@ -305,8 +308,8 @@ function addGlobalStyle(css) {
             // in case of asb, the subtitle container gets cleared every time
             // so we just hide the asb subtitle span and add our own div
             if (host === 'asb') {
-                const { asbParent, asbSubtitleElement } = elements;
-                asbSubtitleElement.style.display = 'none';
+                const { asbParent, asbSubtitleElements } = elements;
+                asbSubtitleElements.forEach((e) => (e.style.display = 'none'));
 
                 // remove all div elemeents from asb parent
                 asbParent.querySelectorAll('div').forEach((e) => e.remove());
