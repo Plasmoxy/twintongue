@@ -1,0 +1,1835 @@
+﻿1
+00:00:14,820 --> 00:00:16,320
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, Yuu.</font></font>
+（チト）ねえ ユー
+
+2
+00:00:16,610 --> 00:00:17,740
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What?</font></font>
+（ユーリ）何？
+
+3
+00:00:18,530 --> 00:00:20,080
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Where are we, exactly?</font></font>
+（チト）ここはどこなんだろう
+
+4
+00:00:20,660 --> 00:00:24,290
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Dunno. It's white as far as the eye can see.</font></font>
+（ユーリ）
+さあ 見渡す限り真っ白だね
+
+5
+00:00:25,120 --> 00:00:28,460
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's almost like we're the only people in the world.</font></font>
+（ユーリ）まるで世界に２人しか
+いないみたいだね
+
+6
+00:00:29,040 --> 00:00:31,170
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">You sure have it easy, spouting off poetry.</font></font>
+（チト）詩人は気楽だな
+
+7
+00:00:32,010 --> 00:00:36,300
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Meanwhile, I'm desperately trying to find us
+a place for us to ride out the cold...</font></font>
+こっちは寒さをしのげる場所を
+探すのに必死だってのに…
+
+8
+00:00:38,340 --> 00:00:39,800
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">That, or...</font></font>
+それとも…
+
+9
+00:00:39,789 --> 00:00:41,374
+（チト）うううっ…
+
+10
+00:00:41,220 --> 00:00:49,270
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We're actually already dead, and we're in
+the pure-white world of the afterlife.</font></font>
+（ユーリ）
+実は２人とも もう死んでいて―
+
+11
+00:00:44,127 --> 00:00:47,130
+真っ白な死後の世界にいる
+
+12
+00:00:48,798 --> 00:00:50,049
+とか…
+
+13
+00:00:50,400 --> 00:00:52,230
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Don't say that; it's bad luck.</font></font>
+縁起でもない
+
+14
+00:00:55,700 --> 00:00:58,280
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">And stop making snowballs.</font></font>
+あと雪玉作るのやめろ
+
+15
+00:00:58,280 --> 00:01:01,160
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Aww, I was just starting to have fun!</font></font>
+え～ 楽しくなってきたのにい
+
+16
+00:01:01,700 --> 00:01:05,660
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">My head feels heavy, and I'm really cold.</font></font>
+頭が重い
+
+17
+00:01:04,272 --> 00:01:05,607
+それにすごく寒い
+
+18
+00:01:06,080 --> 00:01:10,500
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, did you know that the afterlife
+is supposed to be really warm?</font></font>
+（ユーリ）ねえ 知ってる？
+
+19
+00:01:07,692 --> 00:01:10,862
+死後の世界ってあったかいんだって
+
+20
+00:01:10,840 --> 00:01:14,630
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">If that's true, then it doesn't look like we're dead yet.</font></font>
+（チト）だったら私たちは
+まだ死んでないみたいだな
+
+21
+00:01:15,075 --> 00:01:16,951
+う… うううっ…
+
+22
+00:01:17,035 --> 00:01:21,623
+（風の音）
+
+23
+00:01:21,510 --> 00:01:23,060
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Sure is cold...</font></font>
+（ユーリ）寒いね…
+
+24
+00:01:27,504 --> 00:01:33,510
+♪～
+
+25
+00:01:34,820 --> 00:01:40,780
+<font color="#ffff54"><font face="Lato Semibold" size="44">Maybe today we should turn back</font></font>
+
+26
+00:01:42,280 --> 00:01:48,540
+<font color="#ffff54"><font face="Lato Semibold" size="44">Maybe tomorrow we can go even further</font></font>
+
+27
+00:01:45,700 --> 00:01:48,870
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}Girls' Last Tour</font></font>
+
+28
+00:01:48,870 --> 00:01:49,790
+<font color="#ffff54"><font face="Lato Semibold" size="44">Creaking</font></font>
+
+29
+00:01:49,790 --> 00:01:53,800
+<font color="#ffff54"><font face="Lato Semibold" size="44">I want to find the many happy things far away</font></font>
+
+30
+00:01:53,800 --> 00:01:57,550
+<font color="#ffff54"><font face="Lato Semibold" size="44">Hope sparkling with light, moving, moving</font></font>
+
+31
+00:01:57,550 --> 00:02:01,260
+<font color="#ffff54"><font face="Lato Semibold" size="44">Unending talk continues on forever</font></font>
+
+32
+00:02:01,260 --> 00:02:04,810
+<font color="#ffff54"><font face="Lato Semibold" size="44">Goodbye loneliness, moving, moving</font></font>
+
+33
+00:02:04,810 --> 00:02:11,310
+<font color="#ffff54"><font face="Lato Semibold" size="44">Just like solving a difficult puzzle</font></font>
+
+34
+00:02:11,310 --> 00:02:18,990
+<font color="#ffff54"><font face="Lato Semibold" size="44">I'm sure we'll keep learning the things we want to learn</font></font>
+
+35
+00:02:18,990 --> 00:02:22,910
+<font color="#ffff54"><font face="Lato Semibold" size="44">So with a 1, 2, 3 start walking</font></font>
+
+36
+00:02:22,910 --> 00:02:26,410
+<font color="#ffff54"><font face="Lato Semibold" size="44">Today and tomorrow and yesterday are all the same</font></font>
+
+37
+00:02:26,410 --> 00:02:30,250
+<font color="#ffff54"><font face="Lato Semibold" size="44">So with a 1, 2, 3 start walking</font></font>
+
+38
+00:02:30,250 --> 00:02:34,000
+<font color="#ffff54"><font face="Lato Semibold" size="44">In the opposite direction the world is turning</font></font>
+
+39
+00:02:34,000 --> 00:02:37,840
+<font color="#ffff54"><font face="Lato Semibold" size="44">That's right, with a 1, 2, 3 start dancing</font></font>
+
+40
+00:02:37,840 --> 00:02:41,550
+<font color="#ffff54"><font face="Lato Semibold" size="44">I want to forget today and tomorrow and yesterday</font></font>
+
+41
+00:02:41,550 --> 00:02:45,220
+<font color="#ffff54"><font face="Lato Semibold" size="44">So with a 1, 2, 3 start moving</font></font>
+
+42
+00:02:45,220 --> 00:02:50,230
+<font color="#ffff54"><font face="Lato Semibold" size="44">I'm sure that's the a-a-a-a-answer</font></font>
+
+43
+00:02:51,296 --> 00:02:56,301
+～♪
+
+44
+00:03:05,910 --> 00:03:10,000
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">W-we've gotta find a place to rest soon...</font></font>
+（チト）そ そろそろホントに
+休める場所を見つけないと
+
+45
+00:03:10,000 --> 00:03:11,000
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah...</font></font>
+うん…
+
+46
+00:03:16,571 --> 00:03:18,406
+はっ んん！
+
+47
+00:03:18,740 --> 00:03:21,075
+（エンジンを吹かす音）
+
+48
+00:03:27,180 --> 00:03:28,680
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yuu, wake up!</font></font>
+あっ ユー 起きろ
+
+49
+00:03:29,970 --> 00:03:31,850
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I'm not sleeping.</font></font>
+寝てないよ…
+
+50
+00:03:32,253 --> 00:03:34,839
+う… くう～ うう…
+
+51
+00:03:34,923 --> 00:03:37,383
+はあっ… うう…
+
+52
+00:03:37,150 --> 00:03:40,240
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">A b-b-building...</font></font>
+た た 建物…
+
+53
+00:03:43,530 --> 00:03:44,950
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's big.</font></font>
+（ユーリ）ううっ…
+（チト）大きい…
+
+54
+00:03:49,062 --> 00:03:51,314
+ふう… ううう…
+
+55
+00:03:55,830 --> 00:03:58,840
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Wh-wh-what kind of building is it?</font></font>
+（ユーリ）
+なな… 何の施設だろう…
+
+56
+00:03:58,840 --> 00:04:01,010
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">N-no clue.</font></font>
+（チト）さ さあな
+
+57
+00:04:01,010 --> 00:04:04,340
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Let's find a way in.</font></font>
+入り口を… 探そ… おっ
+
+58
+00:04:11,890 --> 00:04:13,100
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Whew.</font></font>
+（ユーリ）っと…
+
+59
+00:04:13,127 --> 00:04:17,090
+（チト）
+ハァ… ハァ… う～ ううっ…
+
+60
+00:04:20,860 --> 00:04:24,820
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}72nd Surface
+Power Plant</font></font>
+
+61
+00:04:22,440 --> 00:04:24,820
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">C-can't read it...</font></font>
+よ 読めないな
+
+62
+00:04:26,320 --> 00:04:28,830
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">This facility's pretty old.</font></font>
+相当古い施設だ
+
+63
+00:04:28,830 --> 00:04:30,740
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Don't know how to get in.</font></font>
+入り口も分からない
+
+64
+00:04:31,290 --> 00:04:33,200
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, look, look!</font></font>
+（ユーリ）ねえ 見て見て
+
+65
+00:04:33,960 --> 00:04:35,330
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What's up?</font></font>
+（チト）ん？ どうした？
+
+66
+00:04:35,750 --> 00:04:39,710
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Th-that pipe doesn't have any snow on it at all.</font></font>
+（ユーリ）あ あのパイプ
+全然雪が積もってない
+
+67
+00:04:43,670 --> 00:04:45,300
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's melting?</font></font>
+溶けてる…
+
+68
+00:04:48,340 --> 00:04:50,140
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I-is it hot?!</font></font>
+あっ 熱いのか！？
+
+69
+00:04:50,760 --> 00:04:52,430
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Lemme shoot it.</font></font>
+（ユーリ）撃ってみよう
+
+70
+00:04:55,503 --> 00:04:57,922
+ううう…
+
+71
+00:04:58,006 --> 00:05:00,133
+（チト）んん… ん…
+
+72
+00:05:11,644 --> 00:05:12,645
+ハァ…
+
+73
+00:05:12,937 --> 00:05:15,523
+（チト）ううっ…
+
+74
+00:05:20,987 --> 00:05:22,488
+（ユーリ）ハァ…
+
+75
+00:05:25,616 --> 00:05:27,243
+（チト）う…
+
+76
+00:05:28,077 --> 00:05:29,203
+（ユーリ）ん…
+
+77
+00:05:31,372 --> 00:05:32,832
+んんっ…
+
+78
+00:05:47,030 --> 00:05:49,160
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">H-hot water!</font></font>
+（チト）お お湯だ…
+
+79
+00:05:50,070 --> 00:05:51,740
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hot water!</font></font>
+お湯～
+
+80
+00:05:59,400 --> 00:06:01,277
+（ユーリ）ああ～
+（チト）ハァ～
+
+81
+00:06:04,500 --> 00:06:06,800
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Wh-what should we do?</font></font>
+（ユーリ）ど どうする？
+
+82
+00:06:06,800 --> 00:06:08,880
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What do you mean? C'mon.</font></font>
+（チト）どうするって そりゃ…
+
+83
+00:06:20,730 --> 00:06:24,020
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I'm glad we found a pipe in such good condition.</font></font>
+具合のいい管があってよかったね～
+
+84
+00:06:24,020 --> 00:06:25,110
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah.</font></font>
+うん
+
+85
+00:06:26,530 --> 00:06:28,610
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">There we go: a bath.</font></font>
+（ユーリ）できた… 風呂
+
+86
+00:06:28,610 --> 00:06:29,860
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Let's get in.</font></font>
+（チト）入ろう
+
+87
+00:06:29,650 --> 00:06:33,570
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}Bath</font></font>
+
+88
+00:06:39,107 --> 00:06:42,276
+（チト）うううっ ハァ…
+
+89
+00:06:44,590 --> 00:06:45,710
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hot!</font></font>
+あちっ ぐ…
+
+90
+00:06:46,531 --> 00:06:48,199
+（ユーリ）ハァ～
+（チト）あ…
+
+91
+00:06:48,460 --> 00:06:50,930
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The water feels really good, Chi!</font></font>
+いい湯だよ ちーちゃん
+
+92
+00:06:51,300 --> 00:06:52,840
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Y-yeah.</font></font>
+う うん…
+
+93
+00:06:57,208 --> 00:07:00,086
+（チト）ああ… つ～ つつつ…
+（ユーリ）ハァ～
+
+94
+00:07:00,419 --> 00:07:03,756
+（チト）ん… ああっ ああ…
+
+95
+00:07:04,173 --> 00:07:06,634
+（ユーリ･チト）ハァ～
+
+96
+00:07:10,110 --> 00:07:11,900
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Feels good...</font></font>
+（チト）気持ちいい…
+
+97
+00:07:11,900 --> 00:07:14,530
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">how long has it been since we had a bath?</font></font>
+お風呂なんて いつぶりだろ
+
+98
+00:07:14,530 --> 00:07:18,620
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I think we've taken two since leaving Grandpa's.</font></font>
+おじいさんの所を出てから
+２回は入ったっけ？
+
+99
+00:07:18,620 --> 00:07:20,000
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Three.</font></font>
+３回だよ
+
+100
+00:07:20,460 --> 00:07:23,500
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Huh. So this is our fourth.</font></font>
+そっか～ じゃあ４回目だ
+（チト）ハァ～
+
+101
+00:07:25,960 --> 00:07:27,670
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I feel like I've been brought back to life.</font></font>
+ハァ～ 生き返る
+
+102
+00:07:28,130 --> 00:07:30,670
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">This is paradise, pure paradise...</font></font>
+（ユーリ）極楽～ 極楽～
+
+103
+00:07:32,034 --> 00:07:35,913
+（湯船の中で息を吐く音）
+
+104
+00:07:36,140 --> 00:07:39,520
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, what does "paradise" mean anyway?</font></font>
+ねえ “極楽”って
+どういう意味？
+
+105
+00:07:40,600 --> 00:07:42,770
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It means the afterlife.</font></font>
+ああ… 死後の世界って意味だな
+
+106
+00:07:43,560 --> 00:07:46,980
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">That's an unlucky thing to say
+after we've been brought back to life.</font></font>
+（ユーリ）せっかく生き返ったのに
+縁起でもないね
+
+107
+00:07:47,570 --> 00:07:48,820
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah.</font></font>
+（チト）そうだな
+
+108
+00:07:49,594 --> 00:07:50,470
+（ユーリ）ハハハハハ…
+
+109
+00:07:50,595 --> 00:07:51,429
+（チト）フフフ…
+
+110
+00:07:51,512 --> 00:07:56,017
+（ユーリとチトの笑い声）
+
+111
+00:08:00,120 --> 00:08:02,580
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Ugh, I'm getting dizzy.</font></font>
+あ～ のぼせてきた
+
+112
+00:08:03,065 --> 00:08:05,943
+（湯船の中で息を吐く音）
+
+113
+00:08:09,000 --> 00:08:12,970
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}Journal</font></font>
+
+114
+00:08:16,537 --> 00:08:20,791
+（きしむ音）
+
+115
+00:08:21,520 --> 00:08:23,640
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The wind sure is blowing hard.</font></font>
+すごい吹雪だね
+
+116
+00:08:23,640 --> 00:08:25,350
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah, huh.</font></font>
+うん そうだね
+
+117
+00:08:25,810 --> 00:08:28,650
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Glad we found a place we could stay.</font></font>
+宿りできる場所があってよかったね
+
+118
+00:08:28,650 --> 00:08:30,730
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah, huh.</font></font>
+うん そうだね
+
+119
+00:08:31,690 --> 00:08:36,280
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We went into a building and
+blocked the entrance with snow.</font></font>
+“私たちは建物に入り
+入り口を雪で固めた”
+
+120
+00:08:36,280 --> 00:08:40,990
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We were lucky to have scrap material
+we could use to help retain heat.</font></font>
+“保温のために役に立つ有機物の
+廃材があったのは幸いだった”
+
+121
+00:08:42,040 --> 00:08:44,710
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Oh, add more fuel.</font></font>
+あ 燃料追加して
+
+122
+00:08:45,120 --> 00:08:46,500
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Okay, okay.</font></font>
+ヘイヘイ
+
+123
+00:08:46,500 --> 00:08:48,130
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">One okay is enough.</font></font>
+ヘイは１回だ
+
+124
+00:08:48,500 --> 00:08:49,670
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Okay.</font></font>
+（ユーリ）ヘ～イ
+
+125
+00:08:52,000 --> 00:08:56,590
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Must be nice for you, Chi,
+making me do all the annoying work.</font></font>
+ちーちゃんはいいよね
+
+126
+00:08:54,075 --> 00:08:56,661
+めんどくさいことは私任せで
+
+127
+00:08:56,590 --> 00:09:00,050
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">If you don't have the brains, use your brawn.</font></font>
+頭が足りないやつは
+体動かすんだよ
+
+128
+00:09:00,050 --> 00:09:02,890
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">You can't even read or write.</font></font>
+お前 ロクに読み書きも
+できないだろ
+
+129
+00:09:03,220 --> 00:09:04,600
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Huh.</font></font>
+あ～ う…
+
+130
+00:09:05,730 --> 00:09:07,650
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What're you writing again?</font></font>
+それ 何 書いてんだっけ？
+
+131
+00:09:07,900 --> 00:09:12,150
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's a journal or log I've been keeping since we left.</font></font>
+出発してからの日記というか
+日誌というか…
+
+132
+00:09:12,650 --> 00:09:14,690
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I explained it to you before.</font></font>
+前にも説明したろ
+
+133
+00:09:14,690 --> 00:09:15,610
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">You did?</font></font>
+そだっけ
+
+134
+00:09:16,110 --> 00:09:21,200
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">People like you are exactly why
+we need to have a journal like this.</font></font>
+お前みたいなやつにこそ
+こういう記録が必要なんだよ
+
+135
+00:09:22,030 --> 00:09:24,660
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Memories fade, so we write them down.</font></font>
+記憶は薄れるから
+記録しておくんだよ
+
+136
+00:09:26,148 --> 00:09:27,483
+あ～
+
+137
+00:09:30,330 --> 00:09:33,340
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Memories just get in the way of living.</font></font>
+記憶なんて生きる邪魔だぜ
+
+138
+00:09:34,510 --> 00:09:37,680
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Can you remember the last time you ate?</font></font>
+ごはん食べたかどうかくらいは
+覚えといてよ
+
+139
+00:09:38,300 --> 00:09:40,850
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Huh? Did we eat today?</font></font>
+あれ？ 今日ごはん食べたっけ？
+
+140
+00:09:41,510 --> 00:09:43,180
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Seriously?</font></font>
+食べたって ハァ…
+
+141
+00:09:45,220 --> 00:09:47,520
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Books are really amazing.</font></font>
+本ってのはすごいんだよ
+
+142
+00:09:48,270 --> 00:09:54,690
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Ever since they were invented thousands of years ago,
+humanity has been recording things in books.</font></font>
+何千年も前に
+古代人が発明して以来―
+
+143
+00:09:52,049 --> 00:09:54,885
+ずっと人類は本に記録してきたんだ
+
+144
+00:09:54,690 --> 00:09:55,940
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Huh.</font></font>
+（ユーリ）ふ～ん
+
+145
+00:09:56,240 --> 00:10:00,490
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's thanks to books that we can learn about
+things that happened long ago.</font></font>
+（チト）昔のことを
+知ることができるのも―
+
+146
+00:09:58,889 --> 00:10:00,433
+本のおかげだしね
+
+147
+00:10:01,200 --> 00:10:04,700
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">You've always liked books, huh, Chi.</font></font>
+（ユーリ）ちーちゃんは昔から
+本 好きだったもんね
+
+148
+00:10:04,700 --> 00:10:07,750
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">You read a whole lot of Grandpa's books.</font></font>
+おじいさんの本
+たくさん読んでたし
+
+149
+00:10:07,750 --> 00:10:10,370
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah, but we had to burn most of them.</font></font>
+（チト）
+ほとんど燃えちゃったけどね
+
+150
+00:10:10,370 --> 00:10:14,750
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Excluding the couple of journals, we have...</font></font>
+今も持ってるのは
+数冊の日記を除けば…
+
+151
+00:10:14,750 --> 00:10:18,880
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">One, two, three... four books.</font></font>
+１… ２… ３… ４冊か…
+
+152
+00:10:21,550 --> 00:10:22,600
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Lemme see.</font></font>
+見せて
+
+153
+00:10:25,970 --> 00:10:27,020
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Sure.</font></font>
+
+154
+00:10:26,600 --> 00:10:27,350
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}KAPPA
+Akutagawa</font></font>
+はい
+
+155
+00:10:29,503 --> 00:10:31,339
+ふ～ん
+
+156
+00:10:33,230 --> 00:10:36,860
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I wonder how many books are left in the world.</font></font>
+世界中探しても
+もうどれだけ残ってるか…
+
+157
+00:10:36,860 --> 00:10:38,490
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I see.</font></font>
+なるほど～
+
+158
+00:10:40,110 --> 00:10:43,870
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The fire's getting low. Add more fuel.</font></font>
+あっ 火 弱くなってる
+
+159
+00:10:42,308 --> 00:10:44,185
+燃料追加して
+
+160
+00:10:44,200 --> 00:10:45,240
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Okay.</font></font>
+はい
+
+161
+00:10:45,660 --> 00:10:49,000
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We don't have much fuel left to burn.</font></font>
+燃やせる物も
+なくなってきたなあ
+
+162
+00:10:49,023 --> 00:10:50,191
+よっ！
+
+163
+00:10:50,858 --> 00:10:51,859
+あ…
+
+164
+00:10:52,210 --> 00:10:55,040
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What, are we out of fuel?</font></font>
+何？ 廃材 もうないの？
+
+165
+00:10:55,237 --> 00:10:56,572
+ん…？
+
+166
+00:10:58,908 --> 00:11:01,077
+あっ… うわああっ！
+
+167
+00:11:01,180 --> 00:11:03,010
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The book!</font></font>
+本がっ！！
+
+168
+00:11:03,010 --> 00:11:04,390
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Put it out!</font></font>
+消せ～っ！
+（ユーリ）熱っ 熱い…
+
+169
+00:11:04,390 --> 00:11:05,720
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hot, hot!</font></font>
+
+170
+00:11:06,040 --> 00:11:09,794
+ハァ ハァ ハァ ハァ…
+（ユーリ）ううっ… ん？
+
+171
+00:11:09,877 --> 00:11:14,965
+（チト）ああああ… 「河童(かっぱ)」が…
+
+172
+00:11:11,690 --> 00:11:13,770
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Not Kappa...</font></font>
+
+173
+00:11:15,341 --> 00:11:18,469
+ああ…
+（ユーリ）「河童」？
+
+174
+00:11:17,530 --> 00:11:18,530
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Kappa?</font></font>
+
+175
+00:11:18,980 --> 00:11:22,410
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I literally just told you books were important!</font></font>
+（ユーリ）うううっ…
+（チト）本が大事ってこと―
+
+176
+00:11:20,513 --> 00:11:22,515
+話したよな さっき
+
+177
+00:11:22,410 --> 00:11:25,620
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Sorry, I wasn't really listening!</font></font>
+ごめん それは
+あんまり聞いてなかった
+
+178
+00:11:25,620 --> 00:11:26,780
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Listen!</font></font>
+聞けよっ！！
+
+179
+00:11:28,479 --> 00:11:29,438
+ぷは～っ
+
+180
+00:11:29,522 --> 00:11:32,733
+くう… ん！
+
+181
+00:11:33,080 --> 00:11:35,080
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I said I was sorry.</font></font>
+悪かったって
+
+182
+00:11:35,080 --> 00:11:37,130
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Moron! Idiot! Garbage!</font></font>
+バカ！ クズ！ ゴミ！
+
+183
+00:11:37,630 --> 00:11:38,550
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Okay.</font></font>
+はい
+
+184
+00:11:38,550 --> 00:11:39,550
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Don't "okay" me!</font></font>
+“はい”じゃない
+
+185
+00:11:41,340 --> 00:11:43,510
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Whatever, I'm going to bed!</font></font>
+もういい 寝るっ！
+
+186
+00:11:55,650 --> 00:11:56,900
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Chi.</font></font>
+（ユーリ）ちーちゃん
+
+187
+00:12:14,316 --> 00:12:15,609
+（ユーリ）ん…
+
+188
+00:12:28,350 --> 00:12:31,310
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}Journal
+Chito</font></font>
+
+189
+00:12:51,950 --> 00:12:54,160
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">C'mon, Yuu, hurry it up.</font></font>
+（チト）ほら ユー 早くしろ
+
+190
+00:12:58,000 --> 00:13:00,750
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Chi, are you still mad at me?</font></font>
+ちーちゃん まだ怒ってる？
+
+191
+00:13:00,750 --> 00:13:01,800
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">No.</font></font>
+（チト）別に
+
+192
+00:13:01,800 --> 00:13:03,460
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">You definitely are.</font></font>
+怒ってるじゃん
+
+193
+00:13:07,119 --> 00:13:08,496
+あ…
+
+194
+00:13:11,310 --> 00:13:12,810
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Ready, go!</font></font>
+（チト･ユーリ）せーの！
+
+195
+00:13:16,378 --> 00:13:17,796
+あ…
+
+196
+00:13:23,280 --> 00:13:24,690
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The storm cleared up!</font></font>
+お～っ 晴れた
+
+197
+00:13:24,690 --> 00:13:26,030
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The snow sure piled up.</font></font>
+積もったな
+
+198
+00:13:29,110 --> 00:13:31,740
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What do you think, doable?</font></font>
+（ユーリ）ん… どう 行けそう？
+
+199
+00:13:31,740 --> 00:13:33,120
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Think so.</font></font>
+何とか…
+
+200
+00:13:37,316 --> 00:13:38,317
+ん？
+
+201
+00:13:40,460 --> 00:13:43,250
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, are you still mad?</font></font>
+ねえ まだ怒ってる？
+
+202
+00:13:48,050 --> 00:13:49,340
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">No.</font></font>
+（チト）別に
+
+203
+00:13:52,600 --> 00:13:54,520
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hurry up and get on.</font></font>
+早く乗りなよ
+
+204
+00:13:55,220 --> 00:13:58,520
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Even if we lost a book, we still have the journals.</font></font>
+本は減っても まあ
+この日記があるし
+
+205
+00:14:02,860 --> 00:14:04,230
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hup.</font></font>
+よいしょっと
+
+206
+00:14:04,230 --> 00:14:08,240
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">If we keep writing things in our journal,
+it'll be like a book...</font></font>
+日記も書き連ねていけば
+本のようなもの
+
+207
+00:14:10,200 --> 00:14:11,870
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What is this?</font></font>
+ん？ 何だ これ？
+
+208
+00:14:13,660 --> 00:14:16,080
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, Yuu, you drew something in here, didn't you?</font></font>
+おい ユー 何か落書きしたろ
+
+209
+00:14:16,750 --> 00:14:17,750
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Did I?</font></font>
+はて？
+
+210
+00:14:18,000 --> 00:14:20,040
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Don't go drawing in here.</font></font>
+落書きすんなよ
+
+211
+00:14:20,370 --> 00:14:23,090
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What is this, even?</font></font>
+何書いてあるんだ これ…
+
+212
+00:14:23,340 --> 00:14:25,300
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's your face, Chi.</font></font>
+ちーちゃんの顔だよ
+
+213
+00:14:25,590 --> 00:14:27,880
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">My face doesn't look like this.</font></font>
+（チト）私はこんな顔じゃない
+
+214
+00:14:27,880 --> 00:14:29,680
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's what you look like when you're asleep.</font></font>
+だって寝顔だもん
+
+215
+00:14:31,787 --> 00:14:33,247
+（チト）フゥ…
+
+216
+00:14:46,802 --> 00:14:49,680
+（エンジン音）
+
+217
+00:14:53,530 --> 00:14:56,040
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I wanna draw some more now.</font></font>
+もっと落書きしたいなあ～
+
+218
+00:14:56,040 --> 00:14:58,450
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We're short on paper, so don't.</font></font>
+（チト）紙もったいないからダメ
+
+219
+00:14:58,450 --> 00:14:59,660
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Aww.</font></font>
+（ユーリ）え～
+
+220
+00:14:59,660 --> 00:15:02,080
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">And you wrote a letter wrong.</font></font>
+（チト）あと 字 間違えてるぞ
+
+221
+00:15:02,630 --> 00:15:03,710
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Huh?</font></font>
+（ユーリ）え？
+
+222
+00:15:04,000 --> 00:15:09,010
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}I'M SOKKY</font></font>
+
+223
+00:15:04,790 --> 00:15:06,420
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">"I'M SOKKY"?</font></font>
+（チト）“ごぬんね”？
+
+224
+00:15:11,720 --> 00:15:13,550
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Think it's around here.</font></font>
+（チト）この辺かな
+
+225
+00:15:13,550 --> 00:15:16,970
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Sure is nice out, despite it all.</font></font>
+（ユーリ）
+よく晴れてるねえ それにしても
+
+226
+00:15:17,720 --> 00:15:20,180
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's been nice out for a bit now.</font></font>
+（チト）ここのところ晴れ続きだし
+
+227
+00:15:21,310 --> 00:15:24,190
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">That's why I figure it's gonna be coming soon.</font></font>
+だから
+そろそろ来るんじゃないかな
+
+228
+00:15:24,690 --> 00:15:26,440
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What's coming?</font></font>
+来るって何が？
+
+229
+00:15:27,190 --> 00:15:29,360
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">C'mon, you can hear it.</font></font>
+（チト）ほら 音がする
+
+230
+00:15:28,302 --> 00:15:29,845
+（チト）ほら 音がする
+
+231
+00:15:28,302 --> 00:15:29,845
+（地響き）
+
+232
+00:15:29,845 --> 00:15:30,179
+（地響き）
+
+233
+00:15:30,179 --> 00:15:31,347
+（地響き）
+
+234
+00:15:30,179 --> 00:15:31,347
+（ユーリ）あ…
+
+235
+00:15:31,347 --> 00:15:32,431
+（地響き）
+
+236
+00:15:39,290 --> 00:15:40,620
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">There it is.</font></font>
+（チト）お～ 来た来た
+
+237
+00:15:42,210 --> 00:15:44,790
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The water from the melted snow.</font></font>
+ほら 雪解け水が…
+
+238
+00:15:44,790 --> 00:15:47,670
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">So that's what you meant, the snow water.</font></font>
+来るって雪解け水のことか…
+
+239
+00:15:48,380 --> 00:15:50,260
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Sure is a lot.</font></font>
+すごい量だね
+
+240
+00:15:50,260 --> 00:15:53,130
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Because it's been warm now for a few days.</font></font>
+（チト）数日前から
+かなりあったかかったからね
+
+241
+00:15:53,130 --> 00:15:54,720
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It must have really filled up.</font></font>
+たまってたはずだよ
+
+242
+00:15:55,430 --> 00:15:58,510
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Why does a whole lot come out all at once?</font></font>
+（ユーリ）なんで一度に
+たくさん出てくるんだろう？
+
+243
+00:15:58,510 --> 00:16:03,060
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Because the ancient city's drainage system
+is still here, or something.</font></font>
+（チト）大昔の都市の排水機能が
+残ってるせいだとか何とか…
+
+244
+00:16:04,310 --> 00:16:08,020
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">In any case, what's important is
+we get some drinking water.</font></font>
+とにかく大切なのは 飲み水の確保
+
+245
+00:16:08,230 --> 00:16:09,900
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We going down on foot?</font></font>
+徒歩で行くの？
+
+246
+00:16:09,900 --> 00:16:12,030
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah, it can't get down there.</font></font>
+そいつが降りられないからね
+
+247
+00:16:12,030 --> 00:16:12,990
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hup.</font></font>
+（ユーリ）よっこら
+（チト）それと…
+
+248
+00:16:12,990 --> 00:16:13,860
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">That, and...</font></font>
+
+249
+00:16:14,098 --> 00:16:20,104
+♪～
+
+250
+00:16:36,010 --> 00:16:38,260
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Gotta take our shoes off.</font></font>
+靴を脱がなきゃ
+
+251
+00:16:42,751 --> 00:16:43,585
+（ユーリ）んしょ
+
+252
+00:16:45,879 --> 00:16:48,632
+（チト）う… うううっ…
+
+253
+00:16:48,480 --> 00:16:49,690
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Cold!</font></font>
+冷たっ うう…
+
+254
+00:16:50,820 --> 00:16:52,530
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">So cold!</font></font>
+冷た～ うっ…
+
+255
+00:16:53,178 --> 00:16:54,263
+（チト･ユーリ）ううう…
+
+256
+00:16:56,320 --> 00:16:58,740
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's so blue, Chi.</font></font>
+（ユーリ）
+全部真っ青だね ちーちゃん
+
+257
+00:16:58,740 --> 00:17:00,780
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's like we're in the sky.</font></font>
+空にいるみたいだよ
+
+258
+00:17:00,780 --> 00:17:02,790
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Watch your step.</font></font>
+（チト）足元 気をつけろよ
+
+259
+00:17:02,790 --> 00:17:05,500
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The water might've washed down something sharp.</font></font>
+とがった物が
+流れてきてるかもしれない
+
+260
+00:17:05,870 --> 00:17:08,170
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Let's look up while we walk, Chi.</font></font>
+（ユーリ）
+上を向いて歩こうよ ちーちゃん
+
+261
+00:17:08,170 --> 00:17:09,590
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Look up!</font></font>
+上をさ
+
+262
+00:17:09,590 --> 00:17:12,710
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I just told you to watch where you step.</font></font>
+足元に気をつけろって
+言ってんだろうが
+
+263
+00:17:12,960 --> 00:17:17,260
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What a waste when the sky's so blue!</font></font>
+もったいないな～
+こんなに空が青いのに～
+
+264
+00:17:17,161 --> 00:17:17,995
+（チト）ん…
+
+265
+00:17:19,600 --> 00:17:22,100
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">When the sky's so blue,</font></font>
+こんなに空が青いし…
+
+266
+00:17:22,100 --> 00:17:25,140
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">it's good weather for a laundry day.</font></font>
+今日は洗濯日和だな
+
+267
+00:17:25,140 --> 00:17:29,060
+<font color="#ffff54"><font face="LTFinnegan Medium" size="44">{\an8}Laundry</font></font>
+
+268
+00:17:33,070 --> 00:17:34,030
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Cold!</font></font>
+（チト）寒っ
+
+269
+00:17:34,440 --> 00:17:36,320
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What's this rope for?</font></font>
+このヒモは何？
+
+270
+00:17:36,320 --> 00:17:38,660
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We could get hurt if we get washed away by a current.</font></font>
+流されたら危ないだろ
+深い所もあるし
+
+271
+00:17:38,660 --> 00:17:40,660
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The water gets deep in places, too.</font></font>
+
+272
+00:17:40,660 --> 00:17:42,410
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Are you gonna take off your helmet?</font></font>
+ヘルメット取ったら？
+
+273
+00:17:43,200 --> 00:17:46,000
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I could get hurt if I fell.</font></font>
+転んだら危ないだろうが
+
+274
+00:17:46,960 --> 00:17:49,040
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Half-naked with a helmet...</font></font>
+半裸ヘルメット…
+
+275
+00:17:52,630 --> 00:17:55,590
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Our clothes sure are pretty dirty.</font></font>
+やっぱり結構 汚れてるなあ…
+
+276
+00:17:55,840 --> 00:17:59,010
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Why is the sky blue?</font></font>
+空って なんで青いんだろうねえ
+
+277
+00:17:59,380 --> 00:18:02,600
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, Yuu, why're you acting so laid back?</font></font>
+おい ユー
+なんでまったりしてんだ？
+
+278
+00:18:03,010 --> 00:18:04,850
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I got the water.</font></font>
+水なら くんだが
+
+279
+00:18:04,850 --> 00:18:07,180
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">You gotta wash your clothes, too.</font></font>
+お前も服を洗うんだよ
+
+280
+00:18:07,180 --> 00:18:08,350
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Seriously?</font></font>
+マジか
+
+281
+00:18:14,820 --> 00:18:18,280
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, Chi, why is the sky blue?</font></font>
+（ユーリ）ねえ ちーちゃん
+空ってなんで青いの？
+
+282
+00:18:18,280 --> 00:18:22,570
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">People long ago said it was
+reflecting the blue of the ocean.</font></font>
+（チト）昔の人は海の青が
+映っているからなんて言ってたり
+
+283
+00:18:22,570 --> 00:18:23,530
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The ocean?</font></font>
+（ユーリ）海？
+
+284
+00:18:23,530 --> 00:18:28,080
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's a place with water that's way bigger
+and way deeper than this puddle.</font></font>
+（チト）この水たまりよりも
+ず～っと広く深く水がある場所だよ
+
+285
+00:18:28,750 --> 00:18:33,250
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">The water under our feet would go on forever.</font></font>
+私たちの足元のず～っと下に
+まだ あるとか ないとか…
+
+286
+00:18:33,630 --> 00:18:37,210
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I heard people long ago lived by the ocean.</font></font>
+昔の人は海のそばで
+暮らしてたらしいけど
+
+287
+00:18:37,800 --> 00:18:39,420
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, look, look, Chi!</font></font>
+（ユーリ）
+あっ 見て見て ちーちゃん！
+
+288
+00:18:39,420 --> 00:18:40,720
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I told you to listen to-</font></font>
+だから聞けよっ
+
+289
+00:18:40,720 --> 00:18:43,550
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey! You idiot, don't start running all of a sudden!</font></font>
+…って わっ バカ！ 急に走るなっ
+
+290
+00:18:43,789 --> 00:18:44,581
+うっ うわああっ！
+
+291
+00:18:44,832 --> 00:18:47,042
+（転ぶ音）
+
+292
+00:18:54,570 --> 00:18:56,780
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I'm glad I was wearing my helmet.</font></font>
+ヘルメットかぶっててよかった…
+
+293
+00:18:56,780 --> 00:18:58,190
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">C'mon, look, look!</font></font>
+（ユーリ）ねえ 見て見て
+（チト）ん！
+
+294
+00:19:00,490 --> 00:19:02,780
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Why are you all wet, too?</font></font>
+なんでユーも濡れてんだ？
+
+295
+00:19:03,200 --> 00:19:04,280
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I fell.</font></font>
+コケた
+
+296
+00:19:04,950 --> 00:19:06,700
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Forget that, look at this!</font></font>
+それより見てっ これを
+
+297
+00:19:09,870 --> 00:19:12,170
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's... a fish.</font></font>
+（チト）これは… 魚だな
+
+298
+00:19:12,710 --> 00:19:14,290
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Fish...</font></font>
+（ユーリ）魚？
+
+299
+00:19:14,540 --> 00:19:16,590
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Looks like it's dead though.</font></font>
+死んでるみたいだが
+
+300
+00:19:16,590 --> 00:19:18,630
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What's a fish?</font></font>
+魚って何なの？
+
+301
+00:19:18,630 --> 00:19:21,260
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's a living thing that lives in water.</font></font>
+水の中に住む生き物だよ
+
+302
+00:19:21,550 --> 00:19:24,890
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I heard there were a lot of them in the ocean long ago.</font></font>
+昔は海とかに たくさんいたらしい
+
+303
+00:19:24,890 --> 00:19:29,140
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I thought humans were the only
+living things still out there...</font></font>
+人以外の生き物なんて
+もう生き残ってないと思ってたけど
+
+304
+00:19:32,730 --> 00:19:34,810
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Okay, let's eat it!</font></font>
+よし 食べよう
+
+305
+00:19:34,810 --> 00:19:37,940
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">What? Can we eat it?</font></font>
+え～ 食べられるかな ん～
+
+306
+00:19:40,240 --> 00:19:44,530
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I heard people ate fish long ago,
+but is this one okay?</font></font>
+昔の人は食べてたらしいけど…
+大丈夫かな
+
+307
+00:19:44,530 --> 00:19:47,450
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It doesn't look like it's started to decompose...</font></font>
+分解は始まってないみたいだけど
+う～ん
+
+308
+00:19:49,620 --> 00:19:52,580
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Well, maybe we can eat it if we roast it.</font></font>
+まあ 焼けば食べられるかな
+
+309
+00:19:52,580 --> 00:19:53,790
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Let's roast it!</font></font>
+焼こう
+
+310
+00:19:53,790 --> 00:19:55,880
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">After we hang up our clothes to dry.</font></font>
+（チト）洗った物 干してからね
+
+311
+00:19:56,069 --> 00:19:57,154
+う…
+
+312
+00:19:58,050 --> 00:20:02,340
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hey, I wonder what it feels like to live in the water.</font></font>
+（ユーリ）ねえ―
+水の中に住むってさ
+どんな感じだろうね
+
+313
+00:20:02,590 --> 00:20:05,840
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Dunno. Probably floating, and sinking...</font></font>
+さあ 浮いたり沈んだり…
+
+314
+00:20:05,840 --> 00:20:09,430
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I heard they flap these fins to move forward.</font></font>
+ここのヒレをパタパタさせて
+進むらしいけど
+
+315
+00:20:09,770 --> 00:20:10,810
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Fins...</font></font>
+ヒレ？
+
+316
+00:20:14,100 --> 00:20:16,940
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Maybe it swam like that.</font></font>
+あんな感じで泳いでたのかな
+
+317
+00:20:16,940 --> 00:20:18,480
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Maybe.</font></font>
+そうかもね
+
+318
+00:20:19,730 --> 00:20:21,490
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Should be done by now.</font></font>
+そろそろ焼けたかな
+
+319
+00:20:21,490 --> 00:20:22,610
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Let's eat it!</font></font>
+（ユーリ）食べるっ！
+
+320
+00:20:23,360 --> 00:20:25,910
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Be careful, it's hot.</font></font>
+熱いから気をつけろよ
+
+321
+00:20:26,820 --> 00:20:28,120
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">All right!</font></font>
+おっ おっ やった！ あちっ！
+
+322
+00:20:28,120 --> 00:20:29,200
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Hot!</font></font>
+
+323
+00:20:29,895 --> 00:20:31,104
+あ…
+
+324
+00:20:32,272 --> 00:20:34,566
+は～むっ
+
+325
+00:20:35,025 --> 00:20:37,361
+ん… ん… ん… ん～
+
+326
+00:20:37,290 --> 00:20:39,040
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">H-how is it?</font></font>
+ど どう？
+
+327
+00:20:38,820 --> 00:20:41,865
+ん… ん？ ん… ん～
+
+328
+00:20:42,449 --> 00:20:46,995
+ん… んん んん～
+
+329
+00:20:48,510 --> 00:20:49,430
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's good!</font></font>
+うまい！
+
+330
+00:20:49,720 --> 00:20:51,100
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Let me try.</font></font>
+私も
+
+331
+00:20:51,430 --> 00:20:53,350
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Don't eat all of it!</font></font>
+あんまり食べないでよ
+
+332
+00:20:54,670 --> 00:20:55,712
+はむっ
+
+333
+00:20:58,440 --> 00:21:00,730
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">I've never tasted anything like it.</font></font>
+初めて食べる味だ
+
+334
+00:21:01,020 --> 00:21:02,610
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It's weird.</font></font>
+変な味
+
+335
+00:21:02,761 --> 00:21:03,971
+はむっ
+
+336
+00:21:03,780 --> 00:21:06,030
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Me! I'm next!</font></font>
+（ユーリ）次！ 次 私
+
+337
+00:21:06,181 --> 00:21:08,475
+はむっ ん… ん…
+
+338
+00:21:12,120 --> 00:21:14,580
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Our clothes are all clean now.</font></font>
+キレイになったね 服
+
+339
+00:21:18,130 --> 00:21:22,210
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">And these bones must feel refreshed
+with all the meat cleaned off them.</font></font>
+こっちは肉が落ちて
+すっきりしたね 骨
+
+340
+00:21:22,210 --> 00:21:23,670
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Refreshed, huh...</font></font>
+すっきりって
+
+341
+00:21:24,010 --> 00:21:27,510
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">But where did it come in from?</font></font>
+でも どこから
+流れてきたんだろうね
+
+342
+00:21:27,510 --> 00:21:32,060
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">It must have come in from a higher level, huh...</font></font>
+（チト）
+やっぱり上層からじゃないかな？
+
+343
+00:21:30,664 --> 00:21:32,749
+排水に混じって
+
+344
+00:21:37,730 --> 00:21:41,520
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Maybe if we go up higher,
+we'll find a whole bunch of them.</font></font>
+（ユーリ）上のほうへ行けば
+いっぱいいるのかな
+
+345
+00:21:41,520 --> 00:21:43,480
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">And what if we do?</font></font>
+（チト）いたらどうするの？
+
+346
+00:21:43,480 --> 00:21:44,650
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">We eat them.</font></font>
+（ユーリ）食べる
+
+347
+00:21:44,650 --> 00:21:45,940
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Eat them, huh...</font></font>
+（チト）食べるか
+
+348
+00:21:45,940 --> 00:21:47,070
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah.</font></font>
+（ユーリ）うん
+
+349
+00:21:47,070 --> 00:21:48,160
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Yeah.</font></font>
+（チト）そうだな
+
+350
+00:21:49,641 --> 00:21:53,353
+（チト･ユーリ）ハァ～ ん～
+
+351
+00:21:55,522 --> 00:21:58,066
+（２人の寝息）
+
+352
+00:22:04,990 --> 00:22:10,537
+♪～
+
+353
+00:22:08,760 --> 00:22:11,100
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}It's not over till it's over</font></font>
+
+354
+00:22:25,990 --> 00:22:29,740
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Where is this place I just woke up?</font></font>
+
+355
+00:22:29,740 --> 00:22:33,700
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}What's going to start now?</font></font>
+
+356
+00:22:33,700 --> 00:22:37,540
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Before I realized it I'm getting ready to travel with you</font></font>
+
+357
+00:22:37,540 --> 00:22:42,170
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Let's go to a paradise sparkling in black and white (let's go)</font></font>
+
+358
+00:22:42,170 --> 00:22:43,540
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Let's make, let's make</font></font>
+
+359
+00:22:43,540 --> 00:22:45,800
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}C'mon, let's make a world for you and me</font></font>
+
+360
+00:22:45,800 --> 00:22:47,420
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Let's start, let's start</font></font>
+
+361
+00:22:47,420 --> 00:22:49,550
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}What should we start with? (huh?!)</font></font>
+
+362
+00:22:49,550 --> 00:22:51,300
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Let's dance, let's dance</font></font>
+
+363
+00:22:51,300 --> 00:22:53,550
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Let's be happy and dance! (yay, yay!)</font></font>
+
+364
+00:22:53,550 --> 00:22:57,140
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Our last trip is beginning (beginning)</font></font>
+
+365
+00:22:57,140 --> 00:23:01,150
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}The world made up of just the two of us</font></font>
+
+366
+00:23:01,150 --> 00:23:05,480
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Is still spinning today (around and around)</font></font>
+
+367
+00:23:05,480 --> 00:23:08,900
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Today and tomorrow and the day after that</font></font>
+
+368
+00:23:08,900 --> 00:23:14,370
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Can I stay by your side?</font></font>
+
+369
+00:23:14,370 --> 00:23:15,120
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Please</font></font>
+
+370
+00:23:15,120 --> 00:23:19,120
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Not over yet, not over yet... (Travel)</font></font>
+
+371
+00:23:19,120 --> 00:23:23,080
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Not over yet, not over yet... (Journey)</font></font>
+
+372
+00:23:23,080 --> 00:23:26,960
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Not over yet, not over yet... (One more time!)</font></font>
+
+373
+00:23:26,960 --> 00:23:29,800
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Not over yet, not over yet... (Yes!)</font></font>
+
+374
+00:23:29,800 --> 00:23:31,840
+<font color="#ffff54"><font face="Clear Sans Medium" size="42" color="#191211">{\an8}Journey</font></font>
+
+375
+00:23:36,430 --> 00:23:37,640
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Farewell.</font></font>
+さらば
+
+376
+00:23:37,640 --> 00:23:39,140
+<font color="#ffff54"><font face="LTFinnegan Medium" size="52">Bye bye!</font></font>
+バイバ～イ

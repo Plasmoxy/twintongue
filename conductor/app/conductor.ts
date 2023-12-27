@@ -29,6 +29,7 @@ import {
     kuromojiPartOfSpeech,
     kuromojiToJmdictTagsMapping
 } from './kuromoji-lexical';
+import { cleanText } from './text';
 
 export type Sense = JMdictSense & {
     word: JMdictWord;
@@ -215,6 +216,9 @@ export async function analysis(
     sentence: string,
     reference: string // reference in english for better polysemantic ambiguity alignment
 ): Promise<AnalysedToken[]> {
+    sentence = cleanText(sentence);
+    reference = cleanText(reference);
+
     if (!dict.jmdict)
         throw new Error('jmdict not initialized, please call initJmdict()');
 

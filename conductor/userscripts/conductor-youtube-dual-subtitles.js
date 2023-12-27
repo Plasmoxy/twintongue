@@ -83,7 +83,10 @@ function addGlobalStyle(css) {
 
     const state = {
         previousJp: 'INIT',
-        translationVisible: true
+        translationVisible: true,
+        useMaruFont: false,
+        fontSize: 28,
+        furigana: true
     };
 
     function retrieveElements() {
@@ -184,9 +187,12 @@ function addGlobalStyle(css) {
             let color = isColored
                 ? huePallete[palleteCounter++ % huePallete.length]
                 : '#ffffff';
-            const rtpart = isColored
-                ? `<rt style="color: #eee;">${t.reading}</rt>`
-                : ``;
+
+            // furigana (ruby top) part
+            const rtpart =
+                isColored && state.furigana
+                    ? `<rt style="color: #eee;">${t.reading}</rt>`
+                    : ``;
 
             // additionally colorize also en by looking up the english text by t.eng
             for (let word of t.eng.split(' ')) {
@@ -234,33 +240,49 @@ function addGlobalStyle(css) {
                 : '';
 
             return `<div style="background-color: ${bgColor}; border-radius: 8px; padding: 2px; display: inline-flex; flex-direction: column; position: relative;">
+            
+                    <!-- japanese token text + ruby top part (furigana) -->
                     <ruby style="color: ${color}; ${phraseHighlight}">${
                 t.text
             }${rtpart}</ruby>
+            
+                    <!-- direct translation (best = colored) -->
                     ${
-                        isColored
-                            ? `<span style="font-size: 14px; color: ${
+                        isColored && state.translationVisible
+                            ? `<span style="font-size: ${
+                                  state.fontSize - 10
+                              }px; color: ${
                                   isPhrase ? '#aaa' : color
                               }; margin-left: 3px; margin-right: 3px;">${
                                   t.eng
                               }</span>`
                             : ``
                     }
+                    
+                    <!-- direct translations (other) -->
                     ${
-                        isColored
+                        isColored && state.translationVisible
                             ? t.direct
                                   .filter((text) => text !== t.eng)
                                   .map(
                                       (e) =>
-                                          `<span style="font-size: 11px; color: #aaa; margin-left: 3px; margin-right: 3px;">${e}</span>`
+                                          `<span style="font-size: ${
+                                              state.fontSize - 13
+                                          }px; color: #aaa; margin-left: 3px; margin-right: 3px;">${e}</span>`
                                   )
                                   .join('')
                             : ``
                     }
+                    
+                    <!-- phrase translation -->
                     ${
-                        isPhraseStart
-                            ? `<div style="display: flex; position: absolute; top: 100%; margin-top: 5px; font-size: 12px; padding-left: 3px; color: ${color}; background-color: ${bgColor}; border-radius: 8px;">
-                                <span style="white-space: nowrap;">${t.phrasesDirect?.[0].texts?.[0]}</span>
+                        isPhraseStart && state.translationVisible
+                            ? `<div style="display: flex; position: absolute; top: 100%; margin-top: 5px; font-size: ${
+                                  state.fontSize - 12
+                              }px; padding-left: 3px; color: ${color}; background-color: ${bgColor}; border-radius: 8px;">
+                                <span style="white-space: nowrap;">${
+                                    t.phrasesDirect?.[0].texts?.[0]
+                                }</span>
                             </div>`
                             : ``
                     }
@@ -270,7 +292,11 @@ function addGlobalStyle(css) {
         function render() {
             const root = document.createElement('div');
 
-            root.innerHTML = `<div style="padding: 10px; margin-top: 15px; margin-bottom: 15px; font-size: 24px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            root.innerHTML = `<div style="padding: 10px; margin-top: 15px; margin-bottom: 15px; font-size: ${
+                state.fontSize
+            }px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; ${
+                state.useMaruFont ? "font-family: 'Zen Maru Gothic';" : ''
+            }">
                     <!-- jp -->
                     <div style="cursor: text !important; user-select: text !important; ${
                         state.translationVisible
@@ -278,22 +304,42 @@ function addGlobalStyle(css) {
                             : 'background-color: ' +
                               bgColor +
                               '; padding: 3px; border-radius: 8px;'
-                    }">${results
-                .map((tok) =>
-                    state.translationVisible ? Token(tok) : tok.text
-                )
-                .join('')}</div>
+                    }">${results.map((tok) => Token(tok)).join('')}</div>
                     
                     <!-- en -->
-                    <div style="cursor: text !important; user-select: text !important; padding: 3px; margin-top: 24px; font-size: 18px; background-color: ${bgColor}; border-radius: 8px;">${coloredEn.join(
-                ' '
-            )}</div>
+                    <div style="cursor: text !important; user-select: text !important; padding: 3px; margin-top: 24px; font-size: ${
+                        state.fontSize - 6
+                    }px; background-color: ${bgColor}; border-radius: 8px;">${
+                state.translationVisible ? coloredEn.join(' ') : ''
+            }</div>
                     
                     <!-- conductor controls -->
-                    <div style="margin-top: 16px; font-size: 16px; margin-left: auto; display: flex;">
+                    <div style="margin-top: 16px; font-size: 16px; margin-left: auto; margin-right: auto; display: flex;">
+                    
+                        <div id="fontplusbtn" style="padding: 3px; cursor: pointer !important; display: flex; flex: 0;">
+                            <span>＋</span>
+                        </div>
+                        
+                        <div id="fontminusbtn" style="padding: 3px; cursor: pointer !important; display: flex; flex: 0;">
+                            <span>ー</span>
+                        </div>
+                    
+                        <!-- maru button -->
+                        <div id="marubtn" style="padding: 3px; cursor: pointer !important; display: flex; flex: 0; ${
+                            state.useMaruFont ? 'color: #909090;' : ''
+                        }">
+                            <span>マ</span>
+                        </div>
+                        
+                        <!-- furigana button -->
+                        <div id="furiganabtn" style="padding: 3px; cursor: pointer !important; display: flex; flex: 0; ${
+                            !state.furigana ? 'color: #909090;' : ''
+                        }">
+                            <span>あ</span>
+                        </div>
                     
                         <!-- translate button -->
-                        <div id="translbtn" style="margin: 3px; padding: 3px; cursor: pointer !important; display: flex;">
+                        <div id="translbtn" style="padding: 3px; cursor: pointer !important; display: flex; flex: 0;">
                             <svg style="margin: 6px; color: red;" width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="${
                                 state.translationVisible ? '#ffffff' : '#909090'
                             }" class="bi bi-translate">
@@ -301,6 +347,7 @@ function addGlobalStyle(css) {
                                 <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z"/>
                             </svg>
                         </div>
+                       
                     </div>
                 </div>`;
 
@@ -324,12 +371,35 @@ function addGlobalStyle(css) {
                 asbParent.appendChild(root);
             }
 
-            // add event listener to translate button
+            // buttons
+
             root.querySelector('#translbtn').addEventListener('click', () => {
-                console.log('transl');
                 state.translationVisible = !state.translationVisible;
                 render();
             });
+
+            root.querySelector('#marubtn').addEventListener('click', () => {
+                state.useMaruFont = !state.useMaruFont;
+                render();
+            });
+
+            root.querySelector('#furiganabtn').addEventListener('click', () => {
+                state.furigana = !state.furigana;
+                render();
+            });
+
+            root.querySelector('#fontplusbtn').addEventListener('click', () => {
+                state.fontSize += 2;
+                render();
+            });
+
+            root.querySelector('#fontminusbtn').addEventListener(
+                'click',
+                () => {
+                    state.fontSize -= 2;
+                    render();
+                }
+            );
         }
 
         render();
