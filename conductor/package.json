@@ -9,7 +9,8 @@
     "lint": "next lint",
     "deploy": "npm run build && surge out pmxy-conductor.surge.sh",
     "be": "npx ts-node-dev --project tsconfig.backend.json backend/run.ts",
-    "toanki": "npx ts-node-dev --project tsconfig.backend.json cli/to-anki.ts"
+    "toanki": "npx ts-node-dev --project tsconfig.backend.json cli/to-anki.ts",
+    "tagger": "npx ts-node-dev --project tsconfig.backend.json cli/tagger.ts"
   },
   "dependencies": {
     "@scriptin/jmdict-simplified-types": "^3.5.0",

@@ -50,3 +50,24 @@ export async function sendDeckToAnki(
 
     return await axios.post(ANKI_URL, ankiConnectRequest);
 }
+
+export async function findNotes(query: string) {
+    const ankiConnectRequest: AnkiConnectRequest = {
+        action: 'findNotes',
+        version: 6,
+        params: { query }
+    };
+    return await axios.post(ANKI_URL, ankiConnectRequest);
+}
+
+export async function addTag(notes: number[], tag: string) {
+    const ankiConnectRequest: AnkiConnectRequest = {
+        action: 'addTags',
+        version: 6,
+        params: {
+            notes,
+            tags: tag
+        }
+    };
+    return await axios.post(ANKI_URL, ankiConnectRequest);
+}
