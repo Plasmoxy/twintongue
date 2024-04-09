@@ -10,7 +10,9 @@
     "deploy": "npm run build && surge out pmxy-conductor.surge.sh",
     "be": "npx ts-node-dev --project tsconfig.backend.json backend/run.ts",
     "toanki": "npx ts-node-dev --project tsconfig.backend.json cli/to-anki.ts",
-    "tagger": "npx ts-node-dev --project tsconfig.backend.json cli/tagger.ts"
+    "tagger": "npx ts-node-dev --project tsconfig.backend.json cli/tagger.ts",
+    "pocr": "npx ts-node-dev --project tsconfig.backend.json blmanga/pocr.ts",
+    "lookup": "npx ts-node-dev --project tsconfig.backend.json blmanga/lookup.ts"
   },
   "dependencies": {
     "@scriptin/jmdict-simplified-types": "^3.5.0",
@@ -28,7 +30,9 @@
     "react": "^18",
     "react-dom": "^18",
     "react-textarea-autosize": "^8.5.3",
+    "sharp": "^0.33.3",
     "string-similarity-js": "^2.1.4",
+    "tesseract.js": "^5.0.5",
     "wanakana": "^5.2.0"
   },
   "devDependencies": {
