@@ -2,28 +2,12 @@ import { JMdict } from '@scriptin/jmdict-simplified-types';
 import cors from 'cors';
 import express from 'express';
 import { readFileSync } from 'fs';
-import { toHiragana } from 'wanakana';
 import {
-    AnalysedToken,
     analysis,
     dict as conductorDict,
-    initJmdict
+    initJmdict,
+    tidyTokens
 } from '../app/conductor';
-
-function extractTokens(tokens: AnalysedToken[]) {
-    return tokens.map((token, index) => ({
-        text: token.surface,
-        base: token.base,
-        baseKana: toHiragana(token.baseKana),
-        eng: token.eng,
-        engMore: token.engMore,
-        direct: token.direct,
-        phrases: token.phrases,
-        reading: toHiragana(token.token.reading),
-        pos: token.pos,
-        phrasesDirect: token.phrasesDirect
-    }));
-}
 
 async function main() {
     const dict: JMdict = JSON.parse(
@@ -59,7 +43,7 @@ async function main() {
 
         const results = await analysis(jp, en || '');
 
-        return res.json(extractTokens(results.filter((token) => !!token)));
+        return res.json(tidyTokens(results.filter((token) => !!token)));
     });
 
     app.post('/analyze-q', async (req, res) => {
@@ -78,7 +62,7 @@ async function main() {
 
         const results = await analysis(jp, en || '');
 
-        return res.json(extractTokens(results.filter((token) => !!token)));
+        return res.json(tidyTokens(results.filter((token) => !!token)));
     });
 
     app.post('/lookup', async (req, res) => {

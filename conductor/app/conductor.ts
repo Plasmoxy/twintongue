@@ -24,6 +24,7 @@ import {
 import 'colors';
 import { KuromojiToken, tokenize } from 'kuromojin';
 import { uniqBy } from 'lodash';
+import { toHiragana } from 'wanakana';
 import {
     KuromojiPos,
     kuromojiPartOfSpeech,
@@ -210,6 +211,23 @@ export function determineBestAlignedSenses(
     );
 
     return sorted;
+}
+
+export function tidyTokens(tokens: AnalysedToken[]) {
+    return tokens
+        .filter((t) => !!t)
+        .map((token, index) => ({
+            text: token.surface,
+            base: token.base,
+            baseKana: toHiragana(token.baseKana),
+            eng: token.eng,
+            engMore: token.engMore,
+            direct: token.direct,
+            phrases: token.phrases,
+            reading: toHiragana(token.token.reading),
+            pos: token.pos,
+            phrasesDirect: token.phrasesDirect
+        }));
 }
 
 export async function analysis(
