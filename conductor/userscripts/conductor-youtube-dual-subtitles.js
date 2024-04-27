@@ -82,7 +82,7 @@ function addGlobalStyle(css) {
     // State and logic ...
 
     const state = {
-        previousJp: 'INIT',
+        previous: 'INIT',
         translationVisible: true,
         useMaruFont: false,
         fontSize: 28,
@@ -148,10 +148,12 @@ function addGlobalStyle(css) {
         const { jp, en } = elements;
 
         // check if changed
-        if (jp === state.previousJp) return;
-        state.previousJp = jp;
+        if (`${jp} ${en}` === state.previous) return;
+        state.previous = `${jp} ${en}`;
 
-        console.log({ jp, en });
+        console.log(`=========`);
+        console.log(`JP: ${jp}`);
+        console.log(`EN: ${en}`);
 
         const options = {
             method: 'POST',
