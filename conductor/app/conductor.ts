@@ -241,7 +241,7 @@ export async function analysis(
         throw new Error('jmdict not initialized, please call initJmdict()');
 
     const kmojiDicPath =
-        typeof process !== undefined
+        typeof window === 'undefined'
             ? 'node_modules/kuromoji/dict'
             : '/kuromoji';
 
